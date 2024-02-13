@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1706847495602"
+    createdUser="rajesh-a" id="-41ba3d:18d68094185:-7ea0"
+    selfDescribing="hello" type="wsdl_schema"
+    updatedTimestamp="1706847529869" updatedUser="rajesh-a" version="1.0">
+    <loggingConfiguration debug="false" resultWriterLoggingLevel="FULL" writeStubEventsToDB="false"/>
+    <resourceConfig schemaSourceTemplateName="WSDL">
+        <schemaSourceConfig sourceType="102" uri="http://www.learnwebservices.com/services/hello?WSDL"/>
+    </resourceConfig>
+</editableResource>

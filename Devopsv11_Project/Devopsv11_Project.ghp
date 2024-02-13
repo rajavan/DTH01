@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<_c buildID="I20231201_0211" certificateAuthority="KEY_1024_BITS"
+    comments="Project created on December 18, 2023"
+    creationVersion="11.0.0" domain="DevOps_Domain" extDocPrefix=""
+    name="Devopsv11_Project" owner="rajesh-a"
+    rulesCacheUri="%%PROJECT/ROOT%%Rules"
+    updateResultsDbOnItemChange="false" uuid="0000018c-7bc7-6602-0001-4674dbc34370">
+    <rootEnvironmentConfig isOverridingSecretsNamespace="false" overridingSecretsNamespace=""/>
+    <dateTimeConfig date="yyyy/MM/dd" dateTime="dd-MMM-yyyy HH:mm:ss" time="HH:mm:ss.SSS"/>
+    <serverSettings
+        ghRepositoryURL="https://lp3-ap-51627966.prod.hclpnp.com:5443/RTCP"
+        trustSource="INBUILT_CA" trustStorePassword="#com.ghc.1!ea2f" trustStorePath="">
+        <dbConnectionParameters maxConnections="1" poolName="DefaultPoolName">
+            <connectionParams ZOSEnv="false"
+                dpsHost="http://&lt;hostname>:&lt;port>/api/v1/profile"
+                dpsOption="false" dpsPass="#com.ghc.1!0c86" dpsUser=""
+                driverClass="com.microsoft.sqlserver.jdbc.SQLServerDriver"
+                password="#com.ghc.1!eadb21297E1612914ACE446AE34AA2EF7223117955200CB16A7140B1214C7E40"
+                url="jdbc:sqlserver://localhost:1433;databasename=RITDB;trustServerCertificate=true" user="rajesh">
+                <dpsSsl useSsl="false"/>
+                <stubSettings maxProcCallCount="10000"
+                    maxResultSetRowCount="10000" maxRowCount="10000"
+                    password="#com.ghc.1!e7e1"
+                    procedureLearningBehaviour="1" schema="" url=""
+                    useIntegratedDB="true" useSsl="false" user=""/>
+                <storedProcedureFilter catalogFilterEnabled="false"
+                    catalogFilterPattern=""
+                    procedureFilterEnabled="false"
+                    procedureFilterPattern="" schemaFilterEnabled="true"
+                    schemaFilterPattern="rajesh"
+                    storedProceduresRetrievalEnabled="false" useConnectionUsername="true"/>
+                <timestampFormatting timestampFormatZero="false"
+                    timestampFormattingEnabled="false" timestampPrecision="9"/>
+                <proxy useProxy="false"/>
+            </connectionParams>
+        </dbConnectionParameters>
+        <automationServer enabled="false" hostname="" port="443"
+            projectId="-1" projectName="--No Project Selected--"
+            publishResults="false" trustSource="TRUST_ALL"
+            trustStorePassword="#com.ghc.1!ae8d" trustStorePath=""/>
+    </serverSettings>
+    <permissionsSettings ADtrustSource="NONE"
+        ADtrustStorePassword="#com.ghc.1!c976" ADtrustStorePath=""
+        autoLogin="true" host="US-PNP-DC05"
+        permFactId="ldap.permissions.factory.none" port="389" pswd="fi7hogOm67gLygn+wLOJQWZ1Tm+/tdHu3nqO62IW7Hg=$JvDp6rCwkpJ7b+T1xAx6VrqyogBf6w2PgmnkcoNeo3c="/>
+    <qualityManagement default="e42612de-365c-4f06-8ede-24bfdfb024d2"/>
+    <resultPublishers disableAll="false"/>
+    <publishedResourceInfo>
+        <info domain="DevOps_Domain"
+            serverUrl="https://lp3-ap-51627966.prod.hclpnp.com:5443/RTCP"
+            vMajor="1" vMinor="0">
+            <resource id="6f061a1a:18c7bc766f9:-7e3c"/>
+        </info>
+    </publishedResourceInfo>
+</_c>

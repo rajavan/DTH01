@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1702897928838"
+    createdUser="rajesh-a" id="6f061a1a:18c7bc766f9:-7ebb"
+    selfDescribing="addNumbers" type="wsdl_schema"
+    updatedTimestamp="1702897940021" updatedUser="rajesh-a" version="1.0">
+    <loggingConfiguration debug="false" resultWriterLoggingLevel="FULL" writeStubEventsToDB="false"/>
+    <resourceConfig schemaSourceTemplateName="WSDL">
+        <schemaSourceConfig sourceType="102" uri="http://localhost:8088/addNumbers?wsdl"/>
+    </resourceConfig>
+</editableResource>

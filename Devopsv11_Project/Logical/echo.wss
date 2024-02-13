@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1706848536845"
+    createdUser="rajesh-a" id="-41ba3d:18d68094185:-7e2a"
+    selfDescribing="echo" type="wsdl_schema"
+    updatedTimestamp="1706848546086" updatedUser="rajesh-a" version="1.0">
+    <loggingConfiguration debug="false" resultWriterLoggingLevel="FULL" writeStubEventsToDB="false"/>
+    <resourceConfig schemaSourceTemplateName="WSDL">
+        <schemaSourceConfig sourceType="102" uri="https://lp3-ap-51627966.prod.hclpnp.com:5443/RTCP/examples/echo/echoService/echo.wsdl"/>
+    </resourceConfig>
+</editableResource>

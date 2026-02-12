@@ -2,7 +2,7 @@
 <editableResource createdTimestamp="1770884469488"
     createdUser="paransha.vyas" id="3fa58ac:19c50efed34:-7e45"
     references="3fa58ac:19c50efed34:-7ec6,3fa58ac:19c50efed34:-7ec5:1704227889:408339756"
-    type="stub_resource" updatedTimestamp="1770884469488"
+    type="stub_resource" updatedTimestamp="1770884898985"
     updatedUser="paransha.vyas" version="1.1">
     <loggingConfiguration debug="true" resultWriterLoggingLevel="FULL" writeStubEventsToDB="true"/>
     <resourceConfig description="" name="">
@@ -67,6 +67,8 @@
                                     name="XML.declaration" value="true"/>
                                     <property
                                     name="XML.encoding" value="UTF-8"/>
+                                    <property
+                                    name="Multi-line indented" value="Multi-line indented"/>
                                     <property
                                     name="XML.xmlFormat" value="Multi-line indented"/>
                                     <property name="XML.cdata" value="false"/>
@@ -274,7 +276,10 @@
                                     </fieldActionGroup>
                                     </_c>
                                 </bodyfilters>
-                                <headerfilters type="12" version="1.2">
+                                <headerfilters
+                                    assocdefid="Http Subscribe"
+                                    meTy="Message" name=""
+                                    sch="Http Subscribe" type="12" version="1.2">
                                     <fieldActionGroup>
                                     <fieldAction enabled="false" type="1">
                                     <fieldAction
@@ -284,7 +289,13 @@
                                     ignoreNonPresent="false" type="100"/>
                                     </fieldAction>
                                     </fieldActionGroup>
-                                    <_c name="httpDetails" type="12" version="1.2">
+                                    <_c meTy="String" name="Method"
+                                    sch="Http Subscribe" type="7" version="1.2"/>
+                                    <_c meTy="String" name="URL"
+                                    sch="Http Subscribe" type="7" version="1.2"/>
+                                    <_c meTy="Message"
+                                    name="httpDetails"
+                                    sch="Http Subscribe" type="12" version="1.2">
                                     <fieldActionGroup>
                                     <fieldAction enabled="false" type="1">
                                     <fieldAction
@@ -294,7 +305,13 @@
                                     ignoreNonPresent="false" type="100"/>
                                     </fieldAction>
                                     </fieldActionGroup>
-                                    <_c name="httpHeaders" type="12" version="1.2">
+                                    <_c meTy="String" name="Version"
+                                    sch="Http Subscribe"
+                                    type="7" version="1.2"/>
+                                    <_c meTy="Message"
+                                    name="httpHeaders"
+                                    sch="Http Subscribe"
+                                    type="12" version="1.2">
                                     <fieldActionGroup>
                                     <fieldAction
                                     enabled="false" type="1">
@@ -305,9 +322,10 @@
                                     ignoreNonPresent="false" type="100"/>
                                     </fieldAction>
                                     </fieldActionGroup>
-                                    <_c name="SOAPAction"
-                                    type="7"
-                                    value="&quot;Echo&quot;" version="1.2">
+                                    <_c meTy="String"
+                                    name="SOAPAction"
+                                    sch="Http Subscribe"
+                                    type="7" version="1.2">
                                     <fieldActionGroup>
                                     <fieldAction
                                     enabled="false" type="1">
@@ -317,9 +335,10 @@
                                     </fieldAction>
                                     </fieldActionGroup>
                                     </_c>
-                                    <_c name="Content-Type"
-                                    type="7"
-                                    value="text/xml" version="1.2">
+                                    <_c meTy="String"
+                                    name="Content-Type"
+                                    sch="Http Subscribe"
+                                    type="7" version="1.2">
                                     <fieldActionGroup>
                                     <fieldAction
                                     enabled="false" type="1">
@@ -331,11 +350,16 @@
                                     </_c>
                                     </_c>
                                     </_c>
+                                    <_c meTy="String" name="MessageType"
+                                    sch="Http Subscribe" type="7" version="1.2"/>
+                                    <_c meTy="Date-Time"
+                                    name="rcvdTimestamp"
+                                    sch="Http Subscribe" type="11" version="1.2"/>
                                 </headerfilters>
                                 <childActions>
                                     <editableResource
                                     id="3fa58ac:19c50efed34:-7e3c"
-                                    references="3fa58ac:19c50efed34:-7ec6,3fa58ac:19c50efed34:-7ec5:1704227889:408339756"
+                                    references="3fa58ac:19c50efed34:-7ec6"
                                     selfDescribing="Respond to a previously received request message.  Select the relevant request from the drop-down and edit the content of the message to send."
                                     type="send_reply_action" version="1.0">
                                     <loggingConfiguration
@@ -407,6 +431,38 @@
                                     </fieldActionGroup>
                                     </_c>
                                     </_c>
+                                    <_c meTy="String"
+                                    name="Version"
+                                    type="7"
+                                    value="1.1" version="1.2">
+                                    <fieldActionGroup>
+                                    <fieldAction type="0">
+
+                                    <fieldAction
+                                    exp="1.1" type="0"/>
+                                    </fieldAction>
+                                    </fieldActionGroup>
+                                    </_c>
+                                    </_c>
+                                    <_c meTy="String"
+                                    name="StatusCode"
+                                    type="7" value="200" version="1.2">
+                                    <fieldActionGroup>
+                                    <fieldAction type="0">
+                                    <fieldAction
+                                    exp="200" type="0"/>
+                                    </fieldAction>
+                                    </fieldActionGroup>
+                                    </_c>
+                                    <_c meTy="String"
+                                    name="ReasonPhrase"
+                                    type="7" value="OK" version="1.2">
+                                    <fieldActionGroup>
+                                    <fieldAction type="0">
+                                    <fieldAction
+                                    exp="OK" type="0"/>
+                                    </fieldAction>
+                                    </fieldActionGroup>
                                     </_c>
                                     </replyHeaderMessage>
                                     <replyMessage
@@ -439,6 +495,8 @@
                                     name="XML.declaration" value="true"/>
                                     <property
                                     name="XML.encoding" value="UTF-8"/>
+                                    <property
+                                    name="Multi-line indented" value="Multi-line indented"/>
                                     <property
                                     name="XML.xmlFormat" value="Multi-line indented"/>
                                     <property
@@ -694,9 +752,11 @@
                                     path="/text/Echo___OUTPUT___EchoResponse/tns:EchoResponse/echoStringReturn/{}"
                                     replaceActionType="0" replaceOuterType="0">
 
-                                    <fieldAction type="0">
+                                    <fieldAction
+                                    enabled="false" type="0">
 
-                                    <fieldAction type="0"/>
+                                    <fieldAction
+                                    enabled="false" type="0"/>
                                     </fieldAction>
                                     </setAction>
                                     </updates>
@@ -729,6 +789,18 @@
             </editableResource>
         </testTree>
         <tagDataStore inputMode="NONE" outputMode="NONE"/>
+        <testprops messageClearance="false"/>
+        <stubprops behaviourStyle="ONE_TO_ONE"
+            includeContractValidationOption="false" majorVersion="1"
+            messageClearance="false" minorVersion="0" optimise="false"
+            sendErrorResponseOption="false" wrks="10">
+            <responseTimeTable>
+                <entry key="3fa58ac:19c50efed34:-7ec5:-521144555:-807255066">
+                    <value type="NO_DELAY"/>
+                </entry>
+            </responseTimeTable>
+            <environmentTasks preventExecutionOnFailure="false"/>
+        </stubprops>
         <Session mode="NONE"/>
     </resourceConfig>
 </editableResource>

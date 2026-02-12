@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1770884456198"
+    createdUser="paransha.vyas" id="3fa58ac:19c50efed34:-7ec5"
+    selfDescribing="echo" syncSourceDetails="3fa58ac:19c50efed34:-7eb0"
+    type="wsdl_service_component" updatedTimestamp="1770884456216"
+    updatedUser="paransha.vyas" version="1.0">
+    <loggingConfiguration debug="false" resultWriterLoggingLevel="FULL" writeStubEventsToDB="false"/>
+    <resourceConfig>
+        <wsdl id="3fa58ac:19c50efed34:-7ec6" name="echo"/>
+    </resourceConfig>
+</editableResource>

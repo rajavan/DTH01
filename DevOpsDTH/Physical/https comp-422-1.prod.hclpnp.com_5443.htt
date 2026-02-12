@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1770884458099"
+    createdUser="paransha.vyas"
+    id="3fa58ac:19c50efed34:-7ec5:1437688209:1544155186"
+    selfDescribing="https comp-422-1.prod.hclpnp.com:5443"
+    type="http_transport" updatedTimestamp="1770884458099"
+    updatedUser="paransha.vyas" version="1.0">
+    <syncdetails compare="https comp-422-1.prod.hclpnp.com:5443"
+        lastSynced="1770884458099" sourceid="3fa58ac:19c50efed34:-7ec5">
+        <sourcepath path="EchoPortBindingService/EchoPortBindingSoap11"/>
+    </syncdetails>
+    <loggingConfiguration debug="false" resultWriterLoggingLevel="FULL" writeStubEventsToDB="false"/>
+    <resourceConfig transportName="" transportTemplateName="HTTP">
+        <messageProperties
+            ReasonPhrase="No Stub available that matches the request"
+            clientConnectionsPerHost="100" credDomain="" credPassword=""
+            credPreemptive="false" credType="0" credUser=""
+            httpHost="comp-422-1.prod.hclpnp.com" httpNtlmDomain=""
+            httpPort="5443" httpProxyHost="" httpProxyPassword=""
+            httpProxyPort="" httpProxyUsername="" httpResourceRoot=""
+            httpServerSocketBindAddressOverride=""
+            httpServerSocketPortOverride="" httpSocketTimeout=""
+            httpTimeoutResponseCode="503" httpVirtualHost=""
+            proxyType="http.proxy.default" useSsl="true" version="4">
+            <kerberos Anon="false" CStyle="Username / Password"
+                Conf="false" Custom="true" Enabled="false" Integ="false"
+                MutAuth="false" RepDet="false" SSO="false" SeqCheck="false"/>
+            <oauth authURL="" clientassertion="" clientid=""
+                clientsecret="" enabled="false"
+                redirect_url="http://localhost:8080/callback"
+                refreshtoken="" scopes="" tokenendpoint=""/>
+        </messageProperties>
+    </resourceConfig>
+</editableResource>

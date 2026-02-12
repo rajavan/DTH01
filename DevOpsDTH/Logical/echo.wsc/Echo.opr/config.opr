@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1770884458105"
+    createdUser="paransha.vyas"
+    id="3fa58ac:19c50efed34:-7ec5:-521144555:-807255066"
+    type="operation_resource" updatedTimestamp="1770884458105"
+    updatedUser="paransha.vyas" version="1.0">
+    <syncdetails compare="EchoPortBinding/Echo"
+        lastSynced="1770884458105" sourceid="3fa58ac:19c50efed34:-7ec5">
+        <sourcepath path="EchoPortBinding/Echo"/>
+    </syncdetails>
+    <loggingConfiguration debug="false" resultWriterLoggingLevel="FULL" writeStubEventsToDB="false"/>
+    <resourceConfig avgTime="0" color="124,199,255"
+        dependencies="3fa58ac:19c50efed34:-7ec6,3fa58ac:19c50efed34:-7ec5:1704227889:408339756"
+        invokeDynamicFormatterID="http.text.message.type"
+        invokeFormatterID="HTTP_Message"
+        invokeTransportID="3fa58ac:19c50efed34:-7ec5:1704227889:408339756"
+        maxTime="0" mepEndSchemaID="3fa58ac:19c50efed34:-7ec6"
+        mepEndSchemaNodeFormatter="doc_lit"
+        mepEndSchemaroot="Echo___OUTPUT___EchoResponse"
+        mepEndUsed="true" mepStartSchemaID="3fa58ac:19c50efed34:-7ec6"
+        mepStartSchemaNodeFormatter="doc_lit"
+        mepStartSchemaroot="Echo___INPUT___EchoRequest" mepType="IN_OUT"
+        minTime="0" stubDynamicFormatterID="http.text.message.type"
+        stubFormatterID="HTTP_Message" stubTransportID="3fa58ac:19c50efed34:-7ec5:1704227889:408339756">
+        <invokeHeaderNode meTy="Message" type="12" version="1.2">
+            <nodeProcessor id="doc_lit">
+                <extension enabled="false" id="soap.message">
+                    <_c soapVersion="http://schemas.xmlsoap.org/soap/envelope/"/>
+                </extension>
+                <extension enabled="false" id="ws.security"/>
+                <extension enabled="false" id="soap.headers"/>
+                <extension enabled="false" id="ws.addressing"/>
+            </nodeProcessor>
+            <fieldActionGroup>
+                <fieldAction enabled="false" type="1">
+                    <fieldAction anyOrder="false" enabled="false"
+                        ignoreExtra="false" ignoreNonPresent="false" type="100"/>
+                </fieldAction>
+            </fieldActionGroup>
+            <_c meTy="String" name="MessageType" type="7"
+                value="http.text.message.type" version="1.2">
+                <fieldActionGroup>
+                    <fieldAction type="0">
+                        <fieldAction exp="http.text.message.type" type="0"/>
+                    </fieldAction>
+                </fieldActionGroup>
+            </_c>
+            <_c meTy="String" name="Method" type="7" value="POST" version="1.2">
+                <fieldActionGroup>
+                    <fieldAction type="0">
+                        <fieldAction exp="POST" type="0"/>
+                    </fieldAction>
+                </fieldActionGroup>
+            </_c>
+            <_c meTy="String" name="URL" type="7"
+                value="/RTCP/examples/echo/echoService/" version="1.2">
+                <fieldActionGroup>
+                    <fieldAction type="0">
+                        <fieldAction
+                            exp="/RTCP/examples/echo/echoService/" type="0"/>
+                    </fieldAction>
+                </fieldActionGroup>
+            </_c>
+            <_c meTy="Message" name="httpDetails" type="12" version="1.2">
+                <fieldActionGroup>
+                    <fieldAction enabled="false" type="1">
+                        <fieldAction anyOrder="false" enabled="false"
+                            ignoreExtra="false" ignoreNonPresent="false" type="100"/>
+                    </fieldAction>
+                </fieldActionGroup>
+                <_c meTy="String" name="Version" type="7" value="" version="1.2">
+                    <fieldActionGroup>
+                        <fieldAction type="0">
+                            <fieldAction type="0"/>
+                        </fieldAction>
+                    </fieldActionGroup>
+                </_c>
+                <_c meTy="Message" name="httpHeaders" type="12" version="1.2">
+                    <fieldActionGroup>
+                        <fieldAction enabled="false" type="1">
+                            <fieldAction anyOrder="false"
+                                enabled="false" ignoreExtra="false"
+                                ignoreNonPresent="false" type="100"/>
+                        </fieldAction>
+                    </fieldActionGroup>
+                    <_c name="SOAPAction" type="7"
+                        value="&quot;Echo&quot;" version="1.2">
+                        <fieldActionGroup>
+                            <fieldAction type="0">
+                                <fieldAction exp="&quot;Echo&quot;" type="0"/>
+                            </fieldAction>
+                        </fieldActionGroup>
+                    </_c>
+                </_c>
+                <_c meTy="Boolean" name="followRedirects" type="8"
+                    value="true" version="1.2">
+                    <fieldActionGroup>
+                        <fieldAction type="0">
+                            <fieldAction exp="true" type="0"/>
+                        </fieldAction>
+                    </fieldActionGroup>
+                </_c>
+            </_c>
+        </invokeHeaderNode>
+        <stubHeaderConfig>
+            <_c MessageType="http.text.message.type" Method="POST"
+                URL="/RTCP/examples/echo/echoService/"
+                allowSubPath="false" consumerType="Participate"
+                filterHeaders="true" filterMethod="true" filterResourcePath="true">
+                <filterHeadersList>
+                    <header name="SOAPAction" type="7" value="&quot;Echo&quot;"/>
+                </filterHeadersList>
+            </_c>
+        </stubHeaderConfig>
+    </resourceConfig>
+</editableResource>

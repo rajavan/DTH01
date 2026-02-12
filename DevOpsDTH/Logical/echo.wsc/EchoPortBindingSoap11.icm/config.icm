@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1770884458144"
+    createdUser="paransha.vyas"
+    id="3fa58ac:19c50efed34:-7ec5:1704227889:408339756"
+    type="infrastructure_component_resource"
+    updatedTimestamp="1770884458144" updatedUser="paransha.vyas" version="1.1">
+    <syncdetails compare="EchoPortBindingService/EchoPortBindingSoap11"
+        lastSynced="1770884458144" sourceid="3fa58ac:19c50efed34:-7ec5">
+        <sourcepath path="EchoPortBindingService/EchoPortBindingSoap11"/>
+    </syncdetails>
+    <loggingConfiguration debug="false" resultWriterLoggingLevel="FULL" writeStubEventsToDB="false"/>
+    <resourceConfig infrastructureType="http_transport">
+        <recordingSettings colour="167,250,230"/>
+    </resourceConfig>
+</editableResource>

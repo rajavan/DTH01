@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1770884444320"
+    createdUser="paransha.vyas" id="3fa58ac:19c50efed34:-7ec6"
+    selfDescribing="echo" type="wsdl_schema"
+    updatedTimestamp="1770884453278" updatedUser="paransha.vyas" version="1.0">
+    <loggingConfiguration debug="false" resultWriterLoggingLevel="FULL" writeStubEventsToDB="false"/>
+    <resourceConfig schemaSourceTemplateName="WSDL">
+        <schemaSourceConfig sourceType="102" uri="https://comp-422-1.prod.hclpnp.com:5443/RTCP/examples/echo/echoService/echo.wsdl"/>
+    </resourceConfig>
+</editableResource>

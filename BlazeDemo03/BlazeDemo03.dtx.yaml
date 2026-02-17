@@ -1,0 +1,183 @@
+note: Generated from recorded traffic using edge 145.0.3800.58
+configuration:
+  profile: edge
+  vars:
+    APP_BlazeDemo03_URL: https://blazedemo.com/
+    Name: rajesh
+    Address: kvr
+    City: bangalore
+    State: karnataka
+    Zip_Code: '560061'
+    Credit_Card_Number: '1234123412341234'
+    Year: '2029'
+    Name_on_Card: rajavan
+steps:
+  - open:
+      note: Open BlazeDemo03
+      url: '${APP_BlazeDemo03_URL}'
+  - with:
+      note: BlazeDemo
+      steps:
+        - select:
+            shot: BlazeDemo_s7nzf4.dti.jpeg#59
+            object: html.select
+            identifiers:
+              - properties:
+                  - label:
+                      - val: 'Choose your departure city:'
+            value: Boston
+        - select:
+            shot: BlazeDemo_nfujor.dti.jpeg#85
+            object: html.select
+            identifiers:
+              - properties:
+                  - label:
+                      - val: 'Choose your destination city:'
+            value: New York
+        - click:
+            shot: BlazeDemo_qepkzq.dti.jpeg#110
+            object: html.inputsubmit
+            identifiers:
+              - properties:
+                  - content:
+                      - val: Find Flights
+  - with:
+      note: BlazeDemo - reserve
+      steps:
+        - click:
+            shot: BlazeDemo - reserve_gdyzrr.dti.jpeg#133
+            object: html.inputsubmit
+            identifiers:
+              - properties:
+                  - value:
+                      - val: Choose This Flight
+  - with:
+      note: BlazeDemo Purchase
+      steps:
+        - click:
+            shot: BlazeDemo Purchase_nnmktu.dti.jpeg#139
+            object: html.inputtext
+            identifiers:
+              - properties:
+                  - label:
+                      - val: Name
+        - type:
+            shot: BlazeDemo Purchase_osqdvj.dti.jpeg#201
+            object: html.inputtext
+            identifiers:
+              - properties:
+                  - label:
+                      - val: Name
+            value: '${Name}'
+        - click:
+            shot: BlazeDemo Purchase_jtgv5x.dti.jpeg#329
+            object: html.inputtext
+            identifiers:
+              - properties:
+                  - label:
+                      - val: Address
+        - type:
+            shot: BlazeDemo Purchase_4fkqxs.dti.jpeg#391
+            object: html.inputtext
+            identifiers:
+              - properties:
+                  - label:
+                      - val: Address
+            value: '${Address}'
+        - click:
+            shot: BlazeDemo Purchase_qet4el.dti.jpeg#519
+            object: html.inputtext
+            identifiers:
+              - properties:
+                  - label:
+                      - val: City
+        - type:
+            shot: BlazeDemo Purchase_42v23p.dti.jpeg#581
+            object: html.inputtext
+            identifiers:
+              - properties:
+                  - label:
+                      - val: City
+            value: '${City}'
+        - click:
+            shot: BlazeDemo Purchase_3trozo.dti.jpeg#709
+            object: html.inputtext
+            identifiers:
+              - properties:
+                  - label:
+                      - val: State
+        - type:
+            shot: BlazeDemo Purchase_abcjd4.dti.jpeg#771
+            object: html.inputtext
+            identifiers:
+              - properties:
+                  - label:
+                      - val: State
+            value: '${State}'
+        - click:
+            shot: BlazeDemo Purchase_kd6d4v.dti.jpeg#899
+            object: html.inputtext
+            identifiers:
+              - properties:
+                  - label:
+                      - val: Zip Code
+        - type:
+            shot: BlazeDemo Purchase_mmafof.dti.jpeg#961
+            object: html.inputtext
+            identifiers:
+              - properties:
+                  - label:
+                      - val: Zip Code
+            value: '${Zip_Code}'
+        - click:
+            shot: BlazeDemo Purchase_53e3r2.dti.jpeg#1093
+            object: html.inputtext
+            identifiers:
+              - properties:
+                  - label:
+                      - val: Credit Card Number
+        - type:
+            shot: BlazeDemo Purchase_tmbswh.dti.jpeg#1155
+            object: html.inputtext
+            identifiers:
+              - properties:
+                  - label:
+                      - val: Credit Card Number
+            value: '${Credit_Card_Number}'
+        - click:
+            shot: BlazeDemo Purchase_imkwdn.dti.jpeg#1287
+            object: html.inputtext
+            identifiers:
+              - properties:
+                  - label:
+                      - val: Year
+        - type:
+            shot: BlazeDemo Purchase_xj26zw.dti.jpeg#1349
+            object: html.inputtext
+            identifiers:
+              - properties:
+                  - label:
+                      - val: Year
+            value: '${Year}'
+        - click:
+            shot: BlazeDemo Purchase_nldrc3.dti.jpeg#1477
+            object: html.inputtext
+            identifiers:
+              - properties:
+                  - label:
+                      - val: Name on Card
+        - type:
+            shot: BlazeDemo Purchase_ntlpa2.dti.jpeg#1539
+            object: html.inputtext
+            identifiers:
+              - properties:
+                  - label:
+                      - val: Name on Card
+            value: '${Name_on_Card}'
+        - click:
+            shot: BlazeDemo Purchase_ziwmna.dti.jpeg#1668
+            object: html.inputsubmit
+            identifiers:
+              - properties:
+                  - content:
+                      - val: Purchase Flight

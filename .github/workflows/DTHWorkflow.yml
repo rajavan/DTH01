@@ -1,1 +1,18 @@
-The .github/workflows directory is a specific directory structure used in GitHub repositories to store workflow configuration files. GitHub Actions is a powerful feature of GitHub that allows you to automate various tasks and workflows within your repository. Workflow configuration files define the steps, events, and conditions for running automated processes, such as building, testing, and deploying your code. When you create a .github/workflows directory in your repository and place workflow configuration files inside it, GitHub recognizes this structure and treats those files as workflow definitions. These workflow files are written in YAML format and define the actions to be performed when certain events occur, such as pushing code to the repository or creating a pull request.
+name: Rational Test Automation Server
+
+on: workflow_dispatch
+
+jobs:
+    OTS-Action:
+        runs-on: self-hosted
+        name: Rational Test Automation Server
+        steps:
+         - name: Execute Test
+           uses: IBM/devopsauto-testserver-actions@main
+           with:
+            serverUrl: https://10.190.76.155.nip.io/test/#
+            offlineToken: eyJhbGciOiJIUzUxMiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI2ZmVlNGE1Yi1kYzYyLTQyMzItYWZjZC0zY2U5OTg3ZGRiZGUifQ.eyJpYXQiOjE3NzEzMzg3MzUsImp0aSI6IjlkNmJlZDNhLTIyZTUtMzk0OS01YmU5LWZhYmU3YTlhY2I0MyIsImlzcyI6Imh0dHBzOi8vMTAuMTkwLjc2LjE1NS5uaXAuaW8vYXV0aC9yZWFsbXMvcGxhdGZvcm0iLCJhdWQiOiJodHRwczovLzEwLjE5MC43Ni4xNTUubmlwLmlvL2F1dGgvcmVhbG1zL3BsYXRmb3JtIiwic3ViIjoiM2ZjYzVjZjAtZGE4Yy00NjBjLTlhZTYtZTcxZDVkZjYyNGVlIiwidHlwIjoiT2ZmbGluZSIsImF6cCI6InRlc3RzZXJ2ZXIiLCJzaWQiOiJkN2JhMTFjYi01Y2QzLWU1YmEtZWQwNy0zOTdiZjA3YzRiYWYiLCJzY29wZSI6ImJhc2ljIHJvbGVzIGFjciBvZmZsaW5lX2FjY2VzcyB3ZWItb3JpZ2lucyBlbWFpbCBzZXJ2aWNlX2FjY291bnQgcHJvZmlsZSJ9.ctpF-EyMtLbcO8YI_TuUmCjDTSAOZilZ6aDZsmo5yOilsb92itYRdwGXnt_CpV9GTJ41zS3pe395N9y7_nAcrg
+            teamspace: Initial
+            project:DevOps_TestHub_Features
+            branch: main
+            assetId: 075cf83b32b1dabf85a7bbbd9cbf742abee8b0db834e1e068ef56622079b8681

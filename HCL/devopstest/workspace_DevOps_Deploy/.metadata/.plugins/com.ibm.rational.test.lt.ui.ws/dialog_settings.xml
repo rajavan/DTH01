@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="com.ibm.rational.test.lt.ui.ws.WSCreateTestWizardPrefs">
+		<item value="No Schema" key="DS_XSD_SCHEMA"/>
+		<item value="XML" key="XML_CALL_KIND"/>
+		<item value="http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso" key="HTTP_URL"/>
+		<item value="0" key="PROTOCOL_KIND"/>
+		<item value="1998046282SEPARATORb6e13425-fd22-48f1-9cbf-e1585e15f133" key="WSDL_PORT"/>
+		<item value="false" key="DS_SPEC_BASED"/>
+		<item value="0" key="DS_SPEC_BASED_KIND"/>
+		<item value="false" key="DS_DERIVEDTYPE"/>
+		<list key="WSDL_FILE_LIST">
+			<item value="/ServiceTestProject/webservices.oorsprong.org.CountryInfoService.wso.wsdl"/>
+		</list>
+	</section>
+</section>

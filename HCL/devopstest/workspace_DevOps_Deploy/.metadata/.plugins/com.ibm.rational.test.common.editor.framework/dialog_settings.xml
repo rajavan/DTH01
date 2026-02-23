@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MultiTargetSubstitutionDialog">
+		<item value="700" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="754" key="DIALOG_HEIGHT"/>
+	</section>
+	<section name="CEF_NewWizard">
+	</section>
+	<section name="NewScenarioWizard">
+	</section>
+	<section name="sync-points">
+		<item value="0" key="size"/>
+	</section>
+	<section name="last.test.options.tab">
+		<section name="editor-A1EEF4D78C188FF0CEB3B76433323839">
+			<item value="com.ibm.rational.test.lt.http.editor.ui.AppPerfScheduleOptionsHandler" key="id"/>
+		</section>
+		<section name="editor-A1EEF4121474EDF6E244B56231376662">
+		</section>
+		<section name="editor-A1EEE73CA2C86480D710B43463383464">
+		</section>
+		<section name="editor-A1EEEA97CD3F8F00F333E53662656432">
+		</section>
+		<section name="editor-A1EEF4D66D8E11F0CEB3B76433323839">
+		</section>
+		<section name="editor-A1EEE73B8C822450D710B43463383464">
+		</section>
+		<section name="editor-A1EF087456CABB10E348B23938333530">
+		</section>
+		<section name="editor-A1EEEA787D9B5110D1C2B36532353632">
+		</section>
+		<section name="editor-A1EF08738810D340E348B23938333530">
+		</section>
+		<section name="editor-A1EEF4D54B5AFE50CEB3B76433323839">
+		</section>
+		<section name="editor-A1EF0873E962EB10E348B23938333530">
+		</section>
+		<section name="editor-A1EEEB526B4F9F90D276B03861623261">
+		</section>
+		<section name="editor-A1EEE5FBE40B93A0CA0DB43163373962">
+		</section>
+		<section name="editor-A1EEF4112E934990E244B56231376662">
+		</section>
+		<section name="editor-A1EEF3242FFB61C0D1C4E33832643165">
+		</section>
+		<section name="editor-A1EEE73BC4394B80D710B43463383464">
+		</section>
+		<section name="editor-A1EEF4121F28A490E244B56231376662">
+		</section>
+		<section name="editor-A1EEDB8F4FDF8900DEE3E56136323632">
+		</section>
+		<section name="editor-A1EEF4D75D7BE250CEB3B76433323839">
+		</section>
+		<section name="editor-A1E3A896AF0862D0D296E26238393137">
+		</section>
+		<section name="editor-A1EEE6A47639D270DB85E63964366137">
+		</section>
+		<section name="editor-A1EEDF76760DE0A0C82EB03937653331">
+		</section>
+		<section name="editor-A1EEF4D5B10C0370CEB3B76433323839">
+			<item value="com.ibm.rational.test.common.schedule.editor.options.TestLogOptionsHandler" key="id"/>
+		</section>
+		<section name="editor-A1EEE74C5F144A00D710B43463383464">
+		</section>
+		<section name="editor-A1EEDB8EF87B1940DEE3E56136323632">
+		</section>
+		<section name="editor-A1EEF4D6B1BBFD10CEB3B76433323839">
+			<item value="com.ibm.rational.test.common.schedule.editor.options.TestLogOptionsHandler" key="id"/>
+		</section>
+	</section>
+	<section name="EDITOR_STATE">
+		<section name="editor-A1EEF4D78C188FF0CEB3B76433323839">
+			<item value="L/MultiScheduleProject/PhpTravelSch.testsuite" key="file"/>
+			<item value="0" key="lastEditorViewMode"/>
+			<list key="lastselection">
+				<item value="A1EEF4D78C188FF0CEB3B76433323839"/>
+			</list>
+		</section>
+		<section name="editor-A1EEF4121474EDF6E244B56231376662">
+			<item value="L/JPetStore_PerfTest/FromTemplate_sch.testsuite" key="file"/>
+			<item value="0" key="lastEditorViewMode"/>
+			<list key="lastselection">
+				<item value="A1EEF4121474EDF6E244B56231376662"/>
+			</list>
+		</section>
+		<section name="editor-A1EEE73CA2C86480D710B43463383464">
+			<item value="L/MobileProject/ltfs.testsuite" key="file"/>
+			<item value="0" key="lastEditorViewMode"/>
+			<list key="lastselection">
+				<item value="A1EEE73CA2D1B3CAD710B43463383464"/>
+			</list>
+		</section>
+		<section name="editor-A1EEEA97CD3F8F00F333E53662656432">
+			<item value="L/MobileProject/FromAndroid_01.testsuite" key="file"/>
+			<item value="0" key="lastEditorViewMode"/>
+			<list key="lastselection">
+				<item value="A1EEEA97CD4A3D60F333E53662656432"/>
+			</list>
+		</section>
+		<section name="editor-A1EEF4D66D8E11F0CEB3B76433323839">
+			<item value="L/MultiScheduleProject/BlazeDemo.testsuite" key="file"/>
+			<item value="0" key="lastEditorViewMode"/>
+			<list key="lastselection">
+				<item value="A1EEF4D66D8E11F0CEB3B76433323839"/>
+			</list>
+		</section>
+		<section name="editor-A1EEE73B8C822450D710B43463383464">
+			<item value="L/MobileProject/a.testsuite" key="file"/>
+			<item value="0" key="lastEditorViewMode"/>
+			<list key="lastselection">
+				<item value="A1EEE73B8CB4A607D710B43463383464"/>
+			</list>
+		</section>
+		<section name="editor-A1EF087456CABB10E348B23938333530">
+			<item value="L/ServiceTestProject/ServiceTest3.testsuite" key="file"/>
+			<item value="0" key="lastEditorViewMode"/>
+			<list key="lastselection">
+				<item value="A1EF087456CF9D10E348B23938333530"/>
+			</list>
+		</section>
+		<section name="editor-A1EEEA787D9B5110D1C2B36532353632">
+			<item value="L/JPetStore_PerfTest/jmeter-example-VUSch.testsuite" key="file"/>
+			<item value="0" key="lastEditorViewMode"/>
+			<list key="lastselection">
+				<item value="A1EEEA787D9B5110D1C2B36532353632"/>
+			</list>
+		</section>
+		<section name="editor-A1EF08738810D340E348B23938333530">
+			<item value="L/ServiceTestProject/ServiceTest1.testsuite" key="file"/>
+			<item value="0" key="lastEditorViewMode"/>
+			<list key="lastselection">
+				<item value="A1EF0873891E4BA0E348B23938333530"/>
+			</list>
+		</section>
+		<section name="editor-A1EEF4D54B5AFE50CEB3B76433323839">
+			<item value="L/MultiScheduleProject/JPetStore.testsuite" key="file"/>
+			<item value="0" key="lastEditorViewMode"/>
+			<list key="lastFieldSelection">
+				<item value="_FIELD_HTTP_HDR_VALUE"/>
+				<item value="0"/>
+				<item value="0"/>
+			</list>
+			<list key="lastselection">
+				<item value="A1EEF4D54B8F7BD7CEB3B76433323839"/>
+			</list>
+		</section>
+		<section name="editor-A1EF0873E962EB10E348B23938333530">
+			<item value="L/ServiceTestProject/ServiceTest2.testsuite" key="file"/>
+			<item value="0" key="lastEditorViewMode"/>
+			<list key="lastselection">
+				<item value="A1EF0873E962EB10E348B23938333530"/>
+			</list>
+		</section>
+		<section name="editor-A1EEEB526B4F9F90D276B03861623261">
+			<item value="L/MobileProject/tes12.testsuite" key="file"/>
+			<item value="0" key="lastEditorViewMode"/>
+			<list key="lastselection">
+				<item value="A1EEEB526B72B800D276B03861623261"/>
+			</list>
+		</section>
+		<section name="editor-A1EEE5FBE40B93A0CA0DB43163373962">
+			<item value="L/UI_Project/tes.testsuite" key="file"/>
+			<item value="0" key="lastEditorViewMode"/>
+			<list key="lastselection">
+				<item value="A1EEE5FBE454AA94CA0DB43163373962"/>
+			</list>
+		</section>
+		<section name="editor-A1EEF4112E934990E244B56231376662">
+			<item value="L/JPetStore_PerfTest/TestSch.testsuite" key="file"/>
+			<item value="0" key="lastEditorViewMode"/>
+			<list key="lastselection">
+				<item value="A1EEF411560C1D80E244B56231376662"/>
+			</list>
+		</section>
+		<section name="editor-A1EEF3242FFB61C0D1C4E33832643165">
+			<item value="L/JPetStore_PerfTest/r.testsuite" key="file"/>
+			<item value="0" key="lastEditorViewMode"/>
+			<list key="lastselection">
+				<item value="A1EEF3242FFB61C0D1C4E33832643165"/>
+			</list>
+		</section>
+		<section name="editor-A1EEE73BC4394B80D710B43463383464">
+			<item value="L/MobileProject/a.testsuite" key="file"/>
+			<item value="0" key="lastEditorViewMode"/>
+			<list key="lastselection">
+				<item value="A1EEE73BC4394B80D710B43463383464"/>
+			</list>
+		</section>
+		<section name="editor-A1EEF4121F28A490E244B56231376662">
+			<item value="L/JPetStore_PerfTest/CompTest.testsuite" key="file"/>
+			<item value="0" key="lastEditorViewMode"/>
+			<list key="lastselection">
+				<item value="A1EEF4121F28A490E244B56231376662"/>
+			</list>
+		</section>
+		<section name="editor-A1EEDB8F4FDF8900DEE3E56136323632">
+			<item value="L/UI_Project/JPetStore_UI.testsuite" key="file"/>
+			<item value="0" key="lastEditorViewMode"/>
+			<list key="lastselection">
+				<item value="A1EEDB8F4FED1D90DEE3E56136323632"/>
+			</list>
+		</section>
+		<section name="editor-A1EEF4D75D7BE250CEB3B76433323839">
+			<item value="L/MultiScheduleProject/PhpTravels.testsuite" key="file"/>
+			<item value="0" key="lastEditorViewMode"/>
+			<list key="lastselection">
+				<item value="A1EEF4D75D96212CCEB3B76433323839"/>
+			</list>
+		</section>
+		<section name="editor-A1E3A896AF0862D0D296E26238393137">
+			<item value="L/dynamic/multi_request.testsuite" key="file"/>
+			<item value="0" key="lastEditorViewMode"/>
+			<list key="lastselection">
+				<item value="A1E3A896AF6046DAD296E26238393137"/>
+				<item value="A1E3A89DE180BFDCD296E26238393137"/>
+				<item value="A1E3A896AF7C0C30D296E26238393137"/>
+				<item value="A1E3A896AF8470A8D296E26238393137"/>
+				<item value="A1E3A896AF86E1A8D296E26238393137"/>
+				<item value="A1E3A896AF890483D296E26238393137"/>
+			</list>
+		</section>
+		<section name="editor-A1EEE6A47639D270DB85E63964366137">
+			<item value="L/MobileProject/LTFS1.testsuite" key="file"/>
+			<item value="0" key="lastEditorViewMode"/>
+			<list key="lastselection">
+				<item value="A1EEE6A4764FA460DB85E63964366137"/>
+			</list>
+		</section>
+		<section name="editor-A1EEDF76760DE0A0C82EB03937653331">
+			<item value="L/SamplePerfProject/test.testsuite" key="file"/>
+			<item value="0" key="lastEditorViewMode"/>
+			<list key="lastFieldSelection">
+				<item value="_FIELD_HTTP_PAGE_TITLE"/>
+				<item value="6"/>
+				<item value="6"/>
+			</list>
+			<list key="lastselection">
+				<item value="A1EEDF76768F1E90C82EB03937653331"/>
+			</list>
+		</section>
+		<section name="editor-A1EEF4D5B10C0370CEB3B76433323839">
+			<item value="L/MultiScheduleProject/JPetStoreSch.testsuite" key="file"/>
+			<item value="0" key="lastEditorViewMode"/>
+			<list key="lastselection">
+				<item value="A1EEF4D5B1121DF4CEB3B76433323839"/>
+			</list>
+		</section>
+		<section name="editor-A1EEE74C5F144A00D710B43463383464">
+			<item value="L/MobileProject/aa.testsuite" key="file"/>
+			<item value="0" key="lastEditorViewMode"/>
+			<list key="lastselection">
+				<item value="A1EEE74C5F175756D710B43463383464"/>
+			</list>
+		</section>
+		<section name="editor-A1EEDB8EF87B1940DEE3E56136323632">
+			<item value="L/JPetStore_PerfTest/JPetStore_Perf.testsuite" key="file"/>
+			<item value="0" key="lastEditorViewMode"/>
+			<list key="lastselection">
+				<item value="A1EEDB8EF87B1940DEE3E56136323632"/>
+			</list>
+		</section>
+		<section name="editor-A1EEF4D6B1BBFD10CEB3B76433323839">
+			<item value="L/MultiScheduleProject/BlazeSch.testsuite" key="file"/>
+			<item value="0" key="lastEditorViewMode"/>
+			<list key="lastselection">
+				<item value="A1EEF4D6B1BBFD10CEB3B76433323839"/>
+			</list>
+		</section>
+	</section>
+	<section name="com.ibm.rational.test.common.editor.framework.SearchPage">
+		<item value="false" key="srch.label.case.default"/>
+		<item value="false" key="srch.label.limit.default"/>
+		<item value="true" key="srch.label.recursive.default"/>
+		<item value="false" key="srch.label.select.default"/>
+		<item value="false" key="srch.label.regex.default"/>
+	</section>
+</section>

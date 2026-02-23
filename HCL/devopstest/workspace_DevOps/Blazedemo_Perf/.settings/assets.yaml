@@ -69,6 +69,33 @@ resources:
         type: scheduleInvokedTest
       - path: /Blazedemo_Perf/JPetStoreDemo.testsuite
         type: scheduleInvokedTest
+  - name: CompoundTest_Demo_1771849681768.stats
+    type: com.ibm.rational.test.lt.stats.session
+    properties: 
+      startTime: 1771849681768
+      tags: 
+      testId: A1F11074A0414980EBDAB33039643764
+      testName: CompoundTest_Demo
+    dependencies: 
+      - path: /Blazedemo_Perf/CompoundTest_Demo.testsuite
+        type: statsSessionTest
+      - path: /Blazedemo_Perf/CompoundTest_Demo_1771849681768_orch!system.mstats
+        type: statsSessionStore
+      - path: /Blazedemo_Perf/CompoundTest_Demo_1771849681768_orch!system.rstats
+        type: statsSessionStore
+      - path: /Blazedemo_Perf/CompoundTest_Demo_1771849681768_perf!localhost.mstats
+        type: statsSessionStore
+      - path: /Blazedemo_Perf/CompoundTest_Demo_1771849681768_perf!localhost.rstats
+        type: statsSessionStore
+      - path: /Blazedemo_Perf/CompoundTest_Demo_1771849682933.executiondlr
+        type: statsSessionAsset
+  - name: CompoundTest_Demo_1771849681768_orch!system.mstats
+  - name: CompoundTest_Demo_1771849681768_orch!system.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: CompoundTest_Demo_1771849681768_perf!localhost.mstats
+  - name: CompoundTest_Demo_1771849681768_perf!localhost.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: CompoundTest_Demo_1771849682933.executiondlr
   - name: JPetStoreDemo.recdata
   - name: JPetStoreDemo.recsession
     type: com.ibm.rational.test.lt.recsession
@@ -117,6 +144,8 @@ resources:
       - name: test
         resources: 
           - name: BlazeDemo_Perf_Test01_Test_A1F110738D658480EBDAB33039643764.java
+            type: com.ibm.rational.test.lt.generatedCode
+          - name: CompoundTest_Demo_CompoundTest_A1F11074A0414980EBDAB33039643764.java
             type: com.ibm.rational.test.lt.generatedCode
           - name: JPetStoreDemo_Test_A1F110747E215340EBDAB33039643764.java
             type: com.ibm.rational.test.lt.generatedCode

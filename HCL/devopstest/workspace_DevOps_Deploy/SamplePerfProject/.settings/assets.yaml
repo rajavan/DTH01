@@ -1,0 +1,58 @@
+name: SamplePerfProject
+version: 2
+projectReferences: 
+resources: 
+  - name: .classpath
+    type: com.ibm.rational.test.lt.classpath
+    dependencies: 
+      - path: /SamplePerfProject/src
+        type: javaClasspath
+  - name: src
+    resources: 
+      - name: test
+        resources: 
+          - name: Test_Test_A1EEDF76760DE0A0C82EB03937653331.java
+            type: com.ibm.rational.test.lt.generatedCode
+  - name: test.recdata
+  - name: test.recsession
+    type: com.ibm.rational.test.lt.recsession
+    dependencies: 
+      - path: /SamplePerfProject/test.recdata
+        type: recsessionRecdata
+  - name: test.testsuite
+    type: com.ibm.rational.test.lt.test
+    version: 11.0.0.0
+    properties: 
+      features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
+      type: com.ibm.rational.test.lt.lttest
+      uid: A1EEDF76760DE0A0C82EB03937653331
+    dependencies: 
+      - path: /SamplePerfProject/test.recsession
+        type: testRecsession
+  - name: test_1710484457851.stats
+    type: com.ibm.rational.test.lt.stats.session
+    properties: 
+      startTime: 1710484457851
+      tags: 
+      testId: A1EEDF76760DE0A0C82EB03937653331
+      testName: test
+    dependencies: 
+      - path: /SamplePerfProject/test.testsuite
+        type: statsSessionTest
+      - path: /SamplePerfProject/test_1710484457851_orch!system.mstats
+        type: statsSessionStore
+      - path: /SamplePerfProject/test_1710484457851_orch!system.rstats
+        type: statsSessionStore
+      - path: /SamplePerfProject/test_1710484457851_perf!localhost.mstats
+        type: statsSessionStore
+      - path: /SamplePerfProject/test_1710484457851_perf!localhost.rstats
+        type: statsSessionStore
+      - path: /SamplePerfProject/test_1710484458970.executiondlr
+        type: statsSessionAsset
+  - name: test_1710484457851_orch!system.mstats
+  - name: test_1710484457851_orch!system.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: test_1710484457851_perf!localhost.mstats
+  - name: test_1710484457851_perf!localhost.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: test_1710484458970.executiondlr

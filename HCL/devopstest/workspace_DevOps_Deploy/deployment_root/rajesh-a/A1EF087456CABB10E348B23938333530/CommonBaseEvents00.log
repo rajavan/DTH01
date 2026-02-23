@@ -1,0 +1,544 @@
+<CommonBaseEvent creationTime="2024-05-02T11:51:13.574Z" globalInstanceId="A1EF087A46CB5DE0CC3CB16562666535" msg="RPXE0001W 1 users successfully added" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>0</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>61</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="10.134.194.161" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2024-05-02T11:51:17.104Z" globalInstanceId="A1EF087A48BCCDA0CC3CB16562666535" msg="RPWD0002E Unexpected exception&#xA;com.ibm.msg.client.jms.DetailedIllegalStateException: JMSWMQ0018: Failed to connect to queue manager &apos;null&apos; with connection mode &apos;Client&apos; and host name &apos;null(0)&apos;.&#xD;&#xA;Check the queue manager is started and if running in client mode, check there is a listener running. Please see the linked exception for more information.&#xD;&#xA;&#x9;at com.ibm.msg.client.wmq.common.internal.Reason.reasonToException(Reason.java:489)&#xD;&#xA;&#x9;at com.ibm.msg.client.wmq.common.internal.Reason.createException(Reason.java:215)&#xD;&#xA;&#x9;at com.ibm.msg.client.wmq.internal.WMQConnection.&lt;init&gt;(WMQConnection.java:453)&#xD;&#xA;&#x9;at com.ibm.msg.client.wmq.factories.WMQConnectionFactory.createV7ProviderConnection(WMQConnectionFactory.java:8476)&#xD;&#xA;&#x9;at com.ibm.msg.client.wmq.factories.WMQConnectionFactory.createProviderConnection(WMQConnectionFactory.java:7815)&#xD;&#xA;&#x9;at com.ibm.msg.client.jms.admin.JmsConnectionFactoryImpl._createConnection(JmsConnectionFactoryImpl.java:322)&#xD;&#xA;&#x9;at com.ibm.msg.client.jms.admin.JmsConnectionFactoryImpl.createConnection(JmsConnectionFactoryImpl.java:242)&#xD;&#xA;&#x9;at com.ibm.mq.jms.MQConnectionFactory.createCommonConnection(MQConnectionFactory.java:6026)&#xD;&#xA;&#x9;at com.ibm.mq.jms.MQQueueConnectionFactory.createQueueConnection(MQQueueConnectionFactory.java:142)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.models.wscore.transport.jms.impl.JMSQueueConnector.&lt;init&gt;(JMSQueueConnector.java:102)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.models.wscore.transport.jms.impl.JMSConnectorFactory.createConnector(JMSConnectorFactory.java:59)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.models.wscore.transport.impl.MQTransporterImpl.getConnector(MQTransporterImpl.java:380)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.models.wscore.transport.impl.MQTransporterImpl.send(MQTransporterImpl.java:465)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.models.wscore.transport.impl.MQTransporterImpl.send(MQTransporterImpl.java:315)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.execution.ws.container.WebServicesMessage.execute(WebServicesMessage.java:825)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:602)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.execution.ws.container.AbstractWebServices.executeAction(AbstractWebServices.java:431)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2146)&#xD;&#xA;&#x9;at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)&#xD;&#xA;&#x9;at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)&#xD;&#xA;&#x9;at java.lang.Thread.run(Thread.java:826)&#xD;&#xA;Caused by: com.ibm.mq.MQException: JMSCMQ0001: IBM MQ call failed with compcode &apos;2&apos; (&apos;MQCC_FAILED&apos;) reason &apos;2538&apos; (&apos;MQRC_HOST_NOT_AVAILABLE&apos;).&#xD;&#xA;&#x9;at com.ibm.msg.client.wmq.common.internal.Reason.createException(Reason.java:203)&#xD;&#xA;&#x9;... 19 more&#xD;&#xA;Caused by: com.ibm.mq.jmqi.JmqiException: CC=2;RC=2538;AMQ9204: Connection to host &apos;null(0)&apos; rejected. [1=com.ibm.mq.jmqi.JmqiException[CC=2;RC=2538;AMQ9205: The host name supplied is not valid. [3=null,4=TCP]],3=null(0),4=,5=RemoteTCPConnection.resolveHostname]&#xD;&#xA;&#x9;at com.ibm.mq.jmqi.remote.api.RemoteFAP$Connector.jmqiConnect(RemoteFAP.java:13588)&#xD;&#xA;&#x9;at com.ibm.mq.jmqi.remote.api.RemoteFAP$Connector.access$100(RemoteFAP.java:13125)&#xD;&#xA;&#x9;at com.ibm.mq.jmqi.remote.api.RemoteFAP.jmqiConnect(RemoteFAP.java:1430)&#xD;&#xA;&#x9;at com.ibm.mq.jmqi.remote.api.RemoteFAP.jmqiConnect(RemoteFAP.java:1389)&#xD;&#xA;&#x9;at com.ibm.mq.ese.jmqi.InterceptedJmqiImpl.jmqiConnect(InterceptedJmqiImpl.java:377)&#xD;&#xA;&#x9;at com.ibm.mq.ese.jmqi.ESEJMQI.jmqiConnect(ESEJMQI.java:562)&#xD;&#xA;&#x9;at com.ibm.msg.client.wmq.internal.WMQConnection.&lt;init&gt;(WMQConnection.java:386)&#xD;&#xA;&#x9;... 18 more&#xD;&#xA;Caused by: com.ibm.mq.jmqi.JmqiException: CC=2;RC=2538;AMQ9205: The host name supplied is not valid. [3=null,4=TCP]&#xD;&#xA;&#x9;at com.ibm.mq.jmqi.remote.impl.RemoteTCPConnection.resolveHostname(RemoteTCPConnection.java:649)&#xD;&#xA;&#x9;at com.ibm.mq.jmqi.remote.impl.RemoteTCPConnection.parseConnectionName(RemoteTCPConnection.java:478)&#xD;&#xA;&#x9;at com.ibm.mq.jmqi.remote.impl.RemoteTCPConnection.protocolConnect(RemoteTCPConnection.java:1332)&#xD;&#xA;&#x9;at com.ibm.mq.jmqi.remote.impl.RemoteConnection.connect(RemoteConnection.java:992)&#xD;&#xA;&#x9;at com.ibm.mq.jmqi.remote.impl.RemoteConnectionSpecification.getNewConnection(RemoteConnectionSpecifica" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>1</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>61</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:stackTrace" type="stringArray">
+		<values>com.ibm.msg.client.jms.DetailedIllegalStateException: JMSWMQ0018: Failed to connect to queue manager &apos;null&apos; with connection mode &apos;Client&apos; and host name &apos;null(0)&apos;.&#xD;&#xA;Check the queue manager is started and if running in client mode, check there is a listener running. Please see the linked exception for more information.</values>
+		<values>com.ibm.msg.client.wmq.common.internal.Reason.reasonToException(Reason.java:489)</values>
+		<values>com.ibm.msg.client.wmq.common.internal.Reason.createException(Reason.java:215)</values>
+		<values>com.ibm.msg.client.wmq.internal.WMQConnection.&lt;init&gt;(WMQConnection.java:453)</values>
+		<values>com.ibm.msg.client.wmq.factories.WMQConnectionFactory.createV7ProviderConnection(WMQConnectionFactory.java:8476)</values>
+		<values>com.ibm.msg.client.wmq.factories.WMQConnectionFactory.createProviderConnection(WMQConnectionFactory.java:7815)</values>
+		<values>com.ibm.msg.client.jms.admin.JmsConnectionFactoryImpl._createConnection(JmsConnectionFactoryImpl.java:322)</values>
+		<values>com.ibm.msg.client.jms.admin.JmsConnectionFactoryImpl.createConnection(JmsConnectionFactoryImpl.java:242)</values>
+		<values>com.ibm.mq.jms.MQConnectionFactory.createCommonConnection(MQConnectionFactory.java:6026)</values>
+		<values>com.ibm.mq.jms.MQQueueConnectionFactory.createQueueConnection(MQQueueConnectionFactory.java:142)</values>
+		<values>com.ibm.rational.test.lt.models.wscore.transport.jms.impl.JMSQueueConnector.&lt;init&gt;(JMSQueueConnector.java:102)</values>
+		<values>com.ibm.rational.test.lt.models.wscore.transport.jms.impl.JMSConnectorFactory.createConnector(JMSConnectorFactory.java:59)</values>
+		<values>com.ibm.rational.test.lt.models.wscore.transport.impl.MQTransporterImpl.getConnector(MQTransporterImpl.java:380)</values>
+		<values>com.ibm.rational.test.lt.models.wscore.transport.impl.MQTransporterImpl.send(MQTransporterImpl.java:465)</values>
+		<values>com.ibm.rational.test.lt.models.wscore.transport.impl.MQTransporterImpl.send(MQTransporterImpl.java:315)</values>
+		<values>com.ibm.rational.test.lt.execution.ws.container.WebServicesMessage.execute(WebServicesMessage.java:825)</values>
+		<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:602)</values>
+		<values>com.ibm.rational.test.lt.execution.ws.container.AbstractWebServices.executeAction(AbstractWebServices.java:431)</values>
+		<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2146)</values>
+		<values>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)</values>
+		<values>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)</values>
+		<values>java.lang.Thread.run(Thread.java:826)</values>
+		<children name="Cause" type="stringArray">
+			<values>com.ibm.mq.MQException: JMSCMQ0001: IBM MQ call failed with compcode &apos;2&apos; (&apos;MQCC_FAILED&apos;) reason &apos;2538&apos; (&apos;MQRC_HOST_NOT_AVAILABLE&apos;).</values>
+			<values>com.ibm.msg.client.wmq.common.internal.Reason.createException(Reason.java:203)</values>
+			<values>com.ibm.msg.client.wmq.internal.WMQConnection.&lt;init&gt;(WMQConnection.java:453)</values>
+			<values>com.ibm.msg.client.wmq.factories.WMQConnectionFactory.createV7ProviderConnection(WMQConnectionFactory.java:8476)</values>
+			<values>com.ibm.msg.client.wmq.factories.WMQConnectionFactory.createProviderConnection(WMQConnectionFactory.java:7815)</values>
+			<values>com.ibm.msg.client.jms.admin.JmsConnectionFactoryImpl._createConnection(JmsConnectionFactoryImpl.java:322)</values>
+			<values>com.ibm.msg.client.jms.admin.JmsConnectionFactoryImpl.createConnection(JmsConnectionFactoryImpl.java:242)</values>
+			<values>com.ibm.mq.jms.MQConnectionFactory.createCommonConnection(MQConnectionFactory.java:6026)</values>
+			<values>com.ibm.mq.jms.MQQueueConnectionFactory.createQueueConnection(MQQueueConnectionFactory.java:142)</values>
+			<values>com.ibm.rational.test.lt.models.wscore.transport.jms.impl.JMSQueueConnector.&lt;init&gt;(JMSQueueConnector.java:102)</values>
+			<values>com.ibm.rational.test.lt.models.wscore.transport.jms.impl.JMSConnectorFactory.createConnector(JMSConnectorFactory.java:59)</values>
+			<values>com.ibm.rational.test.lt.models.wscore.transport.impl.MQTransporterImpl.getConnector(MQTransporterImpl.java:380)</values>
+			<values>com.ibm.rational.test.lt.models.wscore.transport.impl.MQTransporterImpl.send(MQTransporterImpl.java:465)</values>
+			<values>com.ibm.rational.test.lt.models.wscore.transport.impl.MQTransporterImpl.send(MQTransporterImpl.java:315)</values>
+			<values>com.ibm.rational.test.lt.execution.ws.container.WebServicesMessage.execute(WebServicesMessage.java:825)</values>
+			<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:602)</values>
+			<values>com.ibm.rational.test.lt.execution.ws.container.AbstractWebServices.executeAction(AbstractWebServices.java:431)</values>
+			<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2146)</values>
+			<values>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)</values>
+			<values>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)</values>
+			<values>java.lang.Thread.run(Thread.java:826)</values>
+			<children name="Cause" type="stringArray">
+				<values>com.ibm.mq.jmqi.JmqiException: CC=2;RC=2538;AMQ9204: Connection to host &apos;null(0)&apos; rejected. [1=com.ibm.mq.jmqi.JmqiException[CC=2;RC=2538;AMQ9205: The host name supplied is not valid. [3=null,4=TCP]],3=null(0),4=,5=RemoteTCPConnection.resolveHostname]</values>
+				<values>com.ibm.mq.jmqi.remote.api.RemoteFAP$Connector.jmqiConnect(RemoteFAP.java:13588)</values>
+				<values>com.ibm.mq.jmqi.remote.api.RemoteFAP$Connector.access$100(RemoteFAP.java:13125)</values>
+				<values>com.ibm.mq.jmqi.remote.api.RemoteFAP.jmqiConnect(RemoteFAP.java:1430)</values>
+				<values>com.ibm.mq.jmqi.remote.api.RemoteFAP.jmqiConnect(RemoteFAP.java:1389)</values>
+				<values>com.ibm.mq.ese.jmqi.InterceptedJmqiImpl.jmqiConnect(InterceptedJmqiImpl.java:377)</values>
+				<values>com.ibm.mq.ese.jmqi.ESEJMQI.jmqiConnect(ESEJMQI.java:562)</values>
+				<values>com.ibm.msg.client.wmq.internal.WMQConnection.&lt;init&gt;(WMQConnection.java:386)</values>
+				<values>com.ibm.msg.client.wmq.factories.WMQConnectionFactory.createV7ProviderConnection(WMQConnectionFactory.java:8476)</values>
+				<values>com.ibm.msg.client.wmq.factories.WMQConnectionFactory.createProviderConnection(WMQConnectionFactory.java:7815)</values>
+				<values>com.ibm.msg.client.jms.admin.JmsConnectionFactoryImpl._createConnection(JmsConnectionFactoryImpl.java:322)</values>
+				<values>com.ibm.msg.client.jms.admin.JmsConnectionFactoryImpl.createConnection(JmsConnectionFactoryImpl.java:242)</values>
+				<values>com.ibm.mq.jms.MQConnectionFactory.createCommonConnection(MQConnectionFactory.java:6026)</values>
+				<values>com.ibm.mq.jms.MQQueueConnectionFactory.createQueueConnection(MQQueueConnectionFactory.java:142)</values>
+				<values>com.ibm.rational.test.lt.models.wscore.transport.jms.impl.JMSQueueConnector.&lt;init&gt;(JMSQueueConnector.java:102)</values>
+				<values>com.ibm.rational.test.lt.models.wscore.transport.jms.impl.JMSConnectorFactory.createConnector(JMSConnectorFactory.java:59)</values>
+				<values>com.ibm.rational.test.lt.models.wscore.transport.impl.MQTransporterImpl.getConnector(MQTransporterImpl.java:380)</values>
+				<values>com.ibm.rational.test.lt.models.wscore.transport.impl.MQTransporterImpl.send(MQTransporterImpl.java:465)</values>
+				<values>com.ibm.rational.test.lt.models.wscore.transport.impl.MQTransporterImpl.send(MQTransporterImpl.java:315)</values>
+				<values>com.ibm.rational.test.lt.execution.ws.container.WebServicesMessage.execute(WebServicesMessage.java:825)</values>
+				<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:602)</values>
+				<values>com.ibm.rational.test.lt.execution.ws.container.AbstractWebServices.executeAction(AbstractWebServices.java:431)</values>
+				<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2146)</values>
+				<values>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)</values>
+				<values>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)</values>
+				<values>java.lang.Thread.run(Thread.java:826)</values>
+				<children name="Cause" type="stringArray">
+					<values>com.ibm.mq.jmqi.JmqiException: CC=2;RC=2538;AMQ9205: The host name supplied is not valid. [3=null,4=TCP]</values>
+					<values>com.ibm.mq.jmqi.remote.impl.RemoteTCPConnection.resolveHostname(RemoteTCPConnection.java:649)</values>
+					<values>com.ibm.mq.jmqi.remote.impl.RemoteTCPConnection.parseConnectionName(RemoteTCPConnection.java:478)</values>
+					<values>com.ibm.mq.jmqi.remote.impl.RemoteTCPConnection.protocolConnect(RemoteTCPConnection.java:1332)</values>
+					<values>com.ibm.mq.jmqi.remote.impl.RemoteConnection.connect(RemoteConnection.java:992)</values>
+					<values>com.ibm.mq.jmqi.remote.impl.RemoteConnectionSpecification.getNewConnection(RemoteConnectionSpecification.java:567)</values>
+					<values>com.ibm.mq.jmqi.remote.impl.RemoteConnectionSpecification.getSessionFromNewConnection(RemoteConnectionSpecification.java:246)</values>
+					<values>com.ibm.mq.jmqi.remote.impl.RemoteConnectionSpecification.getSession(RemoteConnectionSpecification.java:154)</values>
+					<values>com.ibm.mq.jmqi.remote.impl.RemoteConnectionPool.getSession(RemoteConnectionPool.java:127)</values>
+					<values>com.ibm.mq.jmqi.remote.api.RemoteFAP$Connector.jmqiConnect(RemoteFAP.java:13328)</values>
+					<values>com.ibm.mq.jmqi.remote.api.RemoteFAP$Connector.access$100(RemoteFAP.java:13125)</values>
+					<values>com.ibm.mq.jmqi.remote.api.RemoteFAP.jmqiConnect(RemoteFAP.java:1430)</values>
+					<values>com.ibm.mq.jmqi.remote.api.RemoteFAP.jmqiConnect(RemoteFAP.java:1389)</values>
+					<values>com.ibm.mq.ese.jmqi.InterceptedJmqiImpl.jmqiConnect(InterceptedJmqiImpl.java:377)</values>
+					<values>com.ibm.mq.ese.jmqi.ESEJMQI.jmqiConnect(ESEJMQI.java:562)</values>
+					<values>com.ibm.msg.client.wmq.internal.WMQConnection.&lt;init&gt;(WMQConnection.java:386)</values>
+					<values>com.ibm.msg.client.wmq.factories.WMQConnectionFactory.createV7ProviderConnection(WMQConnectionFactory.java:8476)</values>
+					<values>com.ibm.msg.client.wmq.factories.WMQConnectionFactory.createProviderConnection(WMQConnectionFactory.java:7815)</values>
+					<values>com.ibm.msg.client.jms.admin.JmsConnectionFactoryImpl._createConnection(JmsConnectionFactoryImpl.java:322)</values>
+					<values>com.ibm.msg.client.jms.admin.JmsConnectionFactoryImpl.createConnection(JmsConnectionFactoryImpl.java:242)</values>
+					<values>com.ibm.mq.jms.MQConnectionFactory.createCommonConnection(MQConnectionFactory.java:6026)</values>
+					<values>com.ibm.mq.jms.MQQueueConnectionFactory.createQueueConnection(MQQueueConnectionFactory.java:142)</values>
+					<values>com.ibm.rational.test.lt.models.wscore.transport.jms.impl.JMSQueueConnector.&lt;init&gt;(JMSQueueConnector.java:102)</values>
+					<values>com.ibm.rational.test.lt.models.wscore.transport.jms.impl.JMSConnectorFactory.createConnector(JMSConnectorFactory.java:59)</values>
+					<values>com.ibm.rational.test.lt.models.wscore.transport.impl.MQTransporterImpl.getConnector(MQTransporterImpl.java:380)</values>
+					<values>com.ibm.rational.test.lt.models.wscore.transport.impl.MQTransporterImpl.send(MQTransporterImpl.java:465)</values>
+					<values>com.ibm.rational.test.lt.models.wscore.transport.impl.MQTransporterImpl.send(MQTransporterImpl.java:315)</values>
+					<values>com.ibm.rational.test.lt.execution.ws.container.WebServicesMessage.execute(WebServicesMessage.java:825)</values>
+					<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:602)</values>
+					<values>com.ibm.rational.test.lt.execution.ws.container.AbstractWebServices.executeAction(AbstractWebServices.java:431)</values>
+					<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2146)</values>
+					<values>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)</values>
+					<values>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)</values>
+					<values>java.lang.Thread.run(Thread.java:826)</values>
+				</children>
+			</children>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId application="DevOps Test Performance" component="WebServices" componentIdType="Application" executionEnvironment="Java" location="10.134.194.161" locationType="IPV4" subComponent="com.ibm.rational.test.lt.execution.ws" componentType="Runtime Library - Protocol Extension"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2024-05-02T11:51:17.104Z" globalInstanceId="A1EF087A48BCCDA1CC3CB16562666535" msg="RPWD0002E Unexpected exception&#xA;com.ibm.msg.client.jms.DetailedIllegalStateException: JMSWMQ0018: Failed to connect to queue manager &apos;null&apos; with connection mode &apos;Client&apos; and host name &apos;null(0)&apos;.&#xD;&#xA;Check the queue manager is started and if running in client mode, check there is a listener running. Please see the linked exception for more information.&#xD;&#xA;&#x9;at com.ibm.msg.client.wmq.common.internal.Reason.reasonToException(Reason.java:489)&#xD;&#xA;&#x9;at com.ibm.msg.client.wmq.common.internal.Reason.createException(Reason.java:215)&#xD;&#xA;&#x9;at com.ibm.msg.client.wmq.internal.WMQConnection.&lt;init&gt;(WMQConnection.java:453)&#xD;&#xA;&#x9;at com.ibm.msg.client.wmq.factories.WMQConnectionFactory.createV7ProviderConnection(WMQConnectionFactory.java:8476)&#xD;&#xA;&#x9;at com.ibm.msg.client.wmq.factories.WMQConnectionFactory.createProviderConnection(WMQConnectionFactory.java:7815)&#xD;&#xA;&#x9;at com.ibm.msg.client.jms.admin.JmsConnectionFactoryImpl._createConnection(JmsConnectionFactoryImpl.java:322)&#xD;&#xA;&#x9;at com.ibm.msg.client.jms.admin.JmsConnectionFactoryImpl.createConnection(JmsConnectionFactoryImpl.java:242)&#xD;&#xA;&#x9;at com.ibm.mq.jms.MQConnectionFactory.createCommonConnection(MQConnectionFactory.java:6026)&#xD;&#xA;&#x9;at com.ibm.mq.jms.MQQueueConnectionFactory.createQueueConnection(MQQueueConnectionFactory.java:142)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.models.wscore.transport.jms.impl.JMSQueueConnector.&lt;init&gt;(JMSQueueConnector.java:102)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.models.wscore.transport.jms.impl.JMSConnectorFactory.createConnector(JMSConnectorFactory.java:59)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.models.wscore.transport.impl.MQTransporterImpl.getConnector(MQTransporterImpl.java:380)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.models.wscore.transport.impl.MQTransporterImpl.send(MQTransporterImpl.java:465)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.models.wscore.transport.impl.MQTransporterImpl.send(MQTransporterImpl.java:315)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.execution.ws.container.WebServicesMessage.execute(WebServicesMessage.java:825)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:602)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.execution.ws.container.AbstractWebServices.executeAction(AbstractWebServices.java:431)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2146)&#xD;&#xA;&#x9;at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)&#xD;&#xA;&#x9;at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)&#xD;&#xA;&#x9;at java.lang.Thread.run(Thread.java:826)&#xD;&#xA;Caused by: com.ibm.mq.MQException: JMSCMQ0001: IBM MQ call failed with compcode &apos;2&apos; (&apos;MQCC_FAILED&apos;) reason &apos;2538&apos; (&apos;MQRC_HOST_NOT_AVAILABLE&apos;).&#xD;&#xA;&#x9;at com.ibm.msg.client.wmq.common.internal.Reason.createException(Reason.java:203)&#xD;&#xA;&#x9;... 19 more&#xD;&#xA;Caused by: com.ibm.mq.jmqi.JmqiException: CC=2;RC=2538;AMQ9204: Connection to host &apos;null(0)&apos; rejected. [1=com.ibm.mq.jmqi.JmqiException[CC=2;RC=2538;AMQ9205: The host name supplied is not valid. [3=null,4=TCP]],3=null(0),4=,5=RemoteTCPConnection.resolveHostname]&#xD;&#xA;&#x9;at com.ibm.mq.jmqi.remote.api.RemoteFAP$Connector.jmqiConnect(RemoteFAP.java:13588)&#xD;&#xA;&#x9;at com.ibm.mq.jmqi.remote.api.RemoteFAP$Connector.access$100(RemoteFAP.java:13125)&#xD;&#xA;&#x9;at com.ibm.mq.jmqi.remote.api.RemoteFAP.jmqiConnect(RemoteFAP.java:1430)&#xD;&#xA;&#x9;at com.ibm.mq.jmqi.remote.api.RemoteFAP.jmqiConnect(RemoteFAP.java:1389)&#xD;&#xA;&#x9;at com.ibm.mq.ese.jmqi.InterceptedJmqiImpl.jmqiConnect(InterceptedJmqiImpl.java:377)&#xD;&#xA;&#x9;at com.ibm.mq.ese.jmqi.ESEJMQI.jmqiConnect(ESEJMQI.java:562)&#xD;&#xA;&#x9;at com.ibm.msg.client.wmq.internal.WMQConnection.&lt;init&gt;(WMQConnection.java:386)&#xD;&#xA;&#x9;... 18 more&#xD;&#xA;Caused by: com.ibm.mq.jmqi.JmqiException: CC=2;RC=2538;AMQ9205: The host name supplied is not valid. [3=null,4=TCP]&#xD;&#xA;&#x9;at com.ibm.mq.jmqi.remote.impl.RemoteTCPConnection.resolveHostname(RemoteTCPConnection.java:649)&#xD;&#xA;&#x9;at com.ibm.mq.jmqi.remote.impl.RemoteTCPConnection.parseConnectionName(RemoteTCPConnection.java:478)&#xD;&#xA;&#x9;at com.ibm.mq.jmqi.remote.impl.RemoteTCPConnection.protocolConnect(RemoteTCPConnection.java:1332)&#xD;&#xA;&#x9;at com.ibm.mq.jmqi.remote.impl.RemoteConnection.connect(RemoteConnection.java:992)&#xD;&#xA;&#x9;at com.ibm.mq.jmqi.remote.impl.RemoteConnectionSpecification.getNewConnection(RemoteConnectionSpecifica" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>2</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>61</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:stackTrace" type="stringArray">
+		<values>com.ibm.msg.client.jms.DetailedIllegalStateException: JMSWMQ0018: Failed to connect to queue manager &apos;null&apos; with connection mode &apos;Client&apos; and host name &apos;null(0)&apos;.&#xD;&#xA;Check the queue manager is started and if running in client mode, check there is a listener running. Please see the linked exception for more information.</values>
+		<values>com.ibm.msg.client.wmq.common.internal.Reason.reasonToException(Reason.java:489)</values>
+		<values>com.ibm.msg.client.wmq.common.internal.Reason.createException(Reason.java:215)</values>
+		<values>com.ibm.msg.client.wmq.internal.WMQConnection.&lt;init&gt;(WMQConnection.java:453)</values>
+		<values>com.ibm.msg.client.wmq.factories.WMQConnectionFactory.createV7ProviderConnection(WMQConnectionFactory.java:8476)</values>
+		<values>com.ibm.msg.client.wmq.factories.WMQConnectionFactory.createProviderConnection(WMQConnectionFactory.java:7815)</values>
+		<values>com.ibm.msg.client.jms.admin.JmsConnectionFactoryImpl._createConnection(JmsConnectionFactoryImpl.java:322)</values>
+		<values>com.ibm.msg.client.jms.admin.JmsConnectionFactoryImpl.createConnection(JmsConnectionFactoryImpl.java:242)</values>
+		<values>com.ibm.mq.jms.MQConnectionFactory.createCommonConnection(MQConnectionFactory.java:6026)</values>
+		<values>com.ibm.mq.jms.MQQueueConnectionFactory.createQueueConnection(MQQueueConnectionFactory.java:142)</values>
+		<values>com.ibm.rational.test.lt.models.wscore.transport.jms.impl.JMSQueueConnector.&lt;init&gt;(JMSQueueConnector.java:102)</values>
+		<values>com.ibm.rational.test.lt.models.wscore.transport.jms.impl.JMSConnectorFactory.createConnector(JMSConnectorFactory.java:59)</values>
+		<values>com.ibm.rational.test.lt.models.wscore.transport.impl.MQTransporterImpl.getConnector(MQTransporterImpl.java:380)</values>
+		<values>com.ibm.rational.test.lt.models.wscore.transport.impl.MQTransporterImpl.send(MQTransporterImpl.java:465)</values>
+		<values>com.ibm.rational.test.lt.models.wscore.transport.impl.MQTransporterImpl.send(MQTransporterImpl.java:315)</values>
+		<values>com.ibm.rational.test.lt.execution.ws.container.WebServicesMessage.execute(WebServicesMessage.java:825)</values>
+		<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:602)</values>
+		<values>com.ibm.rational.test.lt.execution.ws.container.AbstractWebServices.executeAction(AbstractWebServices.java:431)</values>
+		<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2146)</values>
+		<values>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)</values>
+		<values>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)</values>
+		<values>java.lang.Thread.run(Thread.java:826)</values>
+		<children name="Cause" type="stringArray">
+			<values>com.ibm.mq.MQException: JMSCMQ0001: IBM MQ call failed with compcode &apos;2&apos; (&apos;MQCC_FAILED&apos;) reason &apos;2538&apos; (&apos;MQRC_HOST_NOT_AVAILABLE&apos;).</values>
+			<values>com.ibm.msg.client.wmq.common.internal.Reason.createException(Reason.java:203)</values>
+			<values>com.ibm.msg.client.wmq.internal.WMQConnection.&lt;init&gt;(WMQConnection.java:453)</values>
+			<values>com.ibm.msg.client.wmq.factories.WMQConnectionFactory.createV7ProviderConnection(WMQConnectionFactory.java:8476)</values>
+			<values>com.ibm.msg.client.wmq.factories.WMQConnectionFactory.createProviderConnection(WMQConnectionFactory.java:7815)</values>
+			<values>com.ibm.msg.client.jms.admin.JmsConnectionFactoryImpl._createConnection(JmsConnectionFactoryImpl.java:322)</values>
+			<values>com.ibm.msg.client.jms.admin.JmsConnectionFactoryImpl.createConnection(JmsConnectionFactoryImpl.java:242)</values>
+			<values>com.ibm.mq.jms.MQConnectionFactory.createCommonConnection(MQConnectionFactory.java:6026)</values>
+			<values>com.ibm.mq.jms.MQQueueConnectionFactory.createQueueConnection(MQQueueConnectionFactory.java:142)</values>
+			<values>com.ibm.rational.test.lt.models.wscore.transport.jms.impl.JMSQueueConnector.&lt;init&gt;(JMSQueueConnector.java:102)</values>
+			<values>com.ibm.rational.test.lt.models.wscore.transport.jms.impl.JMSConnectorFactory.createConnector(JMSConnectorFactory.java:59)</values>
+			<values>com.ibm.rational.test.lt.models.wscore.transport.impl.MQTransporterImpl.getConnector(MQTransporterImpl.java:380)</values>
+			<values>com.ibm.rational.test.lt.models.wscore.transport.impl.MQTransporterImpl.send(MQTransporterImpl.java:465)</values>
+			<values>com.ibm.rational.test.lt.models.wscore.transport.impl.MQTransporterImpl.send(MQTransporterImpl.java:315)</values>
+			<values>com.ibm.rational.test.lt.execution.ws.container.WebServicesMessage.execute(WebServicesMessage.java:825)</values>
+			<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:602)</values>
+			<values>com.ibm.rational.test.lt.execution.ws.container.AbstractWebServices.executeAction(AbstractWebServices.java:431)</values>
+			<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2146)</values>
+			<values>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)</values>
+			<values>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)</values>
+			<values>java.lang.Thread.run(Thread.java:826)</values>
+			<children name="Cause" type="stringArray">
+				<values>com.ibm.mq.jmqi.JmqiException: CC=2;RC=2538;AMQ9204: Connection to host &apos;null(0)&apos; rejected. [1=com.ibm.mq.jmqi.JmqiException[CC=2;RC=2538;AMQ9205: The host name supplied is not valid. [3=null,4=TCP]],3=null(0),4=,5=RemoteTCPConnection.resolveHostname]</values>
+				<values>com.ibm.mq.jmqi.remote.api.RemoteFAP$Connector.jmqiConnect(RemoteFAP.java:13588)</values>
+				<values>com.ibm.mq.jmqi.remote.api.RemoteFAP$Connector.access$100(RemoteFAP.java:13125)</values>
+				<values>com.ibm.mq.jmqi.remote.api.RemoteFAP.jmqiConnect(RemoteFAP.java:1430)</values>
+				<values>com.ibm.mq.jmqi.remote.api.RemoteFAP.jmqiConnect(RemoteFAP.java:1389)</values>
+				<values>com.ibm.mq.ese.jmqi.InterceptedJmqiImpl.jmqiConnect(InterceptedJmqiImpl.java:377)</values>
+				<values>com.ibm.mq.ese.jmqi.ESEJMQI.jmqiConnect(ESEJMQI.java:562)</values>
+				<values>com.ibm.msg.client.wmq.internal.WMQConnection.&lt;init&gt;(WMQConnection.java:386)</values>
+				<values>com.ibm.msg.client.wmq.factories.WMQConnectionFactory.createV7ProviderConnection(WMQConnectionFactory.java:8476)</values>
+				<values>com.ibm.msg.client.wmq.factories.WMQConnectionFactory.createProviderConnection(WMQConnectionFactory.java:7815)</values>
+				<values>com.ibm.msg.client.jms.admin.JmsConnectionFactoryImpl._createConnection(JmsConnectionFactoryImpl.java:322)</values>
+				<values>com.ibm.msg.client.jms.admin.JmsConnectionFactoryImpl.createConnection(JmsConnectionFactoryImpl.java:242)</values>
+				<values>com.ibm.mq.jms.MQConnectionFactory.createCommonConnection(MQConnectionFactory.java:6026)</values>
+				<values>com.ibm.mq.jms.MQQueueConnectionFactory.createQueueConnection(MQQueueConnectionFactory.java:142)</values>
+				<values>com.ibm.rational.test.lt.models.wscore.transport.jms.impl.JMSQueueConnector.&lt;init&gt;(JMSQueueConnector.java:102)</values>
+				<values>com.ibm.rational.test.lt.models.wscore.transport.jms.impl.JMSConnectorFactory.createConnector(JMSConnectorFactory.java:59)</values>
+				<values>com.ibm.rational.test.lt.models.wscore.transport.impl.MQTransporterImpl.getConnector(MQTransporterImpl.java:380)</values>
+				<values>com.ibm.rational.test.lt.models.wscore.transport.impl.MQTransporterImpl.send(MQTransporterImpl.java:465)</values>
+				<values>com.ibm.rational.test.lt.models.wscore.transport.impl.MQTransporterImpl.send(MQTransporterImpl.java:315)</values>
+				<values>com.ibm.rational.test.lt.execution.ws.container.WebServicesMessage.execute(WebServicesMessage.java:825)</values>
+				<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:602)</values>
+				<values>com.ibm.rational.test.lt.execution.ws.container.AbstractWebServices.executeAction(AbstractWebServices.java:431)</values>
+				<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2146)</values>
+				<values>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)</values>
+				<values>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)</values>
+				<values>java.lang.Thread.run(Thread.java:826)</values>
+				<children name="Cause" type="stringArray">
+					<values>com.ibm.mq.jmqi.JmqiException: CC=2;RC=2538;AMQ9205: The host name supplied is not valid. [3=null,4=TCP]</values>
+					<values>com.ibm.mq.jmqi.remote.impl.RemoteTCPConnection.resolveHostname(RemoteTCPConnection.java:649)</values>
+					<values>com.ibm.mq.jmqi.remote.impl.RemoteTCPConnection.parseConnectionName(RemoteTCPConnection.java:478)</values>
+					<values>com.ibm.mq.jmqi.remote.impl.RemoteTCPConnection.protocolConnect(RemoteTCPConnection.java:1332)</values>
+					<values>com.ibm.mq.jmqi.remote.impl.RemoteConnection.connect(RemoteConnection.java:992)</values>
+					<values>com.ibm.mq.jmqi.remote.impl.RemoteConnectionSpecification.getNewConnection(RemoteConnectionSpecification.java:567)</values>
+					<values>com.ibm.mq.jmqi.remote.impl.RemoteConnectionSpecification.getSessionFromNewConnection(RemoteConnectionSpecification.java:246)</values>
+					<values>com.ibm.mq.jmqi.remote.impl.RemoteConnectionSpecification.getSession(RemoteConnectionSpecification.java:154)</values>
+					<values>com.ibm.mq.jmqi.remote.impl.RemoteConnectionPool.getSession(RemoteConnectionPool.java:127)</values>
+					<values>com.ibm.mq.jmqi.remote.api.RemoteFAP$Connector.jmqiConnect(RemoteFAP.java:13328)</values>
+					<values>com.ibm.mq.jmqi.remote.api.RemoteFAP$Connector.access$100(RemoteFAP.java:13125)</values>
+					<values>com.ibm.mq.jmqi.remote.api.RemoteFAP.jmqiConnect(RemoteFAP.java:1430)</values>
+					<values>com.ibm.mq.jmqi.remote.api.RemoteFAP.jmqiConnect(RemoteFAP.java:1389)</values>
+					<values>com.ibm.mq.ese.jmqi.InterceptedJmqiImpl.jmqiConnect(InterceptedJmqiImpl.java:377)</values>
+					<values>com.ibm.mq.ese.jmqi.ESEJMQI.jmqiConnect(ESEJMQI.java:562)</values>
+					<values>com.ibm.msg.client.wmq.internal.WMQConnection.&lt;init&gt;(WMQConnection.java:386)</values>
+					<values>com.ibm.msg.client.wmq.factories.WMQConnectionFactory.createV7ProviderConnection(WMQConnectionFactory.java:8476)</values>
+					<values>com.ibm.msg.client.wmq.factories.WMQConnectionFactory.createProviderConnection(WMQConnectionFactory.java:7815)</values>
+					<values>com.ibm.msg.client.jms.admin.JmsConnectionFactoryImpl._createConnection(JmsConnectionFactoryImpl.java:322)</values>
+					<values>com.ibm.msg.client.jms.admin.JmsConnectionFactoryImpl.createConnection(JmsConnectionFactoryImpl.java:242)</values>
+					<values>com.ibm.mq.jms.MQConnectionFactory.createCommonConnection(MQConnectionFactory.java:6026)</values>
+					<values>com.ibm.mq.jms.MQQueueConnectionFactory.createQueueConnection(MQQueueConnectionFactory.java:142)</values>
+					<values>com.ibm.rational.test.lt.models.wscore.transport.jms.impl.JMSQueueConnector.&lt;init&gt;(JMSQueueConnector.java:102)</values>
+					<values>com.ibm.rational.test.lt.models.wscore.transport.jms.impl.JMSConnectorFactory.createConnector(JMSConnectorFactory.java:59)</values>
+					<values>com.ibm.rational.test.lt.models.wscore.transport.impl.MQTransporterImpl.getConnector(MQTransporterImpl.java:380)</values>
+					<values>com.ibm.rational.test.lt.models.wscore.transport.impl.MQTransporterImpl.send(MQTransporterImpl.java:465)</values>
+					<values>com.ibm.rational.test.lt.models.wscore.transport.impl.MQTransporterImpl.send(MQTransporterImpl.java:315)</values>
+					<values>com.ibm.rational.test.lt.execution.ws.container.WebServicesMessage.execute(WebServicesMessage.java:825)</values>
+					<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:602)</values>
+					<values>com.ibm.rational.test.lt.execution.ws.container.AbstractWebServices.executeAction(AbstractWebServices.java:431)</values>
+					<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2146)</values>
+					<values>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)</values>
+					<values>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)</values>
+					<values>java.lang.Thread.run(Thread.java:826)</values>
+				</children>
+			</children>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId application="DevOps Test Performance" component="WebServices" componentIdType="Application" executionEnvironment="Java" location="10.134.194.161" locationType="IPV4" subComponent="com.ibm.rational.test.lt.execution.ws" componentType="Runtime Library - Protocol Extension"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2024-05-02T11:51:17.594Z" globalInstanceId="A1EF087A49060BA0CC3CB16562666535" msg="RPXE0001W 7.7.300 Engine STOP reason Unknown" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>3</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>61</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="10.134.194.161" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2024-05-02T11:51:17.594Z" globalInstanceId="A1EF087A49060BA1CC3CB16562666535" msg="RPXE0001W Problem Determination Log Statistics" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>4</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>61</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="10.134.194.161" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2024-05-02T11:51:17.594Z" globalInstanceId="A1EF087A49060BA2CC3CB16562666535" msg="RPXE0001W PDLog rejected=0" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>5</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>61</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="10.134.194.161" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2024-05-02T11:51:17.594Z" globalInstanceId="A1EF087A49060BA3CC3CB16562666535" msg="RPXE0001W BREW actions completed = 14" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>6</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>61</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="10.134.194.161" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2024-05-02T11:51:17.594Z" globalInstanceId="A1EF087A49060BA4CC3CB16562666535" msg="RPXE0001W BREW largest pool size = 10" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>7</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>61</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="10.134.194.161" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2024-05-02T11:51:17.594Z" globalInstanceId="A1EF087A49060BA5CC3CB16562666535" msg="RPXE0001W Engine STOP commencing worker finalizers" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>8</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>61</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="10.134.194.161" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2024-05-02T11:51:17.714Z" globalInstanceId="A1EF087A49185B20CC3CB16562666535" msg="RPXE0001W Engine STOP wait for finalizers done  completed=10 poolsize=10" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>9</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>61</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="10.134.194.161" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2024-05-02T11:51:18.784Z" globalInstanceId="A1EF087A49BBA000CC3CB16562666535" msg="RPXE0001W Virtual User Stop Statistics" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>10</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>61</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="10.134.194.161" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2024-05-02T11:51:18.784Z" globalInstanceId="A1EF087A49BBA001CC3CB16562666535" msg="RPXE0001W Stop reason Unknown:  1 users" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>11</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>61</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="10.134.194.161" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2024-05-02T11:51:18.784Z" globalInstanceId="A1EF087A49BBA002CC3CB16562666535" msg="RPXE0001W    [DefaultUserGroup][000001] stopped at 5740" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>12</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>61</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="10.134.194.161" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2024-05-02T11:51:24.084Z" globalInstanceId="A1EF087A4CE45740CC3CB16562666535" msg="RPXE0001W *** Runner process finished normally ***   &lt;main&gt;" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>13</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>61</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="10.134.194.161" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>

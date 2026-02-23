@@ -1,0 +1,214 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<com.ibm.rational.test.lt.models.wscore.configuration:WSDLInformationContainer xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rational.test.lt.models.wscore.configuration="http:///com/ibm/rational/test/lt/models/wscore/configuration.ecore">
+  <securityOperationConfiguration>
+    <SecurityPortConfiguration aliasName="DEFAULTCONFIGURATION"/>
+  </securityOperationConfiguration>
+  <keyStore/>
+  <wsdl name="" key="C:\Users\rajesh-a\HCL\devopstest\workspace_DevOps_Deploy\.gscStore\www.dneonline.com.calculator.asmx.wsdl">
+    <SimpleProperty value="http://tempuri.org/" name="WSDLPROPERTY_TARGETNAMESPACE"/>
+    <SimpleProperty value="d46dd45b43903abbdd5dae3688917b06ea49ec5dd46dd45b43903abbdd5dae3688917b06ea49ec5d" name="WSDLPROPERTY_HASH"/>
+    <SimpleProperty value="1719379143641" name="WSDLPROPERTY_SYNCHROSTAMP"/>
+    <ResourceProxy portablePath="/.gscStore/www.dneonline.com.calculator.asmx.wsdl" timeStamp="1719379143641"/>
+    <WsdlInformationContainer versionContainer="10.1"/>
+    <WsdlBinding name="CalculatorSoap12">
+      <SimpleProperty value="Unknown" name="WSDLBINDINGPROPERTY_TYPE"/>
+      <SimpleProperty value="http://schemas.xmlsoap.org/soap/http" name="WSDLBINDINGPROPERTY_TRANSPORT_TYPE"/>
+      <SimpleProperty value="false" name="Soap11Binding"/>
+      <SimpleProperty value="true" name="Soap12Binding"/>
+      <SimpleProperty value="false" name="HttpBinding"/>
+      <SimpleProperty value="{http://tempuri.org/}CalculatorSoap" name="WSDLBINDING_SERVICE_NAME"/>
+      <WsdlOperation name="Add" key="Add">
+        <WsdlPort name="CalculatorSoap12" uniqueID="-1808963400SEPARATORe134f98a-f1d4-40fa-90bd-37ea3743834c">
+          <SimpleProperty value="http://www.dneonline.com/calculator.asmx" name="WSDLPORTPROPERTY_HTTP_URL"/>
+          <in>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </in>
+          <out>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </out>
+        </WsdlPort>
+        <in>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <WsdlPart element="true" nameSpaceURI="http://tempuri.org/" localPart="Add" partName="parameters"/>
+        </in>
+        <SimpleProperty value="SoapDocumentBinding" name="WSDLOPERATIONPROPERTY_STYLE_TYPE"/>
+        <SimpleProperty value="true" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_REQUIRED"/>
+        <SimpleProperty value="http://tempuri.org/Add" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_URI"/>
+        <out>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <SimpleProperty name="MESSAGENAME"/>
+          <WsdlPart element="true" nameSpaceURI="http://tempuri.org/" localPart="AddResponse" partName="parameters"/>
+        </out>
+      </WsdlOperation>
+      <WsdlOperation name="Subtract" key="Subtract">
+        <WsdlPort name="CalculatorSoap12" uniqueID="-866672599SEPARATORff77c3fa-4041-4339-8e23-2b2fb7f8af9a">
+          <SimpleProperty value="http://www.dneonline.com/calculator.asmx" name="WSDLPORTPROPERTY_HTTP_URL"/>
+          <in>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </in>
+          <out>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </out>
+        </WsdlPort>
+        <in>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <WsdlPart element="true" nameSpaceURI="http://tempuri.org/" localPart="Subtract" partName="parameters"/>
+        </in>
+        <SimpleProperty value="SoapDocumentBinding" name="WSDLOPERATIONPROPERTY_STYLE_TYPE"/>
+        <SimpleProperty value="true" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_REQUIRED"/>
+        <SimpleProperty value="http://tempuri.org/Subtract" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_URI"/>
+        <out>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <SimpleProperty name="MESSAGENAME"/>
+          <WsdlPart element="true" nameSpaceURI="http://tempuri.org/" localPart="SubtractResponse" partName="parameters"/>
+        </out>
+      </WsdlOperation>
+      <WsdlOperation name="Multiply" key="Multiply">
+        <WsdlPort name="CalculatorSoap12" uniqueID="798937484SEPARATORaa36675b-6c62-4fb2-af6b-3b44c82cde72">
+          <SimpleProperty value="http://www.dneonline.com/calculator.asmx" name="WSDLPORTPROPERTY_HTTP_URL"/>
+          <in>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </in>
+          <out>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </out>
+        </WsdlPort>
+        <in>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <WsdlPart element="true" nameSpaceURI="http://tempuri.org/" localPart="Multiply" partName="parameters"/>
+        </in>
+        <SimpleProperty value="SoapDocumentBinding" name="WSDLOPERATIONPROPERTY_STYLE_TYPE"/>
+        <SimpleProperty value="true" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_REQUIRED"/>
+        <SimpleProperty value="http://tempuri.org/Multiply" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_URI"/>
+        <out>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <SimpleProperty name="MESSAGENAME"/>
+          <WsdlPart element="true" nameSpaceURI="http://tempuri.org/" localPart="MultiplyResponse" partName="parameters"/>
+        </out>
+      </WsdlOperation>
+      <WsdlOperation name="Divide" key="Divide">
+        <WsdlPort name="CalculatorSoap12" uniqueID="-1682944500SEPARATORc5a76427-d139-437a-b60f-49db9b430fef">
+          <SimpleProperty value="http://www.dneonline.com/calculator.asmx" name="WSDLPORTPROPERTY_HTTP_URL"/>
+          <in>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </in>
+          <out>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </out>
+        </WsdlPort>
+        <in>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <WsdlPart element="true" nameSpaceURI="http://tempuri.org/" localPart="Divide" partName="parameters"/>
+        </in>
+        <SimpleProperty value="SoapDocumentBinding" name="WSDLOPERATIONPROPERTY_STYLE_TYPE"/>
+        <SimpleProperty value="true" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_REQUIRED"/>
+        <SimpleProperty value="http://tempuri.org/Divide" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_URI"/>
+        <out>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <SimpleProperty name="MESSAGENAME"/>
+          <WsdlPart element="true" nameSpaceURI="http://tempuri.org/" localPart="DivideResponse" partName="parameters"/>
+        </out>
+      </WsdlOperation>
+    </WsdlBinding>
+    <WsdlBinding name="CalculatorSoap">
+      <SimpleProperty value="Unknown" name="WSDLBINDINGPROPERTY_TYPE"/>
+      <SimpleProperty value="http://schemas.xmlsoap.org/soap/http" name="WSDLBINDINGPROPERTY_TRANSPORT_TYPE"/>
+      <SimpleProperty value="true" name="Soap11Binding"/>
+      <SimpleProperty value="false" name="Soap12Binding"/>
+      <SimpleProperty value="false" name="HttpBinding"/>
+      <SimpleProperty value="{http://tempuri.org/}CalculatorSoap" name="WSDLBINDING_SERVICE_NAME"/>
+      <WsdlOperation name="Add" key="Add">
+        <WsdlPort name="CalculatorSoap" uniqueID="-1492588080SEPARATOR16633e7a-7f84-44a5-936d-fd443f6547a7">
+          <SimpleProperty value="http://www.dneonline.com/calculator.asmx" name="WSDLPORTPROPERTY_HTTP_URL"/>
+          <in>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </in>
+          <out>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </out>
+        </WsdlPort>
+        <in>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <WsdlPart element="true" nameSpaceURI="http://tempuri.org/" localPart="Add" partName="parameters"/>
+        </in>
+        <SimpleProperty value="SoapDocumentBinding" name="WSDLOPERATIONPROPERTY_STYLE_TYPE"/>
+        <SimpleProperty value="true" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_REQUIRED"/>
+        <SimpleProperty value="http://tempuri.org/Add" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_URI"/>
+        <out>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <SimpleProperty name="MESSAGENAME"/>
+          <WsdlPart element="true" nameSpaceURI="http://tempuri.org/" localPart="AddResponse" partName="parameters"/>
+        </out>
+      </WsdlOperation>
+      <WsdlOperation name="Subtract" key="Subtract">
+        <WsdlPort name="CalculatorSoap" uniqueID="-962485233SEPARATOR271b413d-729a-49e2-b60f-95638eecfc32">
+          <SimpleProperty value="http://www.dneonline.com/calculator.asmx" name="WSDLPORTPROPERTY_HTTP_URL"/>
+          <in>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </in>
+          <out>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </out>
+        </WsdlPort>
+        <in>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <WsdlPart element="true" nameSpaceURI="http://tempuri.org/" localPart="Subtract" partName="parameters"/>
+        </in>
+        <SimpleProperty value="SoapDocumentBinding" name="WSDLOPERATIONPROPERTY_STYLE_TYPE"/>
+        <SimpleProperty value="true" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_REQUIRED"/>
+        <SimpleProperty value="http://tempuri.org/Subtract" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_URI"/>
+        <out>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <SimpleProperty name="MESSAGENAME"/>
+          <WsdlPart element="true" nameSpaceURI="http://tempuri.org/" localPart="SubtractResponse" partName="parameters"/>
+        </out>
+      </WsdlOperation>
+      <WsdlOperation name="Multiply" key="Multiply">
+        <WsdlPort name="CalculatorSoap" uniqueID="-600675318SEPARATOR27cca5b8-edf8-4021-9137-58a9a1c78ec0">
+          <SimpleProperty value="http://www.dneonline.com/calculator.asmx" name="WSDLPORTPROPERTY_HTTP_URL"/>
+          <in>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </in>
+          <out>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </out>
+        </WsdlPort>
+        <in>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <WsdlPart element="true" nameSpaceURI="http://tempuri.org/" localPart="Multiply" partName="parameters"/>
+        </in>
+        <SimpleProperty value="SoapDocumentBinding" name="WSDLOPERATIONPROPERTY_STYLE_TYPE"/>
+        <SimpleProperty value="true" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_REQUIRED"/>
+        <SimpleProperty value="http://tempuri.org/Multiply" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_URI"/>
+        <out>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <SimpleProperty name="MESSAGENAME"/>
+          <WsdlPart element="true" nameSpaceURI="http://tempuri.org/" localPart="MultiplyResponse" partName="parameters"/>
+        </out>
+      </WsdlOperation>
+      <WsdlOperation name="Divide" key="Divide">
+        <WsdlPort name="CalculatorSoap" uniqueID="-1164740668SEPARATORe5b219e3-ca0d-4207-9ac3-5d7b27e5e505">
+          <SimpleProperty value="http://www.dneonline.com/calculator.asmx" name="WSDLPORTPROPERTY_HTTP_URL"/>
+          <in>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </in>
+          <out>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </out>
+        </WsdlPort>
+        <in>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <WsdlPart element="true" nameSpaceURI="http://tempuri.org/" localPart="Divide" partName="parameters"/>
+        </in>
+        <SimpleProperty value="SoapDocumentBinding" name="WSDLOPERATIONPROPERTY_STYLE_TYPE"/>
+        <SimpleProperty value="true" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_REQUIRED"/>
+        <SimpleProperty value="http://tempuri.org/Divide" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_URI"/>
+        <out>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <SimpleProperty name="MESSAGENAME"/>
+          <WsdlPart element="true" nameSpaceURI="http://tempuri.org/" localPart="DivideResponse" partName="parameters"/>
+        </out>
+      </WsdlOperation>
+    </WsdlBinding>
+  </wsdl>
+</com.ibm.rational.test.lt.models.wscore.configuration:WSDLInformationContainer>

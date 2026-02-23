@@ -1,0 +1,16 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<com.ibm.rational.test.lt.models.wscore.protocol:ProtocolConfigurationAliasStore xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.ibm.rational.test.lt.models.wscore.protocol="http:///com/ibm/rational/test/lt/models/wscore/protocol.ecore" xmlns:com.ibm.rational.test.lt.models.wscore.protocol.dotnet="http:///com/ibm/rational/test/lt/models/wscore/protocol/dotnet.ecore" aliasName="CalculatorSoap12">
+  <configuration xsi:type="com.ibm.rational.test.lt.models.wscore.protocol.dotnet:DotNetProtocolConfiguration">
+    <SimpleProperty value="http://tempuri.org/Add" name="Method@0@Action"/>
+    <SimpleProperty value="http://tempuri.org/AddResponse" name="Method@0@Return-Action"/>
+    <SimpleProperty value="http://tempuri.org/Subtract" name="Method@1@Action"/>
+    <SimpleProperty value="http://tempuri.org/SubtractResponse" name="Method@1@Return-Action"/>
+    <SimpleProperty value="http://tempuri.org/Multiply" name="Method@2@Action"/>
+    <SimpleProperty value="http://tempuri.org/MultiplyResponse" name="Method@2@Return-Action"/>
+    <SimpleProperty value="http://tempuri.org/Divide" name="Method@3@Action"/>
+    <SimpleProperty value="http://tempuri.org/DivideResponse" name="Method@3@Return-Action"/>
+    <UserName/>
+    <Password/>
+    <endPointProtectionLevel/>
+  </configuration>
+</com.ibm.rational.test.lt.models.wscore.protocol:ProtocolConfigurationAliasStore>

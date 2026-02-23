@@ -1,0 +1,4 @@
+RPTServerAllowExternalControl=true
+RPTServerLocalhostOnly=false
+RPTServerNotSecure=true
+eclipse.preferences.version=1

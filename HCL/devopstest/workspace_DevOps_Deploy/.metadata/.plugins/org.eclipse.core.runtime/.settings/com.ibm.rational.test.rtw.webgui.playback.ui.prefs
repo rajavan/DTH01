@@ -1,0 +1,5 @@
+browser.clearcache=true
+browser.clearhistory=true
+eclipse.preferences.version=1
+rm.polling.interval=5000
+runtime.steps.delay=true

@@ -1,0 +1,5 @@
+#Thu Mar 14 18:33:43 IST 2024
+__DEFAULT__=false
+org.eclipse.sdk.Eclipse.master=true
+org.eclipse.help.ui.localSearch.master=true
+expression=IDCArray

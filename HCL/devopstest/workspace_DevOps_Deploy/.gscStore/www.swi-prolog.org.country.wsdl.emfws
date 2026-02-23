@@ -1,0 +1,918 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<com.ibm.rational.test.lt.models.wscore.configuration:WSDLInformationContainer xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rational.test.lt.models.wscore.configuration="http:///com/ibm/rational/test/lt/models/wscore/configuration.ecore">
+  <securityOperationConfiguration>
+    <SecurityPortConfiguration aliasName="DEFAULTCONFIGURATION"/>
+  </securityOperationConfiguration>
+  <keyStore/>
+  <wsdl name="" key="C:\Users\rajesh-a\HCL\devopstest\workspace_DevOps_Deploy\.gscStore\www.swi-prolog.org.country.wsdl">
+    <SimpleProperty value="http://www.webserviceX.NET" name="WSDLPROPERTY_TARGETNAMESPACE"/>
+    <SimpleProperty value="ca2d48d63d7324d4652eba43bdb99eeda2f648a1ca2d48d63d7324d4652eba43bdb99eeda2f648a1" name="WSDLPROPERTY_HASH"/>
+    <SimpleProperty value="1719379220122" name="WSDLPROPERTY_SYNCHROSTAMP"/>
+    <ResourceProxy portablePath="/.gscStore/www.swi-prolog.org.country.wsdl" timeStamp="1719379220122"/>
+    <WsdlInformationContainer versionContainer="10.1"/>
+    <WsdlBinding name="countryHttpGet">
+      <SimpleProperty value="GET" name="HttpVerbBinding"/>
+      <SimpleProperty value="&amp;" name="HttpQueryParamSeparatorBinding"/>
+      <SimpleProperty value="true" name="HttpBinding"/>
+      <SimpleProperty value="false" name="Soap11Binding"/>
+      <SimpleProperty value="false" name="Soap12Binding"/>
+      <WsdlOperation name="GetCountryByCountryCode" key="GetCountryByCountryCode">
+        <WsdlPort name="countryHttpGet" uniqueID="722231180SEPARATOR347e20d4-b0ac-4333-89ff-1adc40187f98">
+          <SimpleProperty value="http://www.webservicex.net/country.asmx" name="WSDLPORTPROPERTY_HTTP_URL"/>
+          <in>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </in>
+          <out>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </out>
+        </WsdlPort>
+        <in>
+          <SimpleProperty value="urlEncoded" name="WSDLOPERATIONINFORMATION_HTTP_URL_ENCODED"/>
+          <WsdlPart element="false" nameSpaceURI="http://www.w3.org/2001/XMLSchema" localPart="string" partName="CountryCode"/>
+        </in>
+        <SimpleProperty value="/GetCountryByCountryCode" name="WSDLOPERATIONPROPERTY_HTTP_LOCATION"/>
+        <out>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <SimpleProperty name="MESSAGENAME"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.webserviceX.NET" localPart="string" partName="Body"/>
+        </out>
+      </WsdlOperation>
+      <WsdlOperation name="GetISD" key="GetISD">
+        <WsdlPort name="countryHttpGet" uniqueID="1613180061SEPARATOR5e826cb4-6aea-438d-a357-df9b8b17b2ba">
+          <SimpleProperty value="http://www.webservicex.net/country.asmx" name="WSDLPORTPROPERTY_HTTP_URL"/>
+          <in>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </in>
+          <out>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </out>
+        </WsdlPort>
+        <in>
+          <SimpleProperty value="urlEncoded" name="WSDLOPERATIONINFORMATION_HTTP_URL_ENCODED"/>
+          <WsdlPart element="false" nameSpaceURI="http://www.w3.org/2001/XMLSchema" localPart="string" partName="CountryName"/>
+        </in>
+        <SimpleProperty value="/GetISD" name="WSDLOPERATIONPROPERTY_HTTP_LOCATION"/>
+        <out>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <SimpleProperty name="MESSAGENAME"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.webserviceX.NET" localPart="string" partName="Body"/>
+        </out>
+      </WsdlOperation>
+      <WsdlOperation name="GetCountries" key="GetCountries">
+        <WsdlPort name="countryHttpGet" uniqueID="343972515SEPARATORbfdff894-a262-4d3b-9bfc-834f70454bcd">
+          <SimpleProperty value="http://www.webservicex.net/country.asmx" name="WSDLPORTPROPERTY_HTTP_URL"/>
+          <in>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </in>
+          <out>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </out>
+        </WsdlPort>
+        <in>
+          <SimpleProperty value="urlEncoded" name="WSDLOPERATIONINFORMATION_HTTP_URL_ENCODED"/>
+        </in>
+        <SimpleProperty value="/GetCountries" name="WSDLOPERATIONPROPERTY_HTTP_LOCATION"/>
+        <out>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <SimpleProperty name="MESSAGENAME"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.webserviceX.NET" localPart="string" partName="Body"/>
+        </out>
+      </WsdlOperation>
+      <WsdlOperation name="GetCurrencyCodeByCurrencyName" key="GetCurrencyCodeByCurrencyName">
+        <WsdlPort name="countryHttpGet" uniqueID="-1810771293SEPARATOR5c9b336f-b47b-49fd-a6fc-0338d7dd71a7">
+          <SimpleProperty value="http://www.webservicex.net/country.asmx" name="WSDLPORTPROPERTY_HTTP_URL"/>
+          <in>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </in>
+          <out>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </out>
+        </WsdlPort>
+        <in>
+          <SimpleProperty value="urlEncoded" name="WSDLOPERATIONINFORMATION_HTTP_URL_ENCODED"/>
+          <WsdlPart element="false" nameSpaceURI="http://www.w3.org/2001/XMLSchema" localPart="string" partName="CurrencyName"/>
+        </in>
+        <SimpleProperty value="/GetCurrencyCodeByCurrencyName" name="WSDLOPERATIONPROPERTY_HTTP_LOCATION"/>
+        <out>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <SimpleProperty name="MESSAGENAME"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.webserviceX.NET" localPart="string" partName="Body"/>
+        </out>
+      </WsdlOperation>
+      <WsdlOperation name="GetISOCountryCodeByCountyName" key="GetISOCountryCodeByCountyName">
+        <WsdlPort name="countryHttpGet" uniqueID="-1459163760SEPARATOR29227884-b2e9-480d-b763-fd70d5bccde7">
+          <SimpleProperty value="http://www.webservicex.net/country.asmx" name="WSDLPORTPROPERTY_HTTP_URL"/>
+          <in>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </in>
+          <out>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </out>
+        </WsdlPort>
+        <in>
+          <SimpleProperty value="urlEncoded" name="WSDLOPERATIONINFORMATION_HTTP_URL_ENCODED"/>
+          <WsdlPart element="false" nameSpaceURI="http://www.w3.org/2001/XMLSchema" localPart="string" partName="CountryName"/>
+        </in>
+        <SimpleProperty value="/GetISOCountryCodeByCountyName" name="WSDLOPERATIONPROPERTY_HTTP_LOCATION"/>
+        <out>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <SimpleProperty name="MESSAGENAME"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.webserviceX.NET" localPart="string" partName="Body"/>
+        </out>
+      </WsdlOperation>
+      <WsdlOperation name="GetCurrencyCode" key="GetCurrencyCode">
+        <WsdlPort name="countryHttpGet" uniqueID="477780621SEPARATOR1eea049a-03ad-465e-8c35-d5770db78a7e">
+          <SimpleProperty value="http://www.webservicex.net/country.asmx" name="WSDLPORTPROPERTY_HTTP_URL"/>
+          <in>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </in>
+          <out>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </out>
+        </WsdlPort>
+        <in>
+          <SimpleProperty value="urlEncoded" name="WSDLOPERATIONINFORMATION_HTTP_URL_ENCODED"/>
+        </in>
+        <SimpleProperty value="/GetCurrencyCode" name="WSDLOPERATIONPROPERTY_HTTP_LOCATION"/>
+        <out>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <SimpleProperty name="MESSAGENAME"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.webserviceX.NET" localPart="string" partName="Body"/>
+        </out>
+      </WsdlOperation>
+      <WsdlOperation name="GetCountryByCurrencyCode" key="GetCountryByCurrencyCode">
+        <WsdlPort name="countryHttpGet" uniqueID="-32292508SEPARATOR300038db-a2b9-4f91-9095-8893ca527598">
+          <SimpleProperty value="http://www.webservicex.net/country.asmx" name="WSDLPORTPROPERTY_HTTP_URL"/>
+          <in>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </in>
+          <out>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </out>
+        </WsdlPort>
+        <in>
+          <SimpleProperty value="urlEncoded" name="WSDLOPERATIONINFORMATION_HTTP_URL_ENCODED"/>
+          <WsdlPart element="false" nameSpaceURI="http://www.w3.org/2001/XMLSchema" localPart="string" partName="CurrencyCode"/>
+        </in>
+        <SimpleProperty value="/GetCountryByCurrencyCode" name="WSDLOPERATIONPROPERTY_HTTP_LOCATION"/>
+        <out>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <SimpleProperty name="MESSAGENAME"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.webserviceX.NET" localPart="string" partName="Body"/>
+        </out>
+      </WsdlOperation>
+      <WsdlOperation name="GetCurrencies" key="GetCurrencies">
+        <WsdlPort name="countryHttpGet" uniqueID="1820154438SEPARATORb0d8442e-2dfe-4d00-bc02-71009ebc3062">
+          <SimpleProperty value="http://www.webservicex.net/country.asmx" name="WSDLPORTPROPERTY_HTTP_URL"/>
+          <in>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </in>
+          <out>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </out>
+        </WsdlPort>
+        <in>
+          <SimpleProperty value="urlEncoded" name="WSDLOPERATIONINFORMATION_HTTP_URL_ENCODED"/>
+        </in>
+        <SimpleProperty value="/GetCurrencies" name="WSDLOPERATIONPROPERTY_HTTP_LOCATION"/>
+        <out>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <SimpleProperty name="MESSAGENAME"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.webserviceX.NET" localPart="string" partName="Body"/>
+        </out>
+      </WsdlOperation>
+      <WsdlOperation name="GetCurrencyByCountry" key="GetCurrencyByCountry">
+        <WsdlPort name="countryHttpGet" uniqueID="-750555387SEPARATORca44e468-6026-498a-9246-00ed4af4593e">
+          <SimpleProperty value="http://www.webservicex.net/country.asmx" name="WSDLPORTPROPERTY_HTTP_URL"/>
+          <in>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </in>
+          <out>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </out>
+        </WsdlPort>
+        <in>
+          <SimpleProperty value="urlEncoded" name="WSDLOPERATIONINFORMATION_HTTP_URL_ENCODED"/>
+          <WsdlPart element="false" nameSpaceURI="http://www.w3.org/2001/XMLSchema" localPart="string" partName="CountryName"/>
+        </in>
+        <SimpleProperty value="/GetCurrencyByCountry" name="WSDLOPERATIONPROPERTY_HTTP_LOCATION"/>
+        <out>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <SimpleProperty name="MESSAGENAME"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.webserviceX.NET" localPart="string" partName="Body"/>
+        </out>
+      </WsdlOperation>
+      <WsdlOperation name="GetGMTbyCountry" key="GetGMTbyCountry">
+        <WsdlPort name="countryHttpGet" uniqueID="789145855SEPARATORb79b6426-fc7a-4725-8b05-e9d00c420636">
+          <SimpleProperty value="http://www.webservicex.net/country.asmx" name="WSDLPORTPROPERTY_HTTP_URL"/>
+          <in>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </in>
+          <out>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </out>
+        </WsdlPort>
+        <in>
+          <SimpleProperty value="urlEncoded" name="WSDLOPERATIONINFORMATION_HTTP_URL_ENCODED"/>
+          <WsdlPart element="false" nameSpaceURI="http://www.w3.org/2001/XMLSchema" localPart="string" partName="CountryName"/>
+        </in>
+        <SimpleProperty value="/GetGMTbyCountry" name="WSDLOPERATIONPROPERTY_HTTP_LOCATION"/>
+        <out>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <SimpleProperty name="MESSAGENAME"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.webserviceX.NET" localPart="string" partName="Body"/>
+        </out>
+      </WsdlOperation>
+    </WsdlBinding>
+    <WsdlBinding name="countrySoap12">
+      <SimpleProperty value="Unknown" name="WSDLBINDINGPROPERTY_TYPE"/>
+      <SimpleProperty value="http://schemas.xmlsoap.org/soap/http" name="WSDLBINDINGPROPERTY_TRANSPORT_TYPE"/>
+      <SimpleProperty value="false" name="Soap11Binding"/>
+      <SimpleProperty value="true" name="Soap12Binding"/>
+      <SimpleProperty value="false" name="HttpBinding"/>
+      <SimpleProperty value="{http://www.webserviceX.NET}countrySoap" name="WSDLBINDING_SERVICE_NAME"/>
+      <WsdlOperation name="GetCountryByCountryCode" key="GetCountryByCountryCode">
+        <WsdlPort name="countrySoap12" uniqueID="-1854905614SEPARATOR1c53fd7c-45d9-4660-8cad-81fb5f6facde">
+          <SimpleProperty value="http://www.webservicex.net/country.asmx" name="WSDLPORTPROPERTY_HTTP_URL"/>
+          <in>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </in>
+          <out>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </out>
+        </WsdlPort>
+        <in>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.webserviceX.NET" localPart="GetCountryByCountryCode" partName="parameters"/>
+        </in>
+        <SimpleProperty value="SoapDocumentBinding" name="WSDLOPERATIONPROPERTY_STYLE_TYPE"/>
+        <SimpleProperty value="true" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_REQUIRED"/>
+        <SimpleProperty value="http://www.webserviceX.NET/GetCountryByCountryCode" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_URI"/>
+        <out>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <SimpleProperty name="MESSAGENAME"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.webserviceX.NET" localPart="GetCountryByCountryCodeResponse" partName="parameters"/>
+        </out>
+      </WsdlOperation>
+      <WsdlOperation name="GetISD" key="GetISD">
+        <WsdlPort name="countrySoap12" uniqueID="-683625168SEPARATORb4d8fbd4-ff9c-4f8e-b1fb-1008de5e34ad">
+          <SimpleProperty value="http://www.webservicex.net/country.asmx" name="WSDLPORTPROPERTY_HTTP_URL"/>
+          <in>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </in>
+          <out>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </out>
+        </WsdlPort>
+        <in>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.webserviceX.NET" localPart="GetISD" partName="parameters"/>
+        </in>
+        <SimpleProperty value="SoapDocumentBinding" name="WSDLOPERATIONPROPERTY_STYLE_TYPE"/>
+        <SimpleProperty value="true" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_REQUIRED"/>
+        <SimpleProperty value="http://www.webserviceX.NET/GetISD" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_URI"/>
+        <out>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <SimpleProperty name="MESSAGENAME"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.webserviceX.NET" localPart="GetISDResponse" partName="parameters"/>
+        </out>
+      </WsdlOperation>
+      <WsdlOperation name="GetCountries" key="GetCountries">
+        <WsdlPort name="countrySoap12" uniqueID="1010375641SEPARATOR5a9d3934-ef83-4350-a405-a1526628adf2">
+          <SimpleProperty value="http://www.webservicex.net/country.asmx" name="WSDLPORTPROPERTY_HTTP_URL"/>
+          <in>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </in>
+          <out>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </out>
+        </WsdlPort>
+        <in>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.webserviceX.NET" localPart="GetCountries" partName="parameters"/>
+        </in>
+        <SimpleProperty value="SoapDocumentBinding" name="WSDLOPERATIONPROPERTY_STYLE_TYPE"/>
+        <SimpleProperty value="true" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_REQUIRED"/>
+        <SimpleProperty value="http://www.webserviceX.NET/GetCountries" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_URI"/>
+        <out>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <SimpleProperty name="MESSAGENAME"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.webserviceX.NET" localPart="GetCountriesResponse" partName="parameters"/>
+        </out>
+      </WsdlOperation>
+      <WsdlOperation name="GetCurrencyCodeByCurrencyName" key="GetCurrencyCodeByCurrencyName">
+        <WsdlPort name="countrySoap12" uniqueID="1266717737SEPARATORf19569ae-42af-455e-a5f0-fd69e16e0d9b">
+          <SimpleProperty value="http://www.webservicex.net/country.asmx" name="WSDLPORTPROPERTY_HTTP_URL"/>
+          <in>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </in>
+          <out>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </out>
+        </WsdlPort>
+        <in>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.webserviceX.NET" localPart="GetCurrencyCodeByCurrencyName" partName="parameters"/>
+        </in>
+        <SimpleProperty value="SoapDocumentBinding" name="WSDLOPERATIONPROPERTY_STYLE_TYPE"/>
+        <SimpleProperty value="true" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_REQUIRED"/>
+        <SimpleProperty value="http://www.webserviceX.NET/GetCurrencyCodeByCurrencyName" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_URI"/>
+        <out>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <SimpleProperty name="MESSAGENAME"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.webserviceX.NET" localPart="GetCurrencyCodeByCurrencyNameResponse" partName="parameters"/>
+        </out>
+      </WsdlOperation>
+      <WsdlOperation name="GetISOCountryCodeByCountyName" key="GetISOCountryCodeByCountyName">
+        <WsdlPort name="countrySoap12" uniqueID="125205038SEPARATOR3eeebf64-9e95-4303-832c-3bfe96adef09">
+          <SimpleProperty value="http://www.webservicex.net/country.asmx" name="WSDLPORTPROPERTY_HTTP_URL"/>
+          <in>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </in>
+          <out>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </out>
+        </WsdlPort>
+        <in>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.webserviceX.NET" localPart="GetISOCountryCodeByCountyName" partName="parameters"/>
+        </in>
+        <SimpleProperty value="SoapDocumentBinding" name="WSDLOPERATIONPROPERTY_STYLE_TYPE"/>
+        <SimpleProperty value="true" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_REQUIRED"/>
+        <SimpleProperty value="http://www.webserviceX.NET/GetISOCountryCodeByCountyName" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_URI"/>
+        <out>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <SimpleProperty name="MESSAGENAME"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.webserviceX.NET" localPart="GetISOCountryCodeByCountyNameResponse" partName="parameters"/>
+        </out>
+      </WsdlOperation>
+      <WsdlOperation name="GetCurrencyCode" key="GetCurrencyCode">
+        <WsdlPort name="countrySoap12" uniqueID="1385290485SEPARATORf2274f4c-6091-4402-bc86-c027075a61bc">
+          <SimpleProperty value="http://www.webservicex.net/country.asmx" name="WSDLPORTPROPERTY_HTTP_URL"/>
+          <in>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </in>
+          <out>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </out>
+        </WsdlPort>
+        <in>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.webserviceX.NET" localPart="GetCurrencyCode" partName="parameters"/>
+        </in>
+        <SimpleProperty value="SoapDocumentBinding" name="WSDLOPERATIONPROPERTY_STYLE_TYPE"/>
+        <SimpleProperty value="true" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_REQUIRED"/>
+        <SimpleProperty value="http://www.webserviceX.NET/GetCurrencyCode" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_URI"/>
+        <out>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <SimpleProperty name="MESSAGENAME"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.webserviceX.NET" localPart="GetCurrencyCodeResponse" partName="parameters"/>
+        </out>
+      </WsdlOperation>
+      <WsdlOperation name="GetCountryByCurrencyCode" key="GetCountryByCurrencyCode">
+        <WsdlPort name="countrySoap12" uniqueID="-1139037166SEPARATOR44ad2ddf-5e2a-429a-aaf1-d28061b1831e">
+          <SimpleProperty value="http://www.webservicex.net/country.asmx" name="WSDLPORTPROPERTY_HTTP_URL"/>
+          <in>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </in>
+          <out>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </out>
+        </WsdlPort>
+        <in>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.webserviceX.NET" localPart="GetCountryByCurrencyCode" partName="parameters"/>
+        </in>
+        <SimpleProperty value="SoapDocumentBinding" name="WSDLOPERATIONPROPERTY_STYLE_TYPE"/>
+        <SimpleProperty value="true" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_REQUIRED"/>
+        <SimpleProperty value="http://www.webserviceX.NET/GetCountryByCurrencyCode" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_URI"/>
+        <out>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <SimpleProperty name="MESSAGENAME"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.webserviceX.NET" localPart="GetCountryByCurrencyCodeResponse" partName="parameters"/>
+        </out>
+      </WsdlOperation>
+      <WsdlOperation name="GetCurrencies" key="GetCurrencies">
+        <WsdlPort name="countrySoap12" uniqueID="-811223334SEPARATOR7cf9900f-8e56-4f41-89e7-8776a0b145b4">
+          <SimpleProperty value="http://www.webservicex.net/country.asmx" name="WSDLPORTPROPERTY_HTTP_URL"/>
+          <in>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </in>
+          <out>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </out>
+        </WsdlPort>
+        <in>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.webserviceX.NET" localPart="GetCurrencies" partName="parameters"/>
+        </in>
+        <SimpleProperty value="SoapDocumentBinding" name="WSDLOPERATIONPROPERTY_STYLE_TYPE"/>
+        <SimpleProperty value="true" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_REQUIRED"/>
+        <SimpleProperty value="http://www.webserviceX.NET/GetCurrencies" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_URI"/>
+        <out>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <SimpleProperty name="MESSAGENAME"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.webserviceX.NET" localPart="GetCurrenciesResponse" partName="parameters"/>
+        </out>
+      </WsdlOperation>
+      <WsdlOperation name="GetCurrencyByCountry" key="GetCurrencyByCountry">
+        <WsdlPort name="countrySoap12" uniqueID="1376152844SEPARATORc78b8639-ece2-4bb0-b9d5-74e8bf515d8a">
+          <SimpleProperty value="http://www.webservicex.net/country.asmx" name="WSDLPORTPROPERTY_HTTP_URL"/>
+          <in>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </in>
+          <out>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </out>
+        </WsdlPort>
+        <in>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.webserviceX.NET" localPart="GetCurrencyByCountry" partName="parameters"/>
+        </in>
+        <SimpleProperty value="SoapDocumentBinding" name="WSDLOPERATIONPROPERTY_STYLE_TYPE"/>
+        <SimpleProperty value="true" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_REQUIRED"/>
+        <SimpleProperty value="http://www.webserviceX.NET/GetCurrencyByCountry" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_URI"/>
+        <out>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <SimpleProperty name="MESSAGENAME"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.webserviceX.NET" localPart="GetCurrencyByCountryResponse" partName="parameters"/>
+        </out>
+      </WsdlOperation>
+      <WsdlOperation name="GetGMTbyCountry" key="GetGMTbyCountry">
+        <WsdlPort name="countrySoap12" uniqueID="-1774588656SEPARATORf9626548-eb8f-4981-a43d-5e519c477897">
+          <SimpleProperty value="http://www.webservicex.net/country.asmx" name="WSDLPORTPROPERTY_HTTP_URL"/>
+          <in>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </in>
+          <out>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </out>
+        </WsdlPort>
+        <in>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.webserviceX.NET" localPart="GetGMTbyCountry" partName="parameters"/>
+        </in>
+        <SimpleProperty value="SoapDocumentBinding" name="WSDLOPERATIONPROPERTY_STYLE_TYPE"/>
+        <SimpleProperty value="true" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_REQUIRED"/>
+        <SimpleProperty value="http://www.webserviceX.NET/GetGMTbyCountry" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_URI"/>
+        <out>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <SimpleProperty name="MESSAGENAME"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.webserviceX.NET" localPart="GetGMTbyCountryResponse" partName="parameters"/>
+        </out>
+      </WsdlOperation>
+    </WsdlBinding>
+    <WsdlBinding name="countryHttpPost">
+      <SimpleProperty value="POST" name="HttpVerbBinding"/>
+      <SimpleProperty value="&amp;" name="HttpQueryParamSeparatorBinding"/>
+      <SimpleProperty value="true" name="HttpBinding"/>
+      <SimpleProperty value="false" name="Soap11Binding"/>
+      <SimpleProperty value="false" name="Soap12Binding"/>
+      <WsdlOperation name="GetCountryByCountryCode" key="GetCountryByCountryCode">
+        <WsdlPort name="countryHttpPost" uniqueID="917782767SEPARATORf933d113-6c5e-4bd3-9fbb-9686072a0a2b">
+          <SimpleProperty value="http://www.webservicex.net/country.asmx" name="WSDLPORTPROPERTY_HTTP_URL"/>
+          <in>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </in>
+          <out>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </out>
+        </WsdlPort>
+        <in>
+          <SimpleProperty value="application/x-www-form-urlencoded" name="WSDLOPERATIONINFORMATION_HTTP_MIME_CONTENT_TYPE"/>
+          <WsdlPart element="false" nameSpaceURI="http://www.w3.org/2001/XMLSchema" localPart="string" partName="CountryCode"/>
+        </in>
+        <SimpleProperty value="/GetCountryByCountryCode" name="WSDLOPERATIONPROPERTY_HTTP_LOCATION"/>
+        <out>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <SimpleProperty name="MESSAGENAME"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.webserviceX.NET" localPart="string" partName="Body"/>
+        </out>
+      </WsdlOperation>
+      <WsdlOperation name="GetISD" key="GetISD">
+        <WsdlPort name="countryHttpPost" uniqueID="-1909581831SEPARATORfa1b3aa5-3e8d-457f-a564-247b6b5c99a7">
+          <SimpleProperty value="http://www.webservicex.net/country.asmx" name="WSDLPORTPROPERTY_HTTP_URL"/>
+          <in>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </in>
+          <out>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </out>
+        </WsdlPort>
+        <in>
+          <SimpleProperty value="application/x-www-form-urlencoded" name="WSDLOPERATIONINFORMATION_HTTP_MIME_CONTENT_TYPE"/>
+          <WsdlPart element="false" nameSpaceURI="http://www.w3.org/2001/XMLSchema" localPart="string" partName="CountryName"/>
+        </in>
+        <SimpleProperty value="/GetISD" name="WSDLOPERATIONPROPERTY_HTTP_LOCATION"/>
+        <out>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <SimpleProperty name="MESSAGENAME"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.webserviceX.NET" localPart="string" partName="Body"/>
+        </out>
+      </WsdlOperation>
+      <WsdlOperation name="GetCountries" key="GetCountries">
+        <WsdlPort name="countryHttpPost" uniqueID="8052614SEPARATOR2f50d83b-9e20-4386-ae02-92b886350a81">
+          <SimpleProperty value="http://www.webservicex.net/country.asmx" name="WSDLPORTPROPERTY_HTTP_URL"/>
+          <in>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </in>
+          <out>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </out>
+        </WsdlPort>
+        <in>
+          <SimpleProperty value="application/x-www-form-urlencoded" name="WSDLOPERATIONINFORMATION_HTTP_MIME_CONTENT_TYPE"/>
+        </in>
+        <SimpleProperty value="/GetCountries" name="WSDLOPERATIONPROPERTY_HTTP_LOCATION"/>
+        <out>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <SimpleProperty name="MESSAGENAME"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.webserviceX.NET" localPart="string" partName="Body"/>
+        </out>
+      </WsdlOperation>
+      <WsdlOperation name="GetCurrencyCodeByCurrencyName" key="GetCurrencyCodeByCurrencyName">
+        <WsdlPort name="countryHttpPost" uniqueID="-1297379766SEPARATOR6e97b3ca-91fc-486c-a94e-fb8aa7174a50">
+          <SimpleProperty value="http://www.webservicex.net/country.asmx" name="WSDLPORTPROPERTY_HTTP_URL"/>
+          <in>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </in>
+          <out>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </out>
+        </WsdlPort>
+        <in>
+          <SimpleProperty value="application/x-www-form-urlencoded" name="WSDLOPERATIONINFORMATION_HTTP_MIME_CONTENT_TYPE"/>
+          <WsdlPart element="false" nameSpaceURI="http://www.w3.org/2001/XMLSchema" localPart="string" partName="CurrencyName"/>
+        </in>
+        <SimpleProperty value="/GetCurrencyCodeByCurrencyName" name="WSDLOPERATIONPROPERTY_HTTP_LOCATION"/>
+        <out>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <SimpleProperty name="MESSAGENAME"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.webserviceX.NET" localPart="string" partName="Body"/>
+        </out>
+      </WsdlOperation>
+      <WsdlOperation name="GetISOCountryCodeByCountyName" key="GetISOCountryCodeByCountyName">
+        <WsdlPort name="countryHttpPost" uniqueID="846805233SEPARATORea9f008f-56db-4061-a9a2-699b6cfd6a4e">
+          <SimpleProperty value="http://www.webservicex.net/country.asmx" name="WSDLPORTPROPERTY_HTTP_URL"/>
+          <in>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </in>
+          <out>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </out>
+        </WsdlPort>
+        <in>
+          <SimpleProperty value="application/x-www-form-urlencoded" name="WSDLOPERATIONINFORMATION_HTTP_MIME_CONTENT_TYPE"/>
+          <WsdlPart element="false" nameSpaceURI="http://www.w3.org/2001/XMLSchema" localPart="string" partName="CountryName"/>
+        </in>
+        <SimpleProperty value="/GetISOCountryCodeByCountyName" name="WSDLOPERATIONPROPERTY_HTTP_LOCATION"/>
+        <out>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <SimpleProperty name="MESSAGENAME"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.webserviceX.NET" localPart="string" partName="Body"/>
+        </out>
+      </WsdlOperation>
+      <WsdlOperation name="GetCurrencyCode" key="GetCurrencyCode">
+        <WsdlPort name="countryHttpPost" uniqueID="-544512337SEPARATOR6f1775b3-bb84-4cbd-a668-b1b38b6a4e9d">
+          <SimpleProperty value="http://www.webservicex.net/country.asmx" name="WSDLPORTPROPERTY_HTTP_URL"/>
+          <in>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </in>
+          <out>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </out>
+        </WsdlPort>
+        <in>
+          <SimpleProperty value="application/x-www-form-urlencoded" name="WSDLOPERATIONINFORMATION_HTTP_MIME_CONTENT_TYPE"/>
+        </in>
+        <SimpleProperty value="/GetCurrencyCode" name="WSDLOPERATIONPROPERTY_HTTP_LOCATION"/>
+        <out>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <SimpleProperty name="MESSAGENAME"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.webserviceX.NET" localPart="string" partName="Body"/>
+        </out>
+      </WsdlOperation>
+      <WsdlOperation name="GetCountryByCurrencyCode" key="GetCountryByCurrencyCode">
+        <WsdlPort name="countryHttpPost" uniqueID="866322562SEPARATOR20ab9e17-d6d2-43cd-a555-061df148801e">
+          <SimpleProperty value="http://www.webservicex.net/country.asmx" name="WSDLPORTPROPERTY_HTTP_URL"/>
+          <in>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </in>
+          <out>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </out>
+        </WsdlPort>
+        <in>
+          <SimpleProperty value="application/x-www-form-urlencoded" name="WSDLOPERATIONINFORMATION_HTTP_MIME_CONTENT_TYPE"/>
+          <WsdlPart element="false" nameSpaceURI="http://www.w3.org/2001/XMLSchema" localPart="string" partName="CurrencyCode"/>
+        </in>
+        <SimpleProperty value="/GetCountryByCurrencyCode" name="WSDLOPERATIONPROPERTY_HTTP_LOCATION"/>
+        <out>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <SimpleProperty name="MESSAGENAME"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.webserviceX.NET" localPart="string" partName="Body"/>
+        </out>
+      </WsdlOperation>
+      <WsdlOperation name="GetCurrencies" key="GetCurrencies">
+        <WsdlPort name="countryHttpPost" uniqueID="-1505820518SEPARATOR9093373c-2435-4d1c-832e-b177ec5c3e54">
+          <SimpleProperty value="http://www.webservicex.net/country.asmx" name="WSDLPORTPROPERTY_HTTP_URL"/>
+          <in>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </in>
+          <out>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </out>
+        </WsdlPort>
+        <in>
+          <SimpleProperty value="application/x-www-form-urlencoded" name="WSDLOPERATIONINFORMATION_HTTP_MIME_CONTENT_TYPE"/>
+        </in>
+        <SimpleProperty value="/GetCurrencies" name="WSDLOPERATIONPROPERTY_HTTP_LOCATION"/>
+        <out>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <SimpleProperty name="MESSAGENAME"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.webserviceX.NET" localPart="string" partName="Body"/>
+        </out>
+      </WsdlOperation>
+      <WsdlOperation name="GetCurrencyByCountry" key="GetCurrencyByCountry">
+        <WsdlPort name="countryHttpPost" uniqueID="731939363SEPARATORc09cc0c8-ae20-4289-aa6b-140109ffe19f">
+          <SimpleProperty value="http://www.webservicex.net/country.asmx" name="WSDLPORTPROPERTY_HTTP_URL"/>
+          <in>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </in>
+          <out>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </out>
+        </WsdlPort>
+        <in>
+          <SimpleProperty value="application/x-www-form-urlencoded" name="WSDLOPERATIONINFORMATION_HTTP_MIME_CONTENT_TYPE"/>
+          <WsdlPart element="false" nameSpaceURI="http://www.w3.org/2001/XMLSchema" localPart="string" partName="CountryName"/>
+        </in>
+        <SimpleProperty value="/GetCurrencyByCountry" name="WSDLOPERATIONPROPERTY_HTTP_LOCATION"/>
+        <out>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <SimpleProperty name="MESSAGENAME"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.webserviceX.NET" localPart="string" partName="Body"/>
+        </out>
+      </WsdlOperation>
+      <WsdlOperation name="GetGMTbyCountry" key="GetGMTbyCountry">
+        <WsdlPort name="countryHttpPost" uniqueID="1454088828SEPARATORf85ba8a7-f516-4ddc-8fe9-74650806a1a7">
+          <SimpleProperty value="http://www.webservicex.net/country.asmx" name="WSDLPORTPROPERTY_HTTP_URL"/>
+          <in>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </in>
+          <out>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </out>
+        </WsdlPort>
+        <in>
+          <SimpleProperty value="application/x-www-form-urlencoded" name="WSDLOPERATIONINFORMATION_HTTP_MIME_CONTENT_TYPE"/>
+          <WsdlPart element="false" nameSpaceURI="http://www.w3.org/2001/XMLSchema" localPart="string" partName="CountryName"/>
+        </in>
+        <SimpleProperty value="/GetGMTbyCountry" name="WSDLOPERATIONPROPERTY_HTTP_LOCATION"/>
+        <out>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <SimpleProperty name="MESSAGENAME"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.webserviceX.NET" localPart="string" partName="Body"/>
+        </out>
+      </WsdlOperation>
+    </WsdlBinding>
+    <WsdlBinding name="countrySoap">
+      <SimpleProperty value="Unknown" name="WSDLBINDINGPROPERTY_TYPE"/>
+      <SimpleProperty value="http://schemas.xmlsoap.org/soap/http" name="WSDLBINDINGPROPERTY_TRANSPORT_TYPE"/>
+      <SimpleProperty value="true" name="Soap11Binding"/>
+      <SimpleProperty value="false" name="Soap12Binding"/>
+      <SimpleProperty value="false" name="HttpBinding"/>
+      <SimpleProperty value="{http://www.webserviceX.NET}countrySoap" name="WSDLBINDING_SERVICE_NAME"/>
+      <WsdlOperation name="GetCountryByCountryCode" key="GetCountryByCountryCode">
+        <WsdlPort name="countrySoap" uniqueID="-949690860SEPARATORcc970e10-f8fb-4627-9f55-5993c85a3e24">
+          <SimpleProperty value="http://www.webservicex.net/country.asmx" name="WSDLPORTPROPERTY_HTTP_URL"/>
+          <in>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </in>
+          <out>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </out>
+        </WsdlPort>
+        <in>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.webserviceX.NET" localPart="GetCountryByCountryCode" partName="parameters"/>
+        </in>
+        <SimpleProperty value="SoapDocumentBinding" name="WSDLOPERATIONPROPERTY_STYLE_TYPE"/>
+        <SimpleProperty value="true" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_REQUIRED"/>
+        <SimpleProperty value="http://www.webserviceX.NET/GetCountryByCountryCode" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_URI"/>
+        <out>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <SimpleProperty name="MESSAGENAME"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.webserviceX.NET" localPart="GetCountryByCountryCodeResponse" partName="parameters"/>
+        </out>
+      </WsdlOperation>
+      <WsdlOperation name="GetISD" key="GetISD">
+        <WsdlPort name="countrySoap" uniqueID="-1635685002SEPARATOR79c9f4fd-cddf-4c60-8543-ac0fc38a7871">
+          <SimpleProperty value="http://www.webservicex.net/country.asmx" name="WSDLPORTPROPERTY_HTTP_URL"/>
+          <in>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </in>
+          <out>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </out>
+        </WsdlPort>
+        <in>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.webserviceX.NET" localPart="GetISD" partName="parameters"/>
+        </in>
+        <SimpleProperty value="SoapDocumentBinding" name="WSDLOPERATIONPROPERTY_STYLE_TYPE"/>
+        <SimpleProperty value="true" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_REQUIRED"/>
+        <SimpleProperty value="http://www.webserviceX.NET/GetISD" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_URI"/>
+        <out>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <SimpleProperty name="MESSAGENAME"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.webserviceX.NET" localPart="GetISDResponse" partName="parameters"/>
+        </out>
+      </WsdlOperation>
+      <WsdlOperation name="GetCountries" key="GetCountries">
+        <WsdlPort name="countrySoap" uniqueID="-655681097SEPARATORbe40f49c-a476-45c3-9ffb-d4367b459220">
+          <SimpleProperty value="http://www.webservicex.net/country.asmx" name="WSDLPORTPROPERTY_HTTP_URL"/>
+          <in>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </in>
+          <out>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </out>
+        </WsdlPort>
+        <in>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.webserviceX.NET" localPart="GetCountries" partName="parameters"/>
+        </in>
+        <SimpleProperty value="SoapDocumentBinding" name="WSDLOPERATIONPROPERTY_STYLE_TYPE"/>
+        <SimpleProperty value="true" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_REQUIRED"/>
+        <SimpleProperty value="http://www.webserviceX.NET/GetCountries" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_URI"/>
+        <out>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <SimpleProperty name="MESSAGENAME"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.webserviceX.NET" localPart="GetCountriesResponse" partName="parameters"/>
+        </out>
+      </WsdlOperation>
+      <WsdlOperation name="GetCurrencyCodeByCurrencyName" key="GetCurrencyCodeByCurrencyName">
+        <WsdlPort name="countrySoap" uniqueID="-827927069SEPARATORab7f21aa-d101-4008-a985-47ef7c278eee">
+          <SimpleProperty value="http://www.webservicex.net/country.asmx" name="WSDLPORTPROPERTY_HTTP_URL"/>
+          <in>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </in>
+          <out>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </out>
+        </WsdlPort>
+        <in>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.webserviceX.NET" localPart="GetCurrencyCodeByCurrencyName" partName="parameters"/>
+        </in>
+        <SimpleProperty value="SoapDocumentBinding" name="WSDLOPERATIONPROPERTY_STYLE_TYPE"/>
+        <SimpleProperty value="true" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_REQUIRED"/>
+        <SimpleProperty value="http://www.webserviceX.NET/GetCurrencyCodeByCurrencyName" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_URI"/>
+        <out>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <SimpleProperty name="MESSAGENAME"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.webserviceX.NET" localPart="GetCurrencyCodeByCurrencyNameResponse" partName="parameters"/>
+        </out>
+      </WsdlOperation>
+      <WsdlOperation name="GetISOCountryCodeByCountyName" key="GetISOCountryCodeByCountyName">
+        <WsdlPort name="countrySoap" uniqueID="1557068594SEPARATORde84e641-6998-416c-82e9-235c974a8d6f">
+          <SimpleProperty value="http://www.webservicex.net/country.asmx" name="WSDLPORTPROPERTY_HTTP_URL"/>
+          <in>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </in>
+          <out>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </out>
+        </WsdlPort>
+        <in>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.webserviceX.NET" localPart="GetISOCountryCodeByCountyName" partName="parameters"/>
+        </in>
+        <SimpleProperty value="SoapDocumentBinding" name="WSDLOPERATIONPROPERTY_STYLE_TYPE"/>
+        <SimpleProperty value="true" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_REQUIRED"/>
+        <SimpleProperty value="http://www.webserviceX.NET/GetISOCountryCodeByCountyName" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_URI"/>
+        <out>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <SimpleProperty name="MESSAGENAME"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.webserviceX.NET" localPart="GetISOCountryCodeByCountyNameResponse" partName="parameters"/>
+        </out>
+      </WsdlOperation>
+      <WsdlOperation name="GetCurrencyCode" key="GetCurrencyCode">
+        <WsdlPort name="countrySoap" uniqueID="1331460202SEPARATOR15185f2b-5d02-415f-879e-1c9943d41e35">
+          <SimpleProperty value="http://www.webservicex.net/country.asmx" name="WSDLPORTPROPERTY_HTTP_URL"/>
+          <in>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </in>
+          <out>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </out>
+        </WsdlPort>
+        <in>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.webserviceX.NET" localPart="GetCurrencyCode" partName="parameters"/>
+        </in>
+        <SimpleProperty value="SoapDocumentBinding" name="WSDLOPERATIONPROPERTY_STYLE_TYPE"/>
+        <SimpleProperty value="true" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_REQUIRED"/>
+        <SimpleProperty value="http://www.webserviceX.NET/GetCurrencyCode" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_URI"/>
+        <out>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <SimpleProperty name="MESSAGENAME"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.webserviceX.NET" localPart="GetCurrencyCodeResponse" partName="parameters"/>
+        </out>
+      </WsdlOperation>
+      <WsdlOperation name="GetCountryByCurrencyCode" key="GetCountryByCurrencyCode">
+        <WsdlPort name="countrySoap" uniqueID="834891627SEPARATOR05ee8b42-fd7a-44e0-802f-b1a22bc146c8">
+          <SimpleProperty value="http://www.webservicex.net/country.asmx" name="WSDLPORTPROPERTY_HTTP_URL"/>
+          <in>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </in>
+          <out>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </out>
+        </WsdlPort>
+        <in>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.webserviceX.NET" localPart="GetCountryByCurrencyCode" partName="parameters"/>
+        </in>
+        <SimpleProperty value="SoapDocumentBinding" name="WSDLOPERATIONPROPERTY_STYLE_TYPE"/>
+        <SimpleProperty value="true" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_REQUIRED"/>
+        <SimpleProperty value="http://www.webserviceX.NET/GetCountryByCurrencyCode" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_URI"/>
+        <out>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <SimpleProperty name="MESSAGENAME"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.webserviceX.NET" localPart="GetCountryByCurrencyCodeResponse" partName="parameters"/>
+        </out>
+      </WsdlOperation>
+      <WsdlOperation name="GetCurrencies" key="GetCurrencies">
+        <WsdlPort name="countrySoap" uniqueID="-745894015SEPARATOR74aa8d45-cbe9-4ce0-bcef-4fee61e8b373">
+          <SimpleProperty value="http://www.webservicex.net/country.asmx" name="WSDLPORTPROPERTY_HTTP_URL"/>
+          <in>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </in>
+          <out>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </out>
+        </WsdlPort>
+        <in>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.webserviceX.NET" localPart="GetCurrencies" partName="parameters"/>
+        </in>
+        <SimpleProperty value="SoapDocumentBinding" name="WSDLOPERATIONPROPERTY_STYLE_TYPE"/>
+        <SimpleProperty value="true" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_REQUIRED"/>
+        <SimpleProperty value="http://www.webserviceX.NET/GetCurrencies" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_URI"/>
+        <out>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <SimpleProperty name="MESSAGENAME"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.webserviceX.NET" localPart="GetCurrenciesResponse" partName="parameters"/>
+        </out>
+      </WsdlOperation>
+      <WsdlOperation name="GetCurrencyByCountry" key="GetCurrencyByCountry">
+        <WsdlPort name="countrySoap" uniqueID="2047774213SEPARATOR0bdf4b96-3c14-4666-a41c-a4c2e212a601">
+          <SimpleProperty value="http://www.webservicex.net/country.asmx" name="WSDLPORTPROPERTY_HTTP_URL"/>
+          <in>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </in>
+          <out>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </out>
+        </WsdlPort>
+        <in>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.webserviceX.NET" localPart="GetCurrencyByCountry" partName="parameters"/>
+        </in>
+        <SimpleProperty value="SoapDocumentBinding" name="WSDLOPERATIONPROPERTY_STYLE_TYPE"/>
+        <SimpleProperty value="true" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_REQUIRED"/>
+        <SimpleProperty value="http://www.webserviceX.NET/GetCurrencyByCountry" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_URI"/>
+        <out>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <SimpleProperty name="MESSAGENAME"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.webserviceX.NET" localPart="GetCurrencyByCountryResponse" partName="parameters"/>
+        </out>
+      </WsdlOperation>
+      <WsdlOperation name="GetGMTbyCountry" key="GetGMTbyCountry">
+        <WsdlPort name="countrySoap" uniqueID="1273855534SEPARATORd87155fe-5281-487d-8e76-86b851f2df45">
+          <SimpleProperty value="http://www.webservicex.net/country.asmx" name="WSDLPORTPROPERTY_HTTP_URL"/>
+          <in>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </in>
+          <out>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </out>
+        </WsdlPort>
+        <in>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.webserviceX.NET" localPart="GetGMTbyCountry" partName="parameters"/>
+        </in>
+        <SimpleProperty value="SoapDocumentBinding" name="WSDLOPERATIONPROPERTY_STYLE_TYPE"/>
+        <SimpleProperty value="true" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_REQUIRED"/>
+        <SimpleProperty value="http://www.webserviceX.NET/GetGMTbyCountry" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_URI"/>
+        <out>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <SimpleProperty name="MESSAGENAME"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.webserviceX.NET" localPart="GetGMTbyCountryResponse" partName="parameters"/>
+        </out>
+      </WsdlOperation>
+    </WsdlBinding>
+  </wsdl>
+</com.ibm.rational.test.lt.models.wscore.configuration:WSDLInformationContainer>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="com.ibm.rational.ttt.ustc.ui.wizards.EndPointWizard">
+		<item value="No Schema" key="DS_XSD_SCHEMA"/>
+		<item value="http://hostname/resource_text_service" key="HTTP_URL"/>
+		<item value="2" key="PROTOCOL_KIND"/>
+		<item value="POST_XML" key="STARTED_GSC"/>
+		<item value="false" key="DS_DERIVEDTYPE"/>
+	</section>
+</section>

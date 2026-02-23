@@ -1,0 +1,117 @@
+name: RateSched
+version: 2
+projectReferences: 
+resources: 
+  - name: .classpath
+    type: com.ibm.rational.test.lt.classpath
+    dependencies: 
+      - path: /RateSched/src
+        type: javaClasspath
+  - name: Datasets
+    resources: 
+  - name: Locations
+    resources: 
+      - name: LocalAgent.location
+        type: com.ibm.rational.test.lt.location
+  - name: Results
+    resources: 
+      - name: MultipleStages_1647343608694.stats
+        type: com.ibm.rational.test.lt.stats.session
+        properties: 
+          startTime: 1647343608694
+          tags: 
+          testId: A1ECA4529926E7A0FA70B53634623333
+          testName: MultipleStages
+        dependencies: 
+          - path: /RateSched/Results/MultipleStages_1647343608694_orch!system.mstats
+            type: statsSessionStore
+          - path: /RateSched/Results/MultipleStages_1647343608694_orch!system.rstats
+            type: statsSessionStore
+          - path: /RateSched/Results/MultipleStages_1647343608694_perf!localhost.mstats
+            type: statsSessionStore
+          - path: /RateSched/Results/MultipleStages_1647343608694_perf!localhost.rstats
+            type: statsSessionStore
+          - path: /RateSched/Results/MultipleStages_1647343609319.executiondlr
+            type: statsSessionAsset
+          - path: /RateSched/Schedules/MultipleStages.testsuite
+            type: statsSessionTest
+      - name: MultipleStages_1647343608694_orch!system.mstats
+      - name: MultipleStages_1647343608694_orch!system.rstats
+        type: com.ibm.rational.test.lt.stats.raw
+      - name: MultipleStages_1647343608694_perf!localhost.mstats
+      - name: MultipleStages_1647343608694_perf!localhost.rstats
+        type: com.ibm.rational.test.lt.stats.raw
+      - name: MultipleStages_1647343609319.executiondlr
+      - name: OneStage_1647342827975.stats
+        type: com.ibm.rational.test.lt.stats.session
+        properties: 
+          startTime: 1647342827975
+          tags: 
+          testId: A1ECA450A40B5DB0FA70B53634623333
+          testName: OneStage
+        dependencies: 
+          - path: /RateSched/Results/OneStage_1647342827975_orch!system.mstats
+            type: statsSessionStore
+          - path: /RateSched/Results/OneStage_1647342827975_orch!system.rstats
+            type: statsSessionStore
+          - path: /RateSched/Results/OneStage_1647342827975_perf!localhost.mstats
+            type: statsSessionStore
+          - path: /RateSched/Results/OneStage_1647342827975_perf!localhost.rstats
+            type: statsSessionStore
+          - path: /RateSched/Results/OneStage_1647342828991.executiondlr
+            type: statsSessionAsset
+          - path: /RateSched/Schedules/OneStage.testsuite
+            type: statsSessionTest
+      - name: OneStage_1647342827975_orch!system.mstats
+      - name: OneStage_1647342827975_orch!system.rstats
+        type: com.ibm.rational.test.lt.stats.raw
+      - name: OneStage_1647342827975_perf!localhost.mstats
+      - name: OneStage_1647342827975_perf!localhost.rstats
+        type: com.ibm.rational.test.lt.stats.raw
+      - name: OneStage_1647342828991.executiondlr
+  - name: Schedules
+    resources: 
+      - name: MultipleStages.testsuite
+        type: com.ibm.rational.test.lt.rate.schedule
+        version: 10.2.2.0
+        properties: 
+          name: MultipleStages
+          type: com.ibm.rational.test.common.schedule.RateSchedule
+          uid: A1ECA4529926E7A0FA70B53634623333
+        dependencies: 
+          - path: /RateSched/Locations/LocalAgent.location
+            type: scheduleLocation
+          - path: /RateSched/Tests/Quick.testsuite
+            type: scheduleInvokedTest
+      - name: OneStage.testsuite
+        type: com.ibm.rational.test.lt.rate.schedule
+        version: 10.2.2.0
+        properties: 
+          name: OneStage
+          type: com.ibm.rational.test.common.schedule.RateSchedule
+          uid: A1ECA450A40B5DB0FA70B53634623333
+        dependencies: 
+          - path: /RateSched/Locations/LocalAgent.location
+            type: scheduleLocation
+          - path: /RateSched/Tests/Quick.testsuite
+            type: scheduleInvokedTest
+  - name: Tests
+    resources: 
+      - name: Quick.recdata
+      - name: Quick.recsession
+        type: com.ibm.rational.test.lt.recsession
+        dependencies: 
+          - path: /RateSched/Tests/Quick.recdata
+            type: recsessionRecdata
+      - name: Quick.testsuite
+        type: com.ibm.rational.test.lt.test
+        version: 10.2.2.0
+        properties: 
+          features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
+          type: com.ibm.rational.test.lt.lttest
+          uid: A1ECA44F361C03A0FA70B53634623333
+        dependencies: 
+          - path: /RateSched/Tests/Quick.recsession
+            type: testRecsession
+  - name: src
+    resources: 

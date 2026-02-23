@@ -1,0 +1,11 @@
+name: .gscStore
+projectReferences: 
+resources: 
+  - name: www.dneonline.com.calculator.asmx.wsdl
+    type: com.ibm.rational.test.lt.wsdl
+  - name: www.dneonline.com.calculator.asmx.wsdl.emfws
+    type: com.ibm.rational.test.lt.wsdlInfo
+  - name: www.swi-prolog.org.country.wsdl
+    type: com.ibm.rational.test.lt.wsdl
+  - name: www.swi-prolog.org.country.wsdl.emfws
+    type: com.ibm.rational.test.lt.wsdlInfo

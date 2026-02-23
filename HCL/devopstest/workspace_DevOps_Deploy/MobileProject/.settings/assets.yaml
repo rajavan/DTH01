@@ -1,0 +1,191 @@
+name: MobileProject
+version: 2
+projectReferences: 
+resources: 
+  - name: .classpath
+    type: com.ibm.rational.test.lt.classpath
+    dependencies: 
+      - path: /MobileProject/src
+        type: javaClasspath
+  - name: BrowserOnMobile.recdata
+  - name: BrowserOnMobile.recsession
+    type: com.ibm.rational.test.lt.recsession
+    dependencies: 
+      - path: /MobileProject/BrowserOnMobile.recdata
+        type: recsessionRecdata
+  - name: FromAndroid_01.recdata
+  - name: FromAndroid_01.recsession
+    type: com.ibm.rational.test.lt.recsession
+    dependencies: 
+      - path: /MobileProject/FromAndroid_01.recdata
+        type: recsessionRecdata
+  - name: FromAndroid_01.testsuite
+    type: com.ibm.rational.test.lt.test
+    version: 11.0.0.0
+    properties: 
+      features: com.ibm.rational.test.lt.feature.lt
+      type: com.ibm.rational.test.lt.lttest
+      uid: A1EEEA97CD3F8F00F333E53662656432
+    dependencies: 
+      - path: /MobileProject/FromAndroid_01.recsession
+        type: testRecsession
+  - name: LTFS1.recdata
+  - name: LTFS1.recsession
+    type: com.ibm.rational.test.lt.recsession
+    dependencies: 
+      - path: /MobileProject/LTFS1.recdata
+        type: recsessionRecdata
+  - name: LTFS1.testsuite
+    type: com.ibm.rational.test.lt.test
+    version: 11.0.0.0
+    properties: 
+      features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
+      type: com.ibm.rational.test.lt.lttest
+      uid: A1EEE6A47639D270DB85E63964366137
+    dependencies: 
+      - path: /MobileProject/LTFS1.recsession
+        type: testRecsession
+  - name: LTFS11.recdata
+  - name: LTFS11.recsession
+    type: com.ibm.rational.test.lt.recsession
+    dependencies: 
+      - path: /MobileProject/LTFS11.recdata
+        type: recsessionRecdata
+  - name: LTFS2.recdata
+  - name: LTFS2.recsession
+    type: com.ibm.rational.test.lt.recsession
+    dependencies: 
+      - path: /MobileProject/LTFS2.recdata
+        type: recsessionRecdata
+  - name: LTFS_01.recdata
+  - name: LTFS_01.recsession
+    type: com.ibm.rational.test.lt.recsession
+    dependencies: 
+      - path: /MobileProject/LTFS_01.recdata
+        type: recsessionRecdata
+  - name: Test1.recdata
+  - name: Test1.recsession
+    type: com.ibm.rational.test.lt.recsession
+    dependencies: 
+      - path: /MobileProject/Test1.recdata
+        type: recsessionRecdata
+  - name: a(2).recdata
+  - name: a(2).recsession
+    type: com.ibm.rational.test.lt.recsession
+    dependencies: 
+      - path: /MobileProject/a(2).recdata
+        type: recsessionRecdata
+  - name: a.recdata
+  - name: a.recsession
+    type: com.ibm.rational.test.lt.recsession
+    dependencies: 
+      - path: /MobileProject/a.recdata
+        type: recsessionRecdata
+  - name: a.testsuite
+    type: com.ibm.rational.test.lt.test
+    version: 11.0.0.0
+    properties: 
+      features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
+      type: com.ibm.rational.test.lt.lttest
+      uid: A1EEE73BC4394B80D710B43463383464
+    dependencies: 
+      - path: /MobileProject/a(2).recsession
+        type: testRecsession
+  - name: aa(2).recdata
+  - name: aa(2).recsession
+    type: com.ibm.rational.test.lt.recsession
+    dependencies: 
+      - path: /MobileProject/aa(2).recdata
+        type: recsessionRecdata
+  - name: aa.recdata
+  - name: aa.recsession
+    type: com.ibm.rational.test.lt.recsession
+    dependencies: 
+      - path: /MobileProject/aa.recdata
+        type: recsessionRecdata
+  - name: aa.testsuite
+    type: com.ibm.rational.test.lt.test
+    version: 11.0.0.0
+    properties: 
+      features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
+      type: com.ibm.rational.test.lt.lttest
+      uid: A1EEE74C5F144A00D710B43463383464
+    dependencies: 
+      - path: /MobileProject/aa(2).recsession
+        type: testRecsession
+  - name: b.recdata
+  - name: b.recsession
+    type: com.ibm.rational.test.lt.recsession
+    dependencies: 
+      - path: /MobileProject/b.recdata
+        type: recsessionRecdata
+  - name: http_script_from_AndroidDevice.recdata
+  - name: http_script_from_AndroidDevice.recsession
+    type: com.ibm.rational.test.lt.recsession
+    dependencies: 
+      - path: /MobileProject/http_script_from_AndroidDevice.recdata
+        type: recsessionRecdata
+  - name: ltfs.recdata
+  - name: ltfs.recsession
+    type: com.ibm.rational.test.lt.recsession
+    dependencies: 
+      - path: /MobileProject/ltfs.recdata
+        type: recsessionRecdata
+  - name: ltfs.testsuite
+    type: com.ibm.rational.test.lt.test
+    version: 11.0.0.0
+    properties: 
+      features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
+      type: com.ibm.rational.test.lt.lttest
+      uid: A1EEE73CA2C86480D710B43463383464
+    dependencies: 
+      - path: /MobileProject/ltfs.recsession
+        type: testRecsession
+  - name: n.recdata
+  - name: n.recsession
+    type: com.ibm.rational.test.lt.recsession
+    dependencies: 
+      - path: /MobileProject/n.recdata
+        type: recsessionRecdata
+  - name: src
+    resources: 
+  - name: tes12.recdata
+  - name: tes12.recsession
+    type: com.ibm.rational.test.lt.recsession
+    dependencies: 
+      - path: /MobileProject/tes12.recdata
+        type: recsessionRecdata
+  - name: tes12.testsuite
+    type: com.ibm.rational.test.lt.test
+    version: 11.0.0.0
+    properties: 
+      features: com.ibm.rational.test.lt.feature.lt
+      type: com.ibm.rational.test.lt.lttest
+      uid: A1EEEB526B4F9F90D276B03861623261
+    dependencies: 
+      - path: /MobileProject/tes12.recsession
+        type: testRecsession
+  - name: tes4.recdata
+  - name: tes4.recsession
+    type: com.ibm.rational.test.lt.recsession
+    dependencies: 
+      - path: /MobileProject/tes4.recdata
+        type: recsessionRecdata
+  - name: test2.recdata
+  - name: test2.recsession
+    type: com.ibm.rational.test.lt.recsession
+    dependencies: 
+      - path: /MobileProject/test2.recdata
+        type: recsessionRecdata
+  - name: test3.recdata
+  - name: test3.recsession
+    type: com.ibm.rational.test.lt.recsession
+    dependencies: 
+      - path: /MobileProject/test3.recdata
+        type: recsessionRecdata
+  - name: test4.recdata
+  - name: test4.recsession
+    type: com.ibm.rational.test.lt.recsession
+    dependencies: 
+      - path: /MobileProject/test4.recdata
+        type: recsessionRecdata

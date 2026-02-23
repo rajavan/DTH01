@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><Report version="7" name="Hit-Attempt Count Per Agent" description="">
+  <features>
+    <Feature id="com.ibm.rational.test.lt.feature.http" version="1"/>
+  </features>
+  <pages>
+    <Page name="Page 1">
+      <views>
+        <Table name="Hit Count Per Agent" sourceType="perf">
+          <layoutData>
+            <RowLayoutData ratio="-1.0"/>
+          </layoutData>
+          <counterQueries>
+            <Query path="/Pages/Hits/Total Page Hits For Interval/Cumulated/Count"/>
+            <Query path="/Pages/Hits/Total Page Element Hits For Interval/Cumulated/Count"/>
+            <Query path="/Pages/InCacheSkipped/TotalPageElementsInCacheSkippedForInterval/Cumulated/Count"/>
+            <Query path="/Pages/InCacheSkipped/PercentInCacheSkippedAllPageElementsInterval/Cumulated/Ratio"/>
+          </counterQueries>
+          <series>
+            <column dim="compare"/>
+            <rowGroup dim="counter"/>
+          </series>
+        </Table>
+        <Table name="Attempts Count Per Agent Instance" sourceType="perf">
+          <layoutData>
+            <RowLayoutData col="1" ratio="-1.0"/>
+          </layoutData>
+          <counterQueries>
+            <Query path="/Pages/Attempts/Total Page Attempts For Interval/Cumulated/Count"/>
+            <Query path="/Pages/Attempts/Total Page Element Attempts For Interval/Cumulated/Count"/>
+          </counterQueries>
+          <series>
+            <row dim="compare"/>
+            <rowGroup dim="counter"/>
+          </series>
+        </Table>
+      </views>
+    </Page>
+  </pages>
+</Report>

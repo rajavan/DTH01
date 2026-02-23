@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="com.ibm.rational.ttt.common.ui.dialogs.wimport.WImportURLDialog">
+		<item value="https://www.swi-prolog.org/pack/file_details/wsdl/examples/country.wsdl" key="DS_KEY_URL"/>
+		<item value="0" key="DS_KEY_SYNCHRO"/>
+	</section>
+</section>

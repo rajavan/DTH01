@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="A1EEE6A47639D270DB85E63964366137">
+		<section name="ShowDatapoolCandidatesDialog">
+			<item value="true" key="show_candidates"/>
+		</section>
+	</section>
+	<section name="A1E3A896AF0862D0D296E26238393137">
+		<item value="A1E3A8A572C218C0D296E26238393137" key="0"/>
+		<item value="1" key="count"/>
+		<section name="ShowDatapoolCandidatesDialog">
+			<item value="true" key="show_candidates"/>
+		</section>
+	</section>
+	<section name="A1EF08738810D340E348B23938333530">
+		<section name="ShowDatapoolCandidatesDialog">
+			<item value="true" key="show_candidates"/>
+		</section>
+	</section>
+	<section name="A1EEF4D66D8E11F0CEB3B76433323839">
+		<section name="ShowDatapoolCandidatesDialog">
+			<item value="true" key="show_candidates"/>
+		</section>
+	</section>
+	<section name="A1EF087456CABB10E348B23938333530">
+		<section name="ShowDatapoolCandidatesDialog">
+			<item value="true" key="show_candidates"/>
+		</section>
+	</section>
+	<section name="A1EEDF76760DE0A0C82EB03937653331">
+		<item value="A1EEE295D1631480C7BCB93666343965" key="0"/>
+		<item value="1" key="count"/>
+		<section name="ShowDatapoolCandidatesDialog">
+			<item value="true" key="show_candidates"/>
+		</section>
+	</section>
+	<section name="A1EEE73B8C822450D710B43463383464">
+		<section name="ShowDatapoolCandidatesDialog">
+			<item value="true" key="show_candidates"/>
+		</section>
+	</section>
+	<section name="A1EEEB526B4F9F90D276B03861623261">
+		<section name="ShowDatapoolCandidatesDialog">
+			<item value="true" key="show_candidates"/>
+		</section>
+	</section>
+	<section name="A1EEF4D54B5AFE50CEB3B76433323839">
+		<section name="ShowDatapoolCandidatesDialog">
+			<item value="true" key="show_candidates"/>
+		</section>
+	</section>
+	<section name="A1EEE74C5F144A00D710B43463383464">
+		<section name="ShowDatapoolCandidatesDialog">
+			<item value="true" key="show_candidates"/>
+		</section>
+	</section>
+	<section name="A1EF0873E962EB10E348B23938333530">
+		<section name="ShowDatapoolCandidatesDialog">
+			<item value="true" key="show_candidates"/>
+		</section>
+	</section>
+	<section name="com.ibm.rational.test.lt.testeditor.common.DatasourceSelectionDialog">
+		<item value="559" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="849" key="DIALOG_HEIGHT"/>
+		<item value="690" key="DIALOG_X_ORIGIN"/>
+		<item value="9" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="A1EEE5FBE40B93A0CA0DB43163373962">
+		<section name="ShowDatapoolCandidatesDialog">
+			<item value="true" key="show_candidates"/>
+		</section>
+	</section>
+	<section name="A1EEDB8EF87B1940DEE3E56136323632">
+		<section name="ShowDatapoolCandidatesDialog">
+			<item value="true" key="show_candidates"/>
+		</section>
+	</section>
+	<section name="A1EEE73CA2C86480D710B43463383464">
+		<section name="ShowDatapoolCandidatesDialog">
+			<item value="true" key="show_candidates"/>
+		</section>
+	</section>
+	<section name="A1EEF3242FFB61C0D1C4E33832643165">
+		<section name="ShowDatapoolCandidatesDialog">
+			<item value="true" key="show_candidates"/>
+		</section>
+	</section>
+	<section name="A1EEE73BC4394B80D710B43463383464">
+		<section name="ShowDatapoolCandidatesDialog">
+			<item value="true" key="show_candidates"/>
+		</section>
+	</section>
+	<section name="exportWizard">
+		<item value="false" key="tar"/>
+		<item value="C:\Temp13\JPetStore.zip" key="pth"/>
+		<item value="true" key="cmp"/>
+	</section>
+	<section name="A1EEEA97CD3F8F00F333E53662656432">
+		<section name="ShowDatapoolCandidatesDialog">
+			<item value="true" key="show_candidates"/>
+		</section>
+	</section>
+	<section name="A1EEDB8F4FDF8900DEE3E56136323632">
+		<section name="ShowDatapoolCandidatesDialog">
+			<item value="true" key="show_candidates"/>
+		</section>
+	</section>
+	<section name="A1EEF4D75D7BE250CEB3B76433323839">
+		<section name="ShowDatapoolCandidatesDialog">
+			<item value="true" key="show_candidates"/>
+		</section>
+	</section>
+	<section name="customcode">
+		<item value="customcode" key="defpkg"/>
+	</section>
+	<section name="defaultBuiltinDataSourceSelection">
+		<section name="bids.current.time">
+		</section>
+		<section name="bids.sequence.number">
+		</section>
+		<section name="bids.random.number">
+		</section>
+		<section name="bids.current.date">
+		</section>
+	</section>
+</section>

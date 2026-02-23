@@ -1,0 +1,83 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<com.ibm.rational.test.lt.models.wscore.message:Request xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.ibm.rational.test.lt.models.wscore.datamodel.protocol.mq="http:///com/ibm/rational/test/lt/models/wscore/datamodel/protocol/mq.ecore" xmlns:com.ibm.rational.test.lt.models.wscore.message="http:///com/ibm/rational/test/lt/models/wscore/message.ecore" xmlns:com.ibm.rational.test.lt.models.wscore.message.content="http:///com/ibm/rational/test/lt/models/wscore/message/content.ecore" xmlns:com.ibm.rational.test.lt.models.wscore.message.transformation="http:///com/ibm/rational/test/lt/models/wscore/message/transformation.ecore" xmlns:com.ibm.rational.test.lt.models.wscore.protocol.dotnet="http:///com/ibm/rational/test/lt/models/wscore/protocol/dotnet.ecore" xmlns:com.ibm.rational.test.lt.models.wscore.protocol.http="http:///com/ibm/rational/test/lt/models/wscore/protocol/http.ecore" xmlns:com.ibm.rational.test.lt.models.wscore.protocol.jms="http:///com/ibm/rational/test/lt/models/wscore/protocol/jms.ecore" xmlns:com.ibm.rational.test.lt.models.wscore.protocol.mqn="http:///com/ibm/rational/test/lt/models/wscore/protocol/mqn.ecore" xmlns:com.ibm.rational.test.lt.models.wscore.utils="http:///com/ibm/rational/test/lt/models/wscore/utils.ecore" xmlns:com.ibm.rational.test.lt.models.wscore.xml="http:///com/ibm/rational/test/lt/models/wscore/xml.ecore" timeOut="10000">
+  <data xsi:type="com.ibm.rational.test.lt.models.wscore.message.content:XmlContent">
+    <containerProperties value="MTAuMQ==" name="VERSION"/>
+    <XmlElement name="Envelope" id="A1EF087A424E6140E348B23938333530" nameSpace="soapenv">
+      <childs xsi:type="com.ibm.rational.test.lt.models.wscore.xml:XmlElement" name="Body" id="A1EF087A424E6154E348B23938333530" nameSpace="soapenv">
+        <childs xsi:type="com.ibm.rational.test.lt.models.wscore.xml:XmlElement" name="ListOfContinentsByName" id="A1EF087A424E6158E348B23938333530" nameSpace="tns1"/>
+      </childs>
+      <xmlElementNameSpace id="A1EF087A424E6144E348B23938333530" value="http://www.w3.org/2003/05/soap-envelope" name="xmlns:soapenv"/>
+      <xmlElementNameSpace id="A1EF087A424E6148E348B23938333530" value="http://www.w3.org/2001/XMLSchema-instance" name="xmlns:xsi"/>
+      <xmlElementNameSpace id="A1EF087A424E614CE348B23938333530" value="http://www.w3.org/2001/XMLSchema" name="xmlns:xsd"/>
+      <xmlElementNameSpace id="A1EF087A424E6150E348B23938333530" value="http://www.oorsprong.org/websamples.countryinfo" name="xmlns:tns1"/>
+    </XmlElement>
+  </data>
+  <data xsi:type="com.ibm.rational.test.lt.models.wscore.message.content:AttachmentContent">
+    <Attachments/>
+  </data>
+  <data xsi:type="com.ibm.rational.test.lt.models.wscore.message.content:MQNContent">
+    <MQNElement>
+      <items nameItem="MQMessageContent_Link">
+        <properties xsi:type="com.ibm.rational.test.lt.models.wscore.utils:ExtendedSimpleProperty" id="A1EF087A424E615CE348B23938333530" value="MQMessageContent_InternalConstant_TextContentType" name="MQMessageContent_Link__ContentType" type="java.lang.String" selected="true"/>
+      </items>
+    </MQNElement>
+  </data>
+  <data xsi:type="com.ibm.rational.test.lt.models.wscore.message.content:PropertyContent"/>
+  <MessageTransformation xsi:type="com.ibm.rational.test.lt.models.wscore.message.transformation:SoapMessageTransformation" wsdlPortId="1998046282SEPARATORb6e13425-fd22-48f1-9cbf-e1585e15f133">
+    <dataSent xsi:type="com.ibm.rational.test.lt.models.wscore.message.transformation:XmlTransformation"/>
+    <dataReceived xsi:type="com.ibm.rational.test.lt.models.wscore.message.transformation:XmlTransformation"/>
+  </MessageTransformation>
+  <Protocol xsi:type="com.ibm.rational.test.lt.models.wscore.protocol.jms:JMSProtocol" name="JMS">
+    <ProtocolConfigurationAlias xsi:type="com.ibm.rational.test.lt.models.wscore.protocol.jms:JMSProtocolAlias" name="XdefaultjmsX">
+      <aliasName value="XdefaultjmsX"/>
+    </ProtocolConfigurationAlias>
+  </Protocol>
+  <Protocol xsi:type="com.ibm.rational.test.lt.models.wscore.datamodel.protocol.mq:MQProtocol" name="MQ" selected="true">
+    <ProtocolConfigurationAlias xsi:type="com.ibm.rational.test.lt.models.wscore.datamodel.protocol.mq:MQProtocolConfigurationAlias" name="XdefaultmqX">
+      <aliasName id="A1EF087A424E6160E348B23938333530" value="XdefaultmqX"/>
+    </ProtocolConfigurationAlias>
+  </Protocol>
+  <Protocol xsi:type="com.ibm.rational.test.lt.models.wscore.protocol.dotnet:DotNetProtocol" name="DOT-NET">
+    <ProtocolConfigurationAlias xsi:type="com.ibm.rational.test.lt.models.wscore.protocol.dotnet:DotNetProtocolConfigurationAlias" name="XdefaultDotNetX">
+      <aliasName value="XdefaultDotNetX"/>
+    </ProtocolConfigurationAlias>
+  </Protocol>
+  <Protocol xsi:type="com.ibm.rational.test.lt.models.wscore.protocol.mqn:MQNProtocol" name="MQN">
+    <ProtocolConfigurationAlias xsi:type="com.ibm.rational.test.lt.models.wscore.protocol.mqn:MQNProtocolConfigurationAlias" name="XdefaultmqnativeX">
+      <aliasName value="XdefaultmqnativeX"/>
+      <CallQueueConf request_type="MQMT_REQUEST">
+        <SimplePropertyMsgHeader xsi:type="com.ibm.rational.test.lt.models.wscore.utils:ExtendedSimpleProperty" value="_DEFAULT_WRITE_QUEUE" name="MsgQueue" type="java.lang.String" selected="true"/>
+        <SimplePropertyMsgHeader xsi:type="com.ibm.rational.test.lt.models.wscore.utils:ExtendedSimpleProperty" value="MQMT_REQUEST" name="MQMD_MsgType" type="java.lang.String" selected="true"/>
+        <SimplePropertyMsgHeader xsi:type="com.ibm.rational.test.lt.models.wscore.utils:ExtendedSimpleProperty" value="DEFAULT_READ_QUEUE" name="MsgAnswerQueue" type="java.lang.String" selected="true"/>
+        <SimplePropertyMsgHeader xsi:type="com.ibm.rational.test.lt.models.wscore.utils:ExtendedSimpleProperty" value="" name="MsgAnswerQueueManager" type="java.lang.String" selected="true"/>
+        <SimplePropertyMsgHeader xsi:type="com.ibm.rational.test.lt.models.wscore.utils:ExtendedSimpleProperty" value="false" name="MsgDynamicalAnswer" type="java.lang.Boolean" selected="true"/>
+        <SimplePropertyMsgHeader xsi:type="com.ibm.rational.test.lt.models.wscore.utils:ExtendedSimpleProperty" value="MQPER_NOT_PERSISTENT" name="MQMD_Persistence" type="java.lang.String" selected="true"/>
+        <SimplePropertyMsgHeader xsi:type="com.ibm.rational.test.lt.models.wscore.utils:ExtendedSimpleProperty" value="0" name="MQMD_Priority" type="java.lang.Integer" selected="true"/>
+        <SimplePropertyMsgHeader xsi:type="com.ibm.rational.test.lt.models.wscore.utils:ExtendedSimpleProperty" value="273" name="MQMD_Encoding" type="java.lang.Integer" selected="true"/>
+        <SimplePropertyMsgHeader xsi:type="com.ibm.rational.test.lt.models.wscore.utils:ExtendedSimpleProperty" value="-1" name="MQMD_Expiry" type="java.lang.Integer" selected="true"/>
+        <SimplePropertyMsgHeader xsi:type="com.ibm.rational.test.lt.models.wscore.utils:ExtendedSimpleProperty" value="1208" name="MQMD_CharacterSet" type="java.lang.Integer" selected="true"/>
+        <SimplePropertyMsgHeader xsi:type="com.ibm.rational.test.lt.models.wscore.utils:ExtendedSimpleProperty" value="0" name="MQMD_Report" type="java.lang.Long" selected="true"/>
+        <SimplePropertyMsgHeader xsi:type="com.ibm.rational.test.lt.models.wscore.utils:ExtendedSimpleProperty" value="0" name="MQMD_Feedback" type="java.lang.Integer" selected="true"/>
+        <SimplePropertyMsgHeader xsi:type="com.ibm.rational.test.lt.models.wscore.utils:ExtendedSimpleProperty" value="" name="MQMD_ApplicationIdData" type="java.lang.String" selected="true"/>
+        <SimplePropertyMsgHeader xsi:type="com.ibm.rational.test.lt.models.wscore.utils:ExtendedSimpleProperty" value="" name="MQMD_ApplicationOriginData" type="java.lang.String" selected="true"/>
+        <SimplePropertyMsgHeader xsi:type="com.ibm.rational.test.lt.models.wscore.utils:ExtendedSimpleProperty" value="" name="MQMD_AccountingToken" type="[Ljava.lang.Byte;" selected="true"/>
+        <SimplePropertyMsgHeader xsi:type="com.ibm.rational.test.lt.models.wscore.utils:ExtendedSimpleProperty" value="" name="MQMD_UserId" type="java.lang.String" selected="true"/>
+        <SimplePropertyMsgHeader xsi:type="com.ibm.rational.test.lt.models.wscore.utils:ExtendedSimpleProperty" value="" name="MQMD_MessageId" type="[Ljava.lang.Byte;" selected="true"/>
+        <SimplePropertyMsgHeader xsi:type="com.ibm.rational.test.lt.models.wscore.utils:ExtendedSimpleProperty" value="" name="MQMD_CorrelationId" type="[Ljava.lang.Byte;" selected="true"/>
+        <SimplePropertyMsgHeader xsi:type="com.ibm.rational.test.lt.models.wscore.utils:ExtendedSimpleProperty" value="" name="MQMD_GroupId" type="[Ljava.lang.Byte;" selected="true"/>
+        <SimplePropertyMsgHeader xsi:type="com.ibm.rational.test.lt.models.wscore.utils:ExtendedSimpleProperty" value="0" name="MQMD_Segmentation" type="java.lang.Integer" selected="true"/>
+        <SimplePropertyMsgHeader xsi:type="com.ibm.rational.test.lt.models.wscore.utils:ExtendedSimpleProperty" value="0" name="MQMD_Offset" type="java.lang.Integer" selected="true"/>
+        <SimplePropertyMsgHeader xsi:type="com.ibm.rational.test.lt.models.wscore.utils:ExtendedSimpleProperty" value="1" name="MQMD_MessageSequenceNumber" type="java.lang.Integer" selected="true"/>
+      </CallQueueConf>
+    </ProtocolConfigurationAlias>
+  </Protocol>
+  <Protocol xsi:type="com.ibm.rational.test.lt.models.wscore.protocol.http:HttpProtocol" name="HTTP">
+    <ProtocolConfigurationAlias xsi:type="com.ibm.rational.test.lt.models.wscore.protocol.http:HttpCallConfigurationAlias" name="XdefaulthttpX">
+      <aliasName value="XdefaulthttpX"/>
+      <headeroptions id="A1EF0875023ECA40E348B23938333530" value="" name="header"/>
+      <url id="A1EF087456CF9D14E348B23938333530" value="http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso"/>
+      <restResource id="A1EF087459F79100E348B23938333530"/>
+      <restParameterSeparator value="&amp;"/>
+    </ProtocolConfigurationAlias>
+  </Protocol>
+</com.ibm.rational.test.lt.models.wscore.message:Request>

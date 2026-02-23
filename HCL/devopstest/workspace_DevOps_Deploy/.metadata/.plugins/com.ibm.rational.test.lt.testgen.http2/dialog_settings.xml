@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="Http2TestGeneratorWizard">
+		<list key="lastFilteredDomains">
+			<item value="static.cloudflareinsights.com"/>
+			<item value="img-s-msn-com.akamaized.net"/>
+			<item value="hclo365-my.sharepoint.com"/>
+			<item value="cdn.jsdelivr.net"/>
+			<item value="clientservices.googleapis.com"/>
+			<item value="secure.livechatinc.com"/>
+			<item value="ntp.msn.com"/>
+			<item value="apac.presence.teams.microsoft.com"/>
+			<item value="www.googletagmanager.com"/>
+			<item value="th.bing.com"/>
+			<item value="msedge.b.tlu.dl.delivery.mp.microsoft.com"/>
+			<item value="update.googleapis.com"/>
+			<item value="www.google.com"/>
+			<item value="hclsoftware.compliance.flexnetoperations.com"/>
+			<item value="www.google-analytics.com"/>
+			<item value="optimizationguide-pa.googleapis.com"/>
+			<item value="assets.msn.com"/>
+			<item value="fonts.googleapis.com"/>
+			<item value="accounts.google.com"/>
+			<item value="content-autofill.googleapis.com"/>
+			<item value="fonts.gstatic.com"/>
+			<item value="edge-consumer-static.azureedge.net"/>
+			<item value="google-ohttp-relay-safebrowsing.fastly-edge.com"/>
+			<item value="api.livechatinc.com"/>
+			<item value="webshell.suite.office.com"/>
+			<item value="accounts.livechatinc.com"/>
+			<item value="cdn.livechatinc.com"/>
+			<item value="edge.microsoft.com"/>
+			<item value="api.msn.com"/>
+			<item value="127.0.0.1"/>
+		</list>
+	</section>
+</section>

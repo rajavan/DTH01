@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="SelDialog">
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;state&gt;&#x0D;&#x0A;&lt;expanded factory=&quot;org.eclipse.ui.internal.model.ResourceFactory&quot; path=&quot;/MultiScheduleProject&quot; type=&quot;4&quot;/&gt;&#x0D;&#x0A;&lt;selected factory=&quot;org.eclipse.ui.internal.model.ResourceFactory&quot; path=&quot;/MultiScheduleProject/PhpTravels.testsuite&quot; type=&quot;1&quot;/&gt;&#x0D;&#x0A;&lt;/state&gt;" key="selectTests.state"/>
+	</section>
+	<section name="LtDeleteWizard">
+		<item value="true" key="removeReferences"/>
+		<item value="true" key="deleteContent"/>
+		<section name="RefactoringWizard.preview">
+			<item value="666" key="width"/>
+			<item value="400" key="height"/>
+		</section>
+		<section name="org.eclipse.ltk.ui.refactoring.settings">
+		</section>
+	</section>
+</section>

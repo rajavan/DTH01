@@ -1,0 +1,34 @@
+name: dynamic
+version: 2
+projectReferences: 
+resources: 
+  - name: .classpath
+    type: com.ibm.rational.test.lt.classpath
+    dependencies: 
+      - path: /dynamic/src
+        type: javaClasspath
+  - name: multi_request.recdata
+  - name: multi_request.recsession
+    type: com.ibm.rational.test.lt.recsession
+    dependencies: 
+      - path: /dynamic/multi_request.recdata
+        type: recsessionRecdata
+  - name: multi_request.testsuite
+    type: com.ibm.rational.test.lt.test
+    version: 11.0.0.0
+    properties: 
+      features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
+      type: com.ibm.rational.test.lt.lttest
+      uid: A1E3A896AF0862D0D296E26238393137
+    dependencies: 
+      - path: /dynamic/.classpath
+        type: testJavaClasspath
+      - path: /dynamic/multi_request.recsession
+        type: testRecsession
+      - path: /dynamic/src/customcode/Class.java
+        type: testCustomCode
+  - name: src
+    resources: 
+      - name: customcode
+        resources: 
+          - name: Class.java

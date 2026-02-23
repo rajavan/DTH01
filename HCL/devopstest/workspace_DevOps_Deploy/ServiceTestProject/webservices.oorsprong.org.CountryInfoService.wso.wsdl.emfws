@@ -1,0 +1,996 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<com.ibm.rational.test.lt.models.wscore.configuration:WSDLInformationContainer xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rational.test.lt.models.wscore.configuration="http:///com/ibm/rational/test/lt/models/wscore/configuration.ecore">
+  <securityOperationConfiguration>
+    <SecurityPortConfiguration aliasName="DEFAULTCONFIGURATION"/>
+  </securityOperationConfiguration>
+  <keyStore/>
+  <wsdl name="CountryInfoService" key="CountryInfoService">
+    <SimpleProperty value="http://www.oorsprong.org/websamples.countryinfo" name="WSDLPROPERTY_TARGETNAMESPACE"/>
+    <SimpleProperty value="334077b692686e563f36db1060fa0e962cab83cf334077b692686e563f36db1060fa0e962cab83cf" name="WSDLPROPERTY_HASH"/>
+    <SimpleProperty value="1714648077260" name="WSDLPROPERTY_SYNCHROSTAMP"/>
+    <ResourceProxy portablePath="/ServiceTestProject/webservices.oorsprong.org.CountryInfoService.wso.wsdl" timeStamp="1714648077260"/>
+    <WsdlInformationContainer versionContainer="10.1"/>
+    <WsdlBinding name="CountryInfoServiceSoapBinding">
+      <SimpleProperty value="SoapDocumentBinding" name="WSDLBINDINGPROPERTY_TYPE"/>
+      <SimpleProperty value="http://schemas.xmlsoap.org/soap/http" name="WSDLBINDINGPROPERTY_TRANSPORT_TYPE"/>
+      <SimpleProperty value="true" name="Soap11Binding"/>
+      <SimpleProperty value="false" name="Soap12Binding"/>
+      <SimpleProperty value="false" name="HttpBinding"/>
+      <SimpleProperty value="{http://www.oorsprong.org/websamples.countryinfo}CountryInfoServiceSoapType" name="WSDLBINDING_SERVICE_NAME"/>
+      <WsdlOperation name="ListOfContinentsByName" key="ListOfContinentsByName">
+        <WsdlPort name="CountryInfoServiceSoap" uniqueID="-512264869SEPARATORfc3b9b29-d88d-42e6-adcb-eee4c1357121">
+          <SimpleProperty value="http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso" name="WSDLPORTPROPERTY_HTTP_URL"/>
+          <in>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </in>
+          <out>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </out>
+        </WsdlPort>
+        <in>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.oorsprong.org/websamples.countryinfo" localPart="ListOfContinentsByName" partName="parameters"/>
+        </in>
+        <SimpleProperty value="SoapDocumentBinding" name="WSDLOPERATIONPROPERTY_STYLE_TYPE"/>
+        <SimpleProperty value="true" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_REQUIRED"/>
+        <SimpleProperty value="" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_URI"/>
+        <out>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <SimpleProperty name="MESSAGENAME"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.oorsprong.org/websamples.countryinfo" localPart="ListOfContinentsByNameResponse" partName="parameters"/>
+        </out>
+      </WsdlOperation>
+      <WsdlOperation name="ListOfContinentsByCode" key="ListOfContinentsByCode">
+        <WsdlPort name="CountryInfoServiceSoap" uniqueID="-1993610252SEPARATORcf6f3bc7-f836-4626-b00e-487b8185cf08">
+          <SimpleProperty value="http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso" name="WSDLPORTPROPERTY_HTTP_URL"/>
+          <in>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </in>
+          <out>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </out>
+        </WsdlPort>
+        <in>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.oorsprong.org/websamples.countryinfo" localPart="ListOfContinentsByCode" partName="parameters"/>
+        </in>
+        <SimpleProperty value="SoapDocumentBinding" name="WSDLOPERATIONPROPERTY_STYLE_TYPE"/>
+        <SimpleProperty value="true" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_REQUIRED"/>
+        <SimpleProperty value="" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_URI"/>
+        <out>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <SimpleProperty name="MESSAGENAME"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.oorsprong.org/websamples.countryinfo" localPart="ListOfContinentsByCodeResponse" partName="parameters"/>
+        </out>
+      </WsdlOperation>
+      <WsdlOperation name="ListOfCurrenciesByName" key="ListOfCurrenciesByName">
+        <WsdlPort name="CountryInfoServiceSoap" uniqueID="-1833979559SEPARATORad0e4284-799a-486e-9491-74cc29f47fc0">
+          <SimpleProperty value="http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso" name="WSDLPORTPROPERTY_HTTP_URL"/>
+          <in>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </in>
+          <out>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </out>
+        </WsdlPort>
+        <in>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.oorsprong.org/websamples.countryinfo" localPart="ListOfCurrenciesByName" partName="parameters"/>
+        </in>
+        <SimpleProperty value="SoapDocumentBinding" name="WSDLOPERATIONPROPERTY_STYLE_TYPE"/>
+        <SimpleProperty value="true" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_REQUIRED"/>
+        <SimpleProperty value="" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_URI"/>
+        <out>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <SimpleProperty name="MESSAGENAME"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.oorsprong.org/websamples.countryinfo" localPart="ListOfCurrenciesByNameResponse" partName="parameters"/>
+        </out>
+      </WsdlOperation>
+      <WsdlOperation name="ListOfCurrenciesByCode" key="ListOfCurrenciesByCode">
+        <WsdlPort name="CountryInfoServiceSoap" uniqueID="-418680334SEPARATORb7535ca5-706b-4aed-9d2c-45735248f1d4">
+          <SimpleProperty value="http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso" name="WSDLPORTPROPERTY_HTTP_URL"/>
+          <in>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </in>
+          <out>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </out>
+        </WsdlPort>
+        <in>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.oorsprong.org/websamples.countryinfo" localPart="ListOfCurrenciesByCode" partName="parameters"/>
+        </in>
+        <SimpleProperty value="SoapDocumentBinding" name="WSDLOPERATIONPROPERTY_STYLE_TYPE"/>
+        <SimpleProperty value="true" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_REQUIRED"/>
+        <SimpleProperty value="" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_URI"/>
+        <out>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <SimpleProperty name="MESSAGENAME"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.oorsprong.org/websamples.countryinfo" localPart="ListOfCurrenciesByCodeResponse" partName="parameters"/>
+        </out>
+      </WsdlOperation>
+      <WsdlOperation name="CurrencyName" key="CurrencyName">
+        <WsdlPort name="CountryInfoServiceSoap" uniqueID="-167986514SEPARATOR97204609-a214-4b0b-abd6-410c6c26eacf">
+          <SimpleProperty value="http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso" name="WSDLPORTPROPERTY_HTTP_URL"/>
+          <in>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </in>
+          <out>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </out>
+        </WsdlPort>
+        <in>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.oorsprong.org/websamples.countryinfo" localPart="CurrencyName" partName="parameters"/>
+        </in>
+        <SimpleProperty value="SoapDocumentBinding" name="WSDLOPERATIONPROPERTY_STYLE_TYPE"/>
+        <SimpleProperty value="true" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_REQUIRED"/>
+        <SimpleProperty value="" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_URI"/>
+        <out>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <SimpleProperty name="MESSAGENAME"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.oorsprong.org/websamples.countryinfo" localPart="CurrencyNameResponse" partName="parameters"/>
+        </out>
+      </WsdlOperation>
+      <WsdlOperation name="ListOfCountryNamesByCode" key="ListOfCountryNamesByCode">
+        <WsdlPort name="CountryInfoServiceSoap" uniqueID="-1557558349SEPARATORcd1392a4-6fc5-40ab-bffb-515751d52347">
+          <SimpleProperty value="http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso" name="WSDLPORTPROPERTY_HTTP_URL"/>
+          <in>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </in>
+          <out>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </out>
+        </WsdlPort>
+        <in>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.oorsprong.org/websamples.countryinfo" localPart="ListOfCountryNamesByCode" partName="parameters"/>
+        </in>
+        <SimpleProperty value="SoapDocumentBinding" name="WSDLOPERATIONPROPERTY_STYLE_TYPE"/>
+        <SimpleProperty value="true" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_REQUIRED"/>
+        <SimpleProperty value="" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_URI"/>
+        <out>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <SimpleProperty name="MESSAGENAME"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.oorsprong.org/websamples.countryinfo" localPart="ListOfCountryNamesByCodeResponse" partName="parameters"/>
+        </out>
+      </WsdlOperation>
+      <WsdlOperation name="ListOfCountryNamesByName" key="ListOfCountryNamesByName">
+        <WsdlPort name="CountryInfoServiceSoap" uniqueID="-830156232SEPARATORfdd7058d-d50b-4a5e-bdf9-585f86f3d8e6">
+          <SimpleProperty value="http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso" name="WSDLPORTPROPERTY_HTTP_URL"/>
+          <in>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </in>
+          <out>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </out>
+        </WsdlPort>
+        <in>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.oorsprong.org/websamples.countryinfo" localPart="ListOfCountryNamesByName" partName="parameters"/>
+        </in>
+        <SimpleProperty value="SoapDocumentBinding" name="WSDLOPERATIONPROPERTY_STYLE_TYPE"/>
+        <SimpleProperty value="true" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_REQUIRED"/>
+        <SimpleProperty value="" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_URI"/>
+        <out>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <SimpleProperty name="MESSAGENAME"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.oorsprong.org/websamples.countryinfo" localPart="ListOfCountryNamesByNameResponse" partName="parameters"/>
+        </out>
+      </WsdlOperation>
+      <WsdlOperation name="ListOfCountryNamesGroupedByContinent" key="ListOfCountryNamesGroupedByContinent">
+        <WsdlPort name="CountryInfoServiceSoap" uniqueID="-196650211SEPARATORc6a01562-faa7-4883-8b00-5e600bb8c49b">
+          <SimpleProperty value="http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso" name="WSDLPORTPROPERTY_HTTP_URL"/>
+          <in>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </in>
+          <out>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </out>
+        </WsdlPort>
+        <in>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.oorsprong.org/websamples.countryinfo" localPart="ListOfCountryNamesGroupedByContinent" partName="parameters"/>
+        </in>
+        <SimpleProperty value="SoapDocumentBinding" name="WSDLOPERATIONPROPERTY_STYLE_TYPE"/>
+        <SimpleProperty value="true" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_REQUIRED"/>
+        <SimpleProperty value="" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_URI"/>
+        <out>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <SimpleProperty name="MESSAGENAME"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.oorsprong.org/websamples.countryinfo" localPart="ListOfCountryNamesGroupedByContinentResponse" partName="parameters"/>
+        </out>
+      </WsdlOperation>
+      <WsdlOperation name="CountryName" key="CountryName">
+        <WsdlPort name="CountryInfoServiceSoap" uniqueID="-711988850SEPARATORebe80cc9-df14-457b-af87-f3023ec5aded">
+          <SimpleProperty value="http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso" name="WSDLPORTPROPERTY_HTTP_URL"/>
+          <in>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </in>
+          <out>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </out>
+        </WsdlPort>
+        <in>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.oorsprong.org/websamples.countryinfo" localPart="CountryName" partName="parameters"/>
+        </in>
+        <SimpleProperty value="SoapDocumentBinding" name="WSDLOPERATIONPROPERTY_STYLE_TYPE"/>
+        <SimpleProperty value="true" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_REQUIRED"/>
+        <SimpleProperty value="" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_URI"/>
+        <out>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <SimpleProperty name="MESSAGENAME"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.oorsprong.org/websamples.countryinfo" localPart="CountryNameResponse" partName="parameters"/>
+        </out>
+      </WsdlOperation>
+      <WsdlOperation name="CountryISOCode" key="CountryISOCode">
+        <WsdlPort name="CountryInfoServiceSoap" uniqueID="1106982344SEPARATORd092040f-8a1c-4294-b6e5-96145a1e30ca">
+          <SimpleProperty value="http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso" name="WSDLPORTPROPERTY_HTTP_URL"/>
+          <in>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </in>
+          <out>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </out>
+        </WsdlPort>
+        <in>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.oorsprong.org/websamples.countryinfo" localPart="CountryISOCode" partName="parameters"/>
+        </in>
+        <SimpleProperty value="SoapDocumentBinding" name="WSDLOPERATIONPROPERTY_STYLE_TYPE"/>
+        <SimpleProperty value="true" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_REQUIRED"/>
+        <SimpleProperty value="" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_URI"/>
+        <out>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <SimpleProperty name="MESSAGENAME"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.oorsprong.org/websamples.countryinfo" localPart="CountryISOCodeResponse" partName="parameters"/>
+        </out>
+      </WsdlOperation>
+      <WsdlOperation name="CapitalCity" key="CapitalCity">
+        <WsdlPort name="CountryInfoServiceSoap" uniqueID="-492219043SEPARATOR261ab583-899e-493b-8954-99d313288b07">
+          <SimpleProperty value="http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso" name="WSDLPORTPROPERTY_HTTP_URL"/>
+          <in>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </in>
+          <out>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </out>
+        </WsdlPort>
+        <in>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.oorsprong.org/websamples.countryinfo" localPart="CapitalCity" partName="parameters"/>
+        </in>
+        <SimpleProperty value="SoapDocumentBinding" name="WSDLOPERATIONPROPERTY_STYLE_TYPE"/>
+        <SimpleProperty value="true" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_REQUIRED"/>
+        <SimpleProperty value="" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_URI"/>
+        <out>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <SimpleProperty name="MESSAGENAME"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.oorsprong.org/websamples.countryinfo" localPart="CapitalCityResponse" partName="parameters"/>
+        </out>
+      </WsdlOperation>
+      <WsdlOperation name="CountryCurrency" key="CountryCurrency">
+        <WsdlPort name="CountryInfoServiceSoap" uniqueID="-51532945SEPARATOR48ccbc34-7a0d-4daf-b359-9587ad17e442">
+          <SimpleProperty value="http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso" name="WSDLPORTPROPERTY_HTTP_URL"/>
+          <in>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </in>
+          <out>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </out>
+        </WsdlPort>
+        <in>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.oorsprong.org/websamples.countryinfo" localPart="CountryCurrency" partName="parameters"/>
+        </in>
+        <SimpleProperty value="SoapDocumentBinding" name="WSDLOPERATIONPROPERTY_STYLE_TYPE"/>
+        <SimpleProperty value="true" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_REQUIRED"/>
+        <SimpleProperty value="" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_URI"/>
+        <out>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <SimpleProperty name="MESSAGENAME"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.oorsprong.org/websamples.countryinfo" localPart="CountryCurrencyResponse" partName="parameters"/>
+        </out>
+      </WsdlOperation>
+      <WsdlOperation name="CountryFlag" key="CountryFlag">
+        <WsdlPort name="CountryInfoServiceSoap" uniqueID="1660658166SEPARATOR46d6cbad-958c-477e-b7ea-842eeb9552b7">
+          <SimpleProperty value="http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso" name="WSDLPORTPROPERTY_HTTP_URL"/>
+          <in>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </in>
+          <out>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </out>
+        </WsdlPort>
+        <in>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.oorsprong.org/websamples.countryinfo" localPart="CountryFlag" partName="parameters"/>
+        </in>
+        <SimpleProperty value="SoapDocumentBinding" name="WSDLOPERATIONPROPERTY_STYLE_TYPE"/>
+        <SimpleProperty value="true" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_REQUIRED"/>
+        <SimpleProperty value="" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_URI"/>
+        <out>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <SimpleProperty name="MESSAGENAME"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.oorsprong.org/websamples.countryinfo" localPart="CountryFlagResponse" partName="parameters"/>
+        </out>
+      </WsdlOperation>
+      <WsdlOperation name="CountryIntPhoneCode" key="CountryIntPhoneCode">
+        <WsdlPort name="CountryInfoServiceSoap" uniqueID="-238693001SEPARATOR9afdfe54-7e27-4bbc-ac0c-fe781bfa768d">
+          <SimpleProperty value="http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso" name="WSDLPORTPROPERTY_HTTP_URL"/>
+          <in>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </in>
+          <out>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </out>
+        </WsdlPort>
+        <in>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.oorsprong.org/websamples.countryinfo" localPart="CountryIntPhoneCode" partName="parameters"/>
+        </in>
+        <SimpleProperty value="SoapDocumentBinding" name="WSDLOPERATIONPROPERTY_STYLE_TYPE"/>
+        <SimpleProperty value="true" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_REQUIRED"/>
+        <SimpleProperty value="" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_URI"/>
+        <out>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <SimpleProperty name="MESSAGENAME"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.oorsprong.org/websamples.countryinfo" localPart="CountryIntPhoneCodeResponse" partName="parameters"/>
+        </out>
+      </WsdlOperation>
+      <WsdlOperation name="FullCountryInfo" key="FullCountryInfo">
+        <WsdlPort name="CountryInfoServiceSoap" uniqueID="-875950744SEPARATOR7ff50cce-a8d7-4d94-aa82-b07b22b478f1">
+          <SimpleProperty value="http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso" name="WSDLPORTPROPERTY_HTTP_URL"/>
+          <in>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </in>
+          <out>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </out>
+        </WsdlPort>
+        <in>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.oorsprong.org/websamples.countryinfo" localPart="FullCountryInfo" partName="parameters"/>
+        </in>
+        <SimpleProperty value="SoapDocumentBinding" name="WSDLOPERATIONPROPERTY_STYLE_TYPE"/>
+        <SimpleProperty value="true" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_REQUIRED"/>
+        <SimpleProperty value="" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_URI"/>
+        <out>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <SimpleProperty name="MESSAGENAME"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.oorsprong.org/websamples.countryinfo" localPart="FullCountryInfoResponse" partName="parameters"/>
+        </out>
+      </WsdlOperation>
+      <WsdlOperation name="FullCountryInfoAllCountries" key="FullCountryInfoAllCountries">
+        <WsdlPort name="CountryInfoServiceSoap" uniqueID="-353655205SEPARATOR2b8f1312-fe3c-4e2c-80d5-3c0200704b77">
+          <SimpleProperty value="http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso" name="WSDLPORTPROPERTY_HTTP_URL"/>
+          <in>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </in>
+          <out>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </out>
+        </WsdlPort>
+        <in>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.oorsprong.org/websamples.countryinfo" localPart="FullCountryInfoAllCountries" partName="parameters"/>
+        </in>
+        <SimpleProperty value="SoapDocumentBinding" name="WSDLOPERATIONPROPERTY_STYLE_TYPE"/>
+        <SimpleProperty value="true" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_REQUIRED"/>
+        <SimpleProperty value="" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_URI"/>
+        <out>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <SimpleProperty name="MESSAGENAME"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.oorsprong.org/websamples.countryinfo" localPart="FullCountryInfoAllCountriesResponse" partName="parameters"/>
+        </out>
+      </WsdlOperation>
+      <WsdlOperation name="CountriesUsingCurrency" key="CountriesUsingCurrency">
+        <WsdlPort name="CountryInfoServiceSoap" uniqueID="-743836873SEPARATORfca01fbe-9b48-4912-a23b-d63059fa310a">
+          <SimpleProperty value="http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso" name="WSDLPORTPROPERTY_HTTP_URL"/>
+          <in>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </in>
+          <out>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </out>
+        </WsdlPort>
+        <in>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.oorsprong.org/websamples.countryinfo" localPart="CountriesUsingCurrency" partName="parameters"/>
+        </in>
+        <SimpleProperty value="SoapDocumentBinding" name="WSDLOPERATIONPROPERTY_STYLE_TYPE"/>
+        <SimpleProperty value="true" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_REQUIRED"/>
+        <SimpleProperty value="" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_URI"/>
+        <out>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <SimpleProperty name="MESSAGENAME"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.oorsprong.org/websamples.countryinfo" localPart="CountriesUsingCurrencyResponse" partName="parameters"/>
+        </out>
+      </WsdlOperation>
+      <WsdlOperation name="ListOfLanguagesByName" key="ListOfLanguagesByName">
+        <WsdlPort name="CountryInfoServiceSoap" uniqueID="-1142666800SEPARATOR10c67d57-07b1-447d-ac43-923b5755a431">
+          <SimpleProperty value="http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso" name="WSDLPORTPROPERTY_HTTP_URL"/>
+          <in>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </in>
+          <out>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </out>
+        </WsdlPort>
+        <in>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.oorsprong.org/websamples.countryinfo" localPart="ListOfLanguagesByName" partName="parameters"/>
+        </in>
+        <SimpleProperty value="SoapDocumentBinding" name="WSDLOPERATIONPROPERTY_STYLE_TYPE"/>
+        <SimpleProperty value="true" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_REQUIRED"/>
+        <SimpleProperty value="" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_URI"/>
+        <out>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <SimpleProperty name="MESSAGENAME"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.oorsprong.org/websamples.countryinfo" localPart="ListOfLanguagesByNameResponse" partName="parameters"/>
+        </out>
+      </WsdlOperation>
+      <WsdlOperation name="ListOfLanguagesByCode" key="ListOfLanguagesByCode">
+        <WsdlPort name="CountryInfoServiceSoap" uniqueID="-1017952099SEPARATOR962be94d-948e-4bef-b1aa-dc03ebd88da3">
+          <SimpleProperty value="http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso" name="WSDLPORTPROPERTY_HTTP_URL"/>
+          <in>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </in>
+          <out>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </out>
+        </WsdlPort>
+        <in>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.oorsprong.org/websamples.countryinfo" localPart="ListOfLanguagesByCode" partName="parameters"/>
+        </in>
+        <SimpleProperty value="SoapDocumentBinding" name="WSDLOPERATIONPROPERTY_STYLE_TYPE"/>
+        <SimpleProperty value="true" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_REQUIRED"/>
+        <SimpleProperty value="" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_URI"/>
+        <out>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <SimpleProperty name="MESSAGENAME"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.oorsprong.org/websamples.countryinfo" localPart="ListOfLanguagesByCodeResponse" partName="parameters"/>
+        </out>
+      </WsdlOperation>
+      <WsdlOperation name="LanguageName" key="LanguageName">
+        <WsdlPort name="CountryInfoServiceSoap" uniqueID="1560962212SEPARATOR7a0c2bc5-c6ee-4b42-aac2-eaf6babbfeb1">
+          <SimpleProperty value="http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso" name="WSDLPORTPROPERTY_HTTP_URL"/>
+          <in>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </in>
+          <out>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </out>
+        </WsdlPort>
+        <in>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.oorsprong.org/websamples.countryinfo" localPart="LanguageName" partName="parameters"/>
+        </in>
+        <SimpleProperty value="SoapDocumentBinding" name="WSDLOPERATIONPROPERTY_STYLE_TYPE"/>
+        <SimpleProperty value="true" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_REQUIRED"/>
+        <SimpleProperty value="" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_URI"/>
+        <out>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <SimpleProperty name="MESSAGENAME"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.oorsprong.org/websamples.countryinfo" localPart="LanguageNameResponse" partName="parameters"/>
+        </out>
+      </WsdlOperation>
+      <WsdlOperation name="LanguageISOCode" key="LanguageISOCode">
+        <WsdlPort name="CountryInfoServiceSoap" uniqueID="1533085303SEPARATOR25192f49-26e3-4435-affe-a325fa5fe75a">
+          <SimpleProperty value="http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso" name="WSDLPORTPROPERTY_HTTP_URL"/>
+          <in>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </in>
+          <out>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </out>
+        </WsdlPort>
+        <in>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.oorsprong.org/websamples.countryinfo" localPart="LanguageISOCode" partName="parameters"/>
+        </in>
+        <SimpleProperty value="SoapDocumentBinding" name="WSDLOPERATIONPROPERTY_STYLE_TYPE"/>
+        <SimpleProperty value="true" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_REQUIRED"/>
+        <SimpleProperty value="" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_URI"/>
+        <out>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <SimpleProperty name="MESSAGENAME"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.oorsprong.org/websamples.countryinfo" localPart="LanguageISOCodeResponse" partName="parameters"/>
+        </out>
+      </WsdlOperation>
+    </WsdlBinding>
+    <WsdlBinding name="CountryInfoServiceSoapBinding12">
+      <SimpleProperty value="SoapDocumentBinding" name="WSDLBINDINGPROPERTY_TYPE"/>
+      <SimpleProperty value="http://schemas.xmlsoap.org/soap/http" name="WSDLBINDINGPROPERTY_TRANSPORT_TYPE"/>
+      <SimpleProperty value="false" name="Soap11Binding"/>
+      <SimpleProperty value="true" name="Soap12Binding"/>
+      <SimpleProperty value="false" name="HttpBinding"/>
+      <SimpleProperty value="{http://www.oorsprong.org/websamples.countryinfo}CountryInfoServiceSoapType" name="WSDLBINDING_SERVICE_NAME"/>
+      <WsdlOperation name="ListOfContinentsByName" key="ListOfContinentsByName">
+        <WsdlPort name="CountryInfoServiceSoap12" uniqueID="1998046282SEPARATORb6e13425-fd22-48f1-9cbf-e1585e15f133">
+          <SimpleProperty value="http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso" name="WSDLPORTPROPERTY_HTTP_URL"/>
+          <in>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </in>
+          <out>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </out>
+        </WsdlPort>
+        <in>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.oorsprong.org/websamples.countryinfo" localPart="ListOfContinentsByName" partName="parameters"/>
+        </in>
+        <SimpleProperty value="SoapDocumentBinding" name="WSDLOPERATIONPROPERTY_STYLE_TYPE"/>
+        <SimpleProperty value="true" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_REQUIRED"/>
+        <SimpleProperty value="" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_URI"/>
+        <out>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <SimpleProperty name="MESSAGENAME"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.oorsprong.org/websamples.countryinfo" localPart="ListOfContinentsByNameResponse" partName="parameters"/>
+        </out>
+      </WsdlOperation>
+      <WsdlOperation name="ListOfContinentsByCode" key="ListOfContinentsByCode">
+        <WsdlPort name="CountryInfoServiceSoap12" uniqueID="-1797655194SEPARATOR73c1cf14-805b-4ca2-a553-d2183877ba54">
+          <SimpleProperty value="http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso" name="WSDLPORTPROPERTY_HTTP_URL"/>
+          <in>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </in>
+          <out>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </out>
+        </WsdlPort>
+        <in>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.oorsprong.org/websamples.countryinfo" localPart="ListOfContinentsByCode" partName="parameters"/>
+        </in>
+        <SimpleProperty value="SoapDocumentBinding" name="WSDLOPERATIONPROPERTY_STYLE_TYPE"/>
+        <SimpleProperty value="true" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_REQUIRED"/>
+        <SimpleProperty value="" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_URI"/>
+        <out>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <SimpleProperty name="MESSAGENAME"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.oorsprong.org/websamples.countryinfo" localPart="ListOfContinentsByCodeResponse" partName="parameters"/>
+        </out>
+      </WsdlOperation>
+      <WsdlOperation name="ListOfCurrenciesByName" key="ListOfCurrenciesByName">
+        <WsdlPort name="CountryInfoServiceSoap12" uniqueID="1097427012SEPARATOR963972c1-1bb2-438a-ac2c-71654b3e71f8">
+          <SimpleProperty value="http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso" name="WSDLPORTPROPERTY_HTTP_URL"/>
+          <in>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </in>
+          <out>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </out>
+        </WsdlPort>
+        <in>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.oorsprong.org/websamples.countryinfo" localPart="ListOfCurrenciesByName" partName="parameters"/>
+        </in>
+        <SimpleProperty value="SoapDocumentBinding" name="WSDLOPERATIONPROPERTY_STYLE_TYPE"/>
+        <SimpleProperty value="true" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_REQUIRED"/>
+        <SimpleProperty value="" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_URI"/>
+        <out>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <SimpleProperty name="MESSAGENAME"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.oorsprong.org/websamples.countryinfo" localPart="ListOfCurrenciesByNameResponse" partName="parameters"/>
+        </out>
+      </WsdlOperation>
+      <WsdlOperation name="ListOfCurrenciesByCode" key="ListOfCurrenciesByCode">
+        <WsdlPort name="CountryInfoServiceSoap12" uniqueID="298451533SEPARATORb9c7bad6-4bb6-41dc-a2d8-9f51ea8d2500">
+          <SimpleProperty value="http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso" name="WSDLPORTPROPERTY_HTTP_URL"/>
+          <in>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </in>
+          <out>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </out>
+        </WsdlPort>
+        <in>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.oorsprong.org/websamples.countryinfo" localPart="ListOfCurrenciesByCode" partName="parameters"/>
+        </in>
+        <SimpleProperty value="SoapDocumentBinding" name="WSDLOPERATIONPROPERTY_STYLE_TYPE"/>
+        <SimpleProperty value="true" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_REQUIRED"/>
+        <SimpleProperty value="" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_URI"/>
+        <out>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <SimpleProperty name="MESSAGENAME"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.oorsprong.org/websamples.countryinfo" localPart="ListOfCurrenciesByCodeResponse" partName="parameters"/>
+        </out>
+      </WsdlOperation>
+      <WsdlOperation name="CurrencyName" key="CurrencyName">
+        <WsdlPort name="CountryInfoServiceSoap12" uniqueID="168333474SEPARATORd6f3e082-3b32-4e46-a57b-3eec194de7d5">
+          <SimpleProperty value="http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso" name="WSDLPORTPROPERTY_HTTP_URL"/>
+          <in>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </in>
+          <out>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </out>
+        </WsdlPort>
+        <in>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.oorsprong.org/websamples.countryinfo" localPart="CurrencyName" partName="parameters"/>
+        </in>
+        <SimpleProperty value="SoapDocumentBinding" name="WSDLOPERATIONPROPERTY_STYLE_TYPE"/>
+        <SimpleProperty value="true" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_REQUIRED"/>
+        <SimpleProperty value="" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_URI"/>
+        <out>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <SimpleProperty name="MESSAGENAME"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.oorsprong.org/websamples.countryinfo" localPart="CurrencyNameResponse" partName="parameters"/>
+        </out>
+      </WsdlOperation>
+      <WsdlOperation name="ListOfCountryNamesByCode" key="ListOfCountryNamesByCode">
+        <WsdlPort name="CountryInfoServiceSoap12" uniqueID="-681220773SEPARATOR6359d5e9-c9cf-40fc-a798-5858225ab197">
+          <SimpleProperty value="http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso" name="WSDLPORTPROPERTY_HTTP_URL"/>
+          <in>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </in>
+          <out>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </out>
+        </WsdlPort>
+        <in>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.oorsprong.org/websamples.countryinfo" localPart="ListOfCountryNamesByCode" partName="parameters"/>
+        </in>
+        <SimpleProperty value="SoapDocumentBinding" name="WSDLOPERATIONPROPERTY_STYLE_TYPE"/>
+        <SimpleProperty value="true" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_REQUIRED"/>
+        <SimpleProperty value="" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_URI"/>
+        <out>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <SimpleProperty name="MESSAGENAME"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.oorsprong.org/websamples.countryinfo" localPart="ListOfCountryNamesByCodeResponse" partName="parameters"/>
+        </out>
+      </WsdlOperation>
+      <WsdlOperation name="ListOfCountryNamesByName" key="ListOfCountryNamesByName">
+        <WsdlPort name="CountryInfoServiceSoap12" uniqueID="1267994806SEPARATOR0f32d64b-9b05-41ad-be44-3ec2c9cd24c7">
+          <SimpleProperty value="http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso" name="WSDLPORTPROPERTY_HTTP_URL"/>
+          <in>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </in>
+          <out>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </out>
+        </WsdlPort>
+        <in>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.oorsprong.org/websamples.countryinfo" localPart="ListOfCountryNamesByName" partName="parameters"/>
+        </in>
+        <SimpleProperty value="SoapDocumentBinding" name="WSDLOPERATIONPROPERTY_STYLE_TYPE"/>
+        <SimpleProperty value="true" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_REQUIRED"/>
+        <SimpleProperty value="" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_URI"/>
+        <out>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <SimpleProperty name="MESSAGENAME"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.oorsprong.org/websamples.countryinfo" localPart="ListOfCountryNamesByNameResponse" partName="parameters"/>
+        </out>
+      </WsdlOperation>
+      <WsdlOperation name="ListOfCountryNamesGroupedByContinent" key="ListOfCountryNamesGroupedByContinent">
+        <WsdlPort name="CountryInfoServiceSoap12" uniqueID="1520566579SEPARATORca329dea-421c-402d-8ab6-48a239750582">
+          <SimpleProperty value="http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso" name="WSDLPORTPROPERTY_HTTP_URL"/>
+          <in>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </in>
+          <out>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </out>
+        </WsdlPort>
+        <in>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.oorsprong.org/websamples.countryinfo" localPart="ListOfCountryNamesGroupedByContinent" partName="parameters"/>
+        </in>
+        <SimpleProperty value="SoapDocumentBinding" name="WSDLOPERATIONPROPERTY_STYLE_TYPE"/>
+        <SimpleProperty value="true" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_REQUIRED"/>
+        <SimpleProperty value="" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_URI"/>
+        <out>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <SimpleProperty name="MESSAGENAME"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.oorsprong.org/websamples.countryinfo" localPart="ListOfCountryNamesGroupedByContinentResponse" partName="parameters"/>
+        </out>
+      </WsdlOperation>
+      <WsdlOperation name="CountryName" key="CountryName">
+        <WsdlPort name="CountryInfoServiceSoap12" uniqueID="1962127804SEPARATORa0ff15c4-3e8c-435e-a3ef-e027239792d0">
+          <SimpleProperty value="http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso" name="WSDLPORTPROPERTY_HTTP_URL"/>
+          <in>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </in>
+          <out>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </out>
+        </WsdlPort>
+        <in>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.oorsprong.org/websamples.countryinfo" localPart="CountryName" partName="parameters"/>
+        </in>
+        <SimpleProperty value="SoapDocumentBinding" name="WSDLOPERATIONPROPERTY_STYLE_TYPE"/>
+        <SimpleProperty value="true" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_REQUIRED"/>
+        <SimpleProperty value="" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_URI"/>
+        <out>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <SimpleProperty name="MESSAGENAME"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.oorsprong.org/websamples.countryinfo" localPart="CountryNameResponse" partName="parameters"/>
+        </out>
+      </WsdlOperation>
+      <WsdlOperation name="CountryISOCode" key="CountryISOCode">
+        <WsdlPort name="CountryInfoServiceSoap12" uniqueID="-307543464SEPARATORa8275601-3a18-4408-8f29-7d21b8387159">
+          <SimpleProperty value="http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso" name="WSDLPORTPROPERTY_HTTP_URL"/>
+          <in>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </in>
+          <out>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </out>
+        </WsdlPort>
+        <in>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.oorsprong.org/websamples.countryinfo" localPart="CountryISOCode" partName="parameters"/>
+        </in>
+        <SimpleProperty value="SoapDocumentBinding" name="WSDLOPERATIONPROPERTY_STYLE_TYPE"/>
+        <SimpleProperty value="true" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_REQUIRED"/>
+        <SimpleProperty value="" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_URI"/>
+        <out>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <SimpleProperty name="MESSAGENAME"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.oorsprong.org/websamples.countryinfo" localPart="CountryISOCodeResponse" partName="parameters"/>
+        </out>
+      </WsdlOperation>
+      <WsdlOperation name="CapitalCity" key="CapitalCity">
+        <WsdlPort name="CountryInfoServiceSoap12" uniqueID="-1962063998SEPARATORf349a141-aacb-4aa6-86da-6d51f7552405">
+          <SimpleProperty value="http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso" name="WSDLPORTPROPERTY_HTTP_URL"/>
+          <in>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </in>
+          <out>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </out>
+        </WsdlPort>
+        <in>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.oorsprong.org/websamples.countryinfo" localPart="CapitalCity" partName="parameters"/>
+        </in>
+        <SimpleProperty value="SoapDocumentBinding" name="WSDLOPERATIONPROPERTY_STYLE_TYPE"/>
+        <SimpleProperty value="true" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_REQUIRED"/>
+        <SimpleProperty value="" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_URI"/>
+        <out>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <SimpleProperty name="MESSAGENAME"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.oorsprong.org/websamples.countryinfo" localPart="CapitalCityResponse" partName="parameters"/>
+        </out>
+      </WsdlOperation>
+      <WsdlOperation name="CountryCurrency" key="CountryCurrency">
+        <WsdlPort name="CountryInfoServiceSoap12" uniqueID="1848688761SEPARATORe27db90b-959a-47b4-abed-1378ed5b5604">
+          <SimpleProperty value="http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso" name="WSDLPORTPROPERTY_HTTP_URL"/>
+          <in>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </in>
+          <out>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </out>
+        </WsdlPort>
+        <in>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.oorsprong.org/websamples.countryinfo" localPart="CountryCurrency" partName="parameters"/>
+        </in>
+        <SimpleProperty value="SoapDocumentBinding" name="WSDLOPERATIONPROPERTY_STYLE_TYPE"/>
+        <SimpleProperty value="true" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_REQUIRED"/>
+        <SimpleProperty value="" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_URI"/>
+        <out>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <SimpleProperty name="MESSAGENAME"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.oorsprong.org/websamples.countryinfo" localPart="CountryCurrencyResponse" partName="parameters"/>
+        </out>
+      </WsdlOperation>
+      <WsdlOperation name="CountryFlag" key="CountryFlag">
+        <WsdlPort name="CountryInfoServiceSoap12" uniqueID="767497221SEPARATORc6629317-b612-499e-bbf0-c7ab9e18a2bb">
+          <SimpleProperty value="http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso" name="WSDLPORTPROPERTY_HTTP_URL"/>
+          <in>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </in>
+          <out>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </out>
+        </WsdlPort>
+        <in>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.oorsprong.org/websamples.countryinfo" localPart="CountryFlag" partName="parameters"/>
+        </in>
+        <SimpleProperty value="SoapDocumentBinding" name="WSDLOPERATIONPROPERTY_STYLE_TYPE"/>
+        <SimpleProperty value="true" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_REQUIRED"/>
+        <SimpleProperty value="" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_URI"/>
+        <out>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <SimpleProperty name="MESSAGENAME"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.oorsprong.org/websamples.countryinfo" localPart="CountryFlagResponse" partName="parameters"/>
+        </out>
+      </WsdlOperation>
+      <WsdlOperation name="CountryIntPhoneCode" key="CountryIntPhoneCode">
+        <WsdlPort name="CountryInfoServiceSoap12" uniqueID="1536361730SEPARATOR30e55624-6598-4dc4-8dc3-0605deace247">
+          <SimpleProperty value="http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso" name="WSDLPORTPROPERTY_HTTP_URL"/>
+          <in>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </in>
+          <out>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </out>
+        </WsdlPort>
+        <in>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.oorsprong.org/websamples.countryinfo" localPart="CountryIntPhoneCode" partName="parameters"/>
+        </in>
+        <SimpleProperty value="SoapDocumentBinding" name="WSDLOPERATIONPROPERTY_STYLE_TYPE"/>
+        <SimpleProperty value="true" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_REQUIRED"/>
+        <SimpleProperty value="" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_URI"/>
+        <out>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <SimpleProperty name="MESSAGENAME"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.oorsprong.org/websamples.countryinfo" localPart="CountryIntPhoneCodeResponse" partName="parameters"/>
+        </out>
+      </WsdlOperation>
+      <WsdlOperation name="FullCountryInfo" key="FullCountryInfo">
+        <WsdlPort name="CountryInfoServiceSoap12" uniqueID="2091067792SEPARATOR27b24a89-b7b1-4950-a463-cb326fd50e6f">
+          <SimpleProperty value="http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso" name="WSDLPORTPROPERTY_HTTP_URL"/>
+          <in>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </in>
+          <out>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </out>
+        </WsdlPort>
+        <in>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.oorsprong.org/websamples.countryinfo" localPart="FullCountryInfo" partName="parameters"/>
+        </in>
+        <SimpleProperty value="SoapDocumentBinding" name="WSDLOPERATIONPROPERTY_STYLE_TYPE"/>
+        <SimpleProperty value="true" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_REQUIRED"/>
+        <SimpleProperty value="" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_URI"/>
+        <out>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <SimpleProperty name="MESSAGENAME"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.oorsprong.org/websamples.countryinfo" localPart="FullCountryInfoResponse" partName="parameters"/>
+        </out>
+      </WsdlOperation>
+      <WsdlOperation name="FullCountryInfoAllCountries" key="FullCountryInfoAllCountries">
+        <WsdlPort name="CountryInfoServiceSoap12" uniqueID="-88105348SEPARATOR41d16a12-e7a9-477b-93aa-12cc2a4bf4c3">
+          <SimpleProperty value="http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso" name="WSDLPORTPROPERTY_HTTP_URL"/>
+          <in>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </in>
+          <out>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </out>
+        </WsdlPort>
+        <in>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.oorsprong.org/websamples.countryinfo" localPart="FullCountryInfoAllCountries" partName="parameters"/>
+        </in>
+        <SimpleProperty value="SoapDocumentBinding" name="WSDLOPERATIONPROPERTY_STYLE_TYPE"/>
+        <SimpleProperty value="true" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_REQUIRED"/>
+        <SimpleProperty value="" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_URI"/>
+        <out>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <SimpleProperty name="MESSAGENAME"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.oorsprong.org/websamples.countryinfo" localPart="FullCountryInfoAllCountriesResponse" partName="parameters"/>
+        </out>
+      </WsdlOperation>
+      <WsdlOperation name="CountriesUsingCurrency" key="CountriesUsingCurrency">
+        <WsdlPort name="CountryInfoServiceSoap12" uniqueID="215807556SEPARATOR2b110302-abad-4cef-ab2e-57e939edcfde">
+          <SimpleProperty value="http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso" name="WSDLPORTPROPERTY_HTTP_URL"/>
+          <in>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </in>
+          <out>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </out>
+        </WsdlPort>
+        <in>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.oorsprong.org/websamples.countryinfo" localPart="CountriesUsingCurrency" partName="parameters"/>
+        </in>
+        <SimpleProperty value="SoapDocumentBinding" name="WSDLOPERATIONPROPERTY_STYLE_TYPE"/>
+        <SimpleProperty value="true" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_REQUIRED"/>
+        <SimpleProperty value="" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_URI"/>
+        <out>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <SimpleProperty name="MESSAGENAME"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.oorsprong.org/websamples.countryinfo" localPart="CountriesUsingCurrencyResponse" partName="parameters"/>
+        </out>
+      </WsdlOperation>
+      <WsdlOperation name="ListOfLanguagesByName" key="ListOfLanguagesByName">
+        <WsdlPort name="CountryInfoServiceSoap12" uniqueID="-1989657439SEPARATORe78ac007-ea3c-401a-922b-233b9c0156b2">
+          <SimpleProperty value="http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso" name="WSDLPORTPROPERTY_HTTP_URL"/>
+          <in>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </in>
+          <out>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </out>
+        </WsdlPort>
+        <in>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.oorsprong.org/websamples.countryinfo" localPart="ListOfLanguagesByName" partName="parameters"/>
+        </in>
+        <SimpleProperty value="SoapDocumentBinding" name="WSDLOPERATIONPROPERTY_STYLE_TYPE"/>
+        <SimpleProperty value="true" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_REQUIRED"/>
+        <SimpleProperty value="" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_URI"/>
+        <out>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <SimpleProperty name="MESSAGENAME"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.oorsprong.org/websamples.countryinfo" localPart="ListOfLanguagesByNameResponse" partName="parameters"/>
+        </out>
+      </WsdlOperation>
+      <WsdlOperation name="ListOfLanguagesByCode" key="ListOfLanguagesByCode">
+        <WsdlPort name="CountryInfoServiceSoap12" uniqueID="1030273508SEPARATOR6304aff7-fec2-4929-a74e-17d44fbf8699">
+          <SimpleProperty value="http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso" name="WSDLPORTPROPERTY_HTTP_URL"/>
+          <in>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </in>
+          <out>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </out>
+        </WsdlPort>
+        <in>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.oorsprong.org/websamples.countryinfo" localPart="ListOfLanguagesByCode" partName="parameters"/>
+        </in>
+        <SimpleProperty value="SoapDocumentBinding" name="WSDLOPERATIONPROPERTY_STYLE_TYPE"/>
+        <SimpleProperty value="true" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_REQUIRED"/>
+        <SimpleProperty value="" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_URI"/>
+        <out>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <SimpleProperty name="MESSAGENAME"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.oorsprong.org/websamples.countryinfo" localPart="ListOfLanguagesByCodeResponse" partName="parameters"/>
+        </out>
+      </WsdlOperation>
+      <WsdlOperation name="LanguageName" key="LanguageName">
+        <WsdlPort name="CountryInfoServiceSoap12" uniqueID="253594327SEPARATORf34f18a8-59c5-49a3-8720-ab394570d2c1">
+          <SimpleProperty value="http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso" name="WSDLPORTPROPERTY_HTTP_URL"/>
+          <in>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </in>
+          <out>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </out>
+        </WsdlPort>
+        <in>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.oorsprong.org/websamples.countryinfo" localPart="LanguageName" partName="parameters"/>
+        </in>
+        <SimpleProperty value="SoapDocumentBinding" name="WSDLOPERATIONPROPERTY_STYLE_TYPE"/>
+        <SimpleProperty value="true" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_REQUIRED"/>
+        <SimpleProperty value="" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_URI"/>
+        <out>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <SimpleProperty name="MESSAGENAME"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.oorsprong.org/websamples.countryinfo" localPart="LanguageNameResponse" partName="parameters"/>
+        </out>
+      </WsdlOperation>
+      <WsdlOperation name="LanguageISOCode" key="LanguageISOCode">
+        <WsdlPort name="CountryInfoServiceSoap12" uniqueID="-1318448646SEPARATOR18cb4d6c-b766-4262-8aa4-42c7882b7420">
+          <SimpleProperty value="http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso" name="WSDLPORTPROPERTY_HTTP_URL"/>
+          <in>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </in>
+          <out>
+            <SimpleProperty value="DEFAULTCONFIGURATION" name="operation_security_information"/>
+          </out>
+        </WsdlPort>
+        <in>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.oorsprong.org/websamples.countryinfo" localPart="LanguageISOCode" partName="parameters"/>
+        </in>
+        <SimpleProperty value="SoapDocumentBinding" name="WSDLOPERATIONPROPERTY_STYLE_TYPE"/>
+        <SimpleProperty value="true" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_REQUIRED"/>
+        <SimpleProperty value="" name="WSDLOPERATIONPROPERTY_SOAP_ACTION_URI"/>
+        <out>
+          <SimpleProperty value="literal" name="WSDLOPERATIONPROPERTY_ENCODING_STYLE"/>
+          <SimpleProperty name="MESSAGENAME"/>
+          <WsdlPart element="true" nameSpaceURI="http://www.oorsprong.org/websamples.countryinfo" localPart="LanguageISOCodeResponse" partName="parameters"/>
+        </out>
+      </WsdlOperation>
+    </WsdlBinding>
+  </wsdl>
+</com.ibm.rational.test.lt.models.wscore.configuration:WSDLInformationContainer>

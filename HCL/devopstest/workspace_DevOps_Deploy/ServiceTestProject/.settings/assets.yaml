@@ -1,0 +1,76 @@
+name: ServiceTestProject
+version: 2
+projectReferences: 
+resources: 
+  - name: .classpath
+    type: com.ibm.rational.test.lt.classpath
+    dependencies: 
+      - path: /ServiceTestProject/src
+        type: javaClasspath
+  - name: ServiceTest1.testsuite
+    type: com.ibm.rational.test.lt.test
+    version: 11.0.0.0
+    properties: 
+      features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.ws.feature'
+      type: com.ibm.rational.test.lt.lttest
+      uid: A1EF08738810D340E348B23938333530
+  - name: ServiceTest2.testsuite
+    type: com.ibm.rational.test.lt.test
+    version: 11.0.0.0
+    properties: 
+      features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.ws.feature'
+      type: com.ibm.rational.test.lt.lttest
+      uid: A1EF0873E962EB10E348B23938333530
+  - name: 'ServiceTest3 [May 2- 2024 5-21-08 PM].htm'
+    type: com.ibm.rational.test.lt.html
+  - name: ServiceTest3.testsuite
+    type: com.ibm.rational.test.lt.test
+    version: 11.0.0.0
+    properties: 
+      features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.ws.feature'
+      type: com.ibm.rational.test.lt.lttest
+      uid: A1EF087456CABB10E348B23938333530
+    dependencies: 
+      - path: /ServiceTestProject/webservices.oorsprong.org.CountryInfoService.wso.wsdl
+        type: testWsdl
+      - path: /ServiceTestProject/webservices.oorsprong.org.CountryInfoService.wso.wsdl.emfws
+        type: testWsdlInfo
+  - name: ServiceTest3_1714650668204.stats
+    type: com.ibm.rational.test.lt.stats.session
+    properties: 
+      startTime: 1714650668204
+      tags: 
+      testId: A1EF087456CABB10E348B23938333530
+      testName: ServiceTest3
+    dependencies: 
+      - path: /ServiceTestProject/ServiceTest3.testsuite
+        type: statsSessionTest
+      - path: /ServiceTestProject/ServiceTest3_1714650668204_orch!system.mstats
+        type: statsSessionStore
+      - path: /ServiceTestProject/ServiceTest3_1714650668204_orch!system.rstats
+        type: statsSessionStore
+      - path: /ServiceTestProject/ServiceTest3_1714650668204_perf!localhost.mstats
+        type: statsSessionStore
+      - path: /ServiceTestProject/ServiceTest3_1714650668204_perf!localhost.rstats
+        type: statsSessionStore
+      - path: /ServiceTestProject/ServiceTest3_1714650669384.executiondlr
+        type: statsSessionAsset
+  - name: ServiceTest3_1714650668204_orch!system.mstats
+  - name: ServiceTest3_1714650668204_orch!system.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: ServiceTest3_1714650668204_perf!localhost.mstats
+  - name: ServiceTest3_1714650668204_perf!localhost.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: ServiceTest3_1714650669384.executiondlr
+  - name: src
+    resources: 
+      - name: test
+        resources: 
+          - name: ServiceTest3_Test_A1EF087456CABB10E348B23938333530.java
+            type: com.ibm.rational.test.lt.generatedCode
+  - name: webservices.oorsprong.org.CountryInfoService.wso.wsdl
+    type: com.ibm.rational.test.lt.wsdl
+  - name: webservices.oorsprong.org.CountryInfoService.wso.wsdl.emfws
+    type: com.ibm.rational.test.lt.wsdlInfo
+  - name: webservices.oorsprong.org.CountryInfoService.wso_.wsdl
+    type: com.ibm.rational.test.lt.wsdl

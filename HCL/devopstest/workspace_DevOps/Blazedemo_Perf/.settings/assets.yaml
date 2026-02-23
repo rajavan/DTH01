@@ -1,0 +1,122 @@
+name: Blazedemo_Perf
+version: 2
+projectReferences: 
+resources: 
+  - name: .classpath
+    type: com.ibm.rational.test.lt.classpath
+    dependencies: 
+      - path: /Blazedemo_Perf/src
+        type: javaClasspath
+  - name: BlazeDemo_Perf_Test01.recdata
+  - name: BlazeDemo_Perf_Test01.recsession
+    type: com.ibm.rational.test.lt.recsession
+    dependencies: 
+      - path: /Blazedemo_Perf/BlazeDemo_Perf_Test01.recdata
+        type: recsessionRecdata
+  - name: BlazeDemo_Perf_Test01.testsuite
+    type: com.ibm.rational.test.lt.test
+    version: 11.0.7.0
+    properties: 
+      features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
+      type: com.ibm.rational.test.lt.lttest
+      uid: A1F110738D658480EBDAB33039643764
+    dependencies: 
+      - path: /Blazedemo_Perf/BlazeDemo_Perf_Test01.recsession
+        type: testRecsession
+  - name: BlazeDemo_Perf_Test01_1771822404686.stats
+    type: com.ibm.rational.test.lt.stats.session
+    properties: 
+      startTime: 1771822404686
+      tags: 
+      testId: A1F110738D658480EBDAB33039643764
+      testName: BlazeDemo_Perf_Test01
+    dependencies: 
+      - path: /Blazedemo_Perf/BlazeDemo_Perf_Test01.testsuite
+        type: statsSessionTest
+      - path: /Blazedemo_Perf/BlazeDemo_Perf_Test01_1771822404686_orch!system.mstats
+        type: statsSessionStore
+      - path: /Blazedemo_Perf/BlazeDemo_Perf_Test01_1771822404686_orch!system.rstats
+        type: statsSessionStore
+      - path: /Blazedemo_Perf/BlazeDemo_Perf_Test01_1771822404686_perf!localhost.mstats
+        type: statsSessionStore
+      - path: /Blazedemo_Perf/BlazeDemo_Perf_Test01_1771822404686_perf!localhost.rstats
+        type: statsSessionStore
+      - path: /Blazedemo_Perf/BlazeDemo_Perf_Test01_1771822405855.executiondlr
+        type: statsSessionAsset
+  - name: BlazeDemo_Perf_Test01_1771822404686_orch!system.mstats
+  - name: BlazeDemo_Perf_Test01_1771822404686_orch!system.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: BlazeDemo_Perf_Test01_1771822404686_perf!localhost.mstats
+  - name: BlazeDemo_Perf_Test01_1771822404686_perf!localhost.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: BlazeDemo_Perf_Test01_1771822405855.executiondlr
+  - name: CompoundTest_Demo.testsuite
+    type: com.ibm.rational.test.lt.scenario
+    version: 11.0.7.0
+    properties: 
+      description: 'Test(s): 
+
+	BlazeDemo_Perf_Test01
+
+	JPetStoreDemo
+
+'
+      name: CompoundTest_Demo
+      type: com.ibm.rational.test.common.schedule.ScenarioTestsuite
+      uid: A1F11074A0414980EBDAB33039643764
+    dependencies: 
+      - path: /Blazedemo_Perf/BlazeDemo_Perf_Test01.testsuite
+        type: scheduleInvokedTest
+      - path: /Blazedemo_Perf/JPetStoreDemo.testsuite
+        type: scheduleInvokedTest
+  - name: JPetStoreDemo.recdata
+  - name: JPetStoreDemo.recsession
+    type: com.ibm.rational.test.lt.recsession
+    dependencies: 
+      - path: /Blazedemo_Perf/JPetStoreDemo.recdata
+        type: recsessionRecdata
+  - name: JPetStoreDemo.testsuite
+    type: com.ibm.rational.test.lt.test
+    version: 11.0.7.0
+    properties: 
+      features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
+      type: com.ibm.rational.test.lt.lttest
+      uid: A1F110747E215340EBDAB33039643764
+    dependencies: 
+      - path: /Blazedemo_Perf/JPetStoreDemo.recsession
+        type: testRecsession
+  - name: JPetStoreDemo_1771822803702.stats
+    type: com.ibm.rational.test.lt.stats.session
+    properties: 
+      startTime: 1771822803702
+      tags: 
+      testId: A1F110747E215340EBDAB33039643764
+      testName: JPetStoreDemo
+    dependencies: 
+      - path: /Blazedemo_Perf/JPetStoreDemo.testsuite
+        type: statsSessionTest
+      - path: /Blazedemo_Perf/JPetStoreDemo_1771822803702_orch!system.mstats
+        type: statsSessionStore
+      - path: /Blazedemo_Perf/JPetStoreDemo_1771822803702_orch!system.rstats
+        type: statsSessionStore
+      - path: /Blazedemo_Perf/JPetStoreDemo_1771822803702_perf!localhost.mstats
+        type: statsSessionStore
+      - path: /Blazedemo_Perf/JPetStoreDemo_1771822803702_perf!localhost.rstats
+        type: statsSessionStore
+      - path: /Blazedemo_Perf/JPetStoreDemo_1771822803968.executiondlr
+        type: statsSessionAsset
+  - name: JPetStoreDemo_1771822803702_orch!system.mstats
+  - name: JPetStoreDemo_1771822803702_orch!system.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: JPetStoreDemo_1771822803702_perf!localhost.mstats
+  - name: JPetStoreDemo_1771822803702_perf!localhost.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: JPetStoreDemo_1771822803968.executiondlr
+  - name: src
+    resources: 
+      - name: test
+        resources: 
+          - name: BlazeDemo_Perf_Test01_Test_A1F110738D658480EBDAB33039643764.java
+            type: com.ibm.rational.test.lt.generatedCode
+          - name: JPetStoreDemo_Test_A1F110747E215340EBDAB33039643764.java
+            type: com.ibm.rational.test.lt.generatedCode

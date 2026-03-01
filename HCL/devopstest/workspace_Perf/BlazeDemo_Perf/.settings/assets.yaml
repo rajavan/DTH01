@@ -1,0 +1,79 @@
+name: BlazeDemo_Perf
+version: 2
+projectReferences: 
+resources: 
+  - name: .classpath
+    type: com.ibm.rational.test.lt.classpath
+    dependencies: 
+      - path: /BlazeDemo_Perf/src
+        type: javaClasspath
+  - name: Blaze_Perf01.recdata
+  - name: Blaze_Perf01.recsession
+    type: com.ibm.rational.test.lt.recsession
+    dependencies: 
+      - path: /BlazeDemo_Perf/Blaze_Perf01.recdata
+        type: recsessionRecdata
+  - name: Blaze_Perf01.testsuite
+    type: com.ibm.rational.test.lt.test
+    version: 11.0.7.0
+    properties: 
+      features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
+      type: com.ibm.rational.test.lt.lttest
+      uid: A1F11571F7409A90FAEDE43133316164
+    dependencies: 
+      - path: /BlazeDemo_Perf/Blaze_Perf01.recsession
+        type: testRecsession
+  - name: Blaze_Sch.testsuite
+    type: com.ibm.rational.test.lt.schedule
+    version: 11.0.7.0
+    properties: 
+      description: 'Stages:
+
+	users=5; duration=Run Until Finished
+
+User Group 1: Group Size 100.0 percent
+
+	Test(s): Blaze_Perf01
+
+'
+      name: Blaze_Sch
+      type: com.ibm.rational.test.common.schedule.Schedule
+      uid: A1F1157203046230FAEDE43133316164
+    dependencies: 
+      - path: /BlazeDemo_Perf/Blaze_Perf01.testsuite
+        type: scheduleInvokedTest
+  - name: Blaze_Sch_1772371505357.stats
+    type: com.ibm.rational.test.lt.stats.session
+    properties: 
+      startTime: 1772371505357
+      tags: 
+      testId: A1F1157203046230FAEDE43133316164
+      testName: Blaze_Sch
+    dependencies: 
+      - path: /BlazeDemo_Perf/Blaze_Sch.testsuite
+        type: statsSessionTest
+      - path: /BlazeDemo_Perf/Blaze_Sch_1772371505357_orch!system.mstats
+        type: statsSessionStore
+      - path: /BlazeDemo_Perf/Blaze_Sch_1772371505357_orch!system.rstats
+        type: statsSessionStore
+      - path: /BlazeDemo_Perf/Blaze_Sch_1772371505357_perf!localhost.mstats
+        type: statsSessionStore
+      - path: /BlazeDemo_Perf/Blaze_Sch_1772371505357_perf!localhost.rstats
+        type: statsSessionStore
+      - path: /BlazeDemo_Perf/Blaze_Sch_1772371507220.executiondlr
+        type: statsSessionAsset
+  - name: Blaze_Sch_1772371505357_orch!system.mstats
+  - name: Blaze_Sch_1772371505357_orch!system.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: Blaze_Sch_1772371505357_perf!localhost.mstats
+  - name: Blaze_Sch_1772371505357_perf!localhost.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: Blaze_Sch_1772371507220.executiondlr
+  - name: src
+    resources: 
+      - name: test
+        resources: 
+          - name: Blaze_Perf01_Test_A1F11571F7409A90FAEDE43133316164.java
+            type: com.ibm.rational.test.lt.generatedCode
+          - name: Blaze_Sch_Schedule_A1F1157203046230FAEDE43133316164.java
+            type: com.ibm.rational.test.lt.generatedCode

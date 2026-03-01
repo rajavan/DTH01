@@ -50,6 +50,52 @@ resources:
   - name: BlazeDemo_Perf_Test01_1771822404686_perf!localhost.rstats
     type: com.ibm.rational.test.lt.stats.raw
   - name: BlazeDemo_Perf_Test01_1771822405855.executiondlr
+  - name: BlazeDemo_Schedule.testsuite
+    type: com.ibm.rational.test.lt.schedule
+    version: 11.0.7.0
+    properties: 
+      description: 'Stages:
+
+	users=5; duration=Run Until Finished
+
+User Group 1: Group Size 100.0 percent
+
+	Test(s): BlazeDemo_Perf_Test01
+
+'
+      name: BlazeDemo_Schedule
+      type: com.ibm.rational.test.common.schedule.Schedule
+      uid: A1F1156D59C1FCE0ED3BE53762383838
+    dependencies: 
+      - path: /Blazedemo_Perf/BlazeDemo_Perf_Test01.testsuite
+        type: scheduleInvokedTest
+  - name: BlazeDemo_Schedule_1772369556470.stats
+    type: com.ibm.rational.test.lt.stats.session
+    properties: 
+      startTime: 1772369556470
+      tags: 
+      testId: A1F1156D59C1FCE0ED3BE53762383838
+      testName: BlazeDemo_Schedule
+    dependencies: 
+      - path: /Blazedemo_Perf/BlazeDemo_Schedule.testsuite
+        type: statsSessionTest
+      - path: /Blazedemo_Perf/BlazeDemo_Schedule_1772369556470_orch!system.mstats
+        type: statsSessionStore
+      - path: /Blazedemo_Perf/BlazeDemo_Schedule_1772369556470_orch!system.rstats
+        type: statsSessionStore
+      - path: /Blazedemo_Perf/BlazeDemo_Schedule_1772369556470_perf!localhost.mstats
+        type: statsSessionStore
+      - path: /Blazedemo_Perf/BlazeDemo_Schedule_1772369556470_perf!localhost.rstats
+        type: statsSessionStore
+      - path: /Blazedemo_Perf/BlazeDemo_Schedule_1772369558816.executiondlr
+        type: statsSessionAsset
+  - name: BlazeDemo_Schedule_1772369556470_orch!system.mstats
+  - name: BlazeDemo_Schedule_1772369556470_orch!system.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: BlazeDemo_Schedule_1772369556470_perf!localhost.mstats
+  - name: BlazeDemo_Schedule_1772369556470_perf!localhost.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: BlazeDemo_Schedule_1772369558816.executiondlr
   - name: CompoundTest_Demo.testsuite
     type: com.ibm.rational.test.lt.scenario
     version: 11.0.7.0
@@ -145,7 +191,5 @@ resources:
         resources: 
           - name: BlazeDemo_Perf_Test01_Test_A1F110738D658480EBDAB33039643764.java
             type: com.ibm.rational.test.lt.generatedCode
-          - name: CompoundTest_Demo_CompoundTest_A1F11074A0414980EBDAB33039643764.java
-            type: com.ibm.rational.test.lt.generatedCode
-          - name: JPetStoreDemo_Test_A1F110747E215340EBDAB33039643764.java
+          - name: BlazeDemo_Schedule_Schedule_A1F1156D59C1FCE0ED3BE53762383838.java
             type: com.ibm.rational.test.lt.generatedCode

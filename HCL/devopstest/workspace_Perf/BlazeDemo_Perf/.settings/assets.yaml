@@ -23,6 +23,49 @@ resources:
     dependencies: 
       - path: /BlazeDemo_Perf/Blaze_Perf01.recsession
         type: testRecsession
+  - name: Blaze_Perf01_1772436155932.stats
+    type: com.ibm.rational.test.lt.stats.session
+    properties: 
+      startTime: 1772436155932
+      tags: 
+      testId: A1F11571F7409A90FAEDE43133316164
+      testName: Blaze_Perf01
+    dependencies: 
+      - path: /BlazeDemo_Perf/Blaze_Perf01.testsuite
+        type: statsSessionTest
+      - path: /BlazeDemo_Perf/Blaze_Perf01_1772436155932_orch!system.mstats
+        type: statsSessionStore
+      - path: /BlazeDemo_Perf/Blaze_Perf01_1772436155932_orch!system.rstats
+        type: statsSessionStore
+      - path: /BlazeDemo_Perf/Blaze_Perf01_1772436155932_perf!localhost.mstats
+        type: statsSessionStore
+      - path: /BlazeDemo_Perf/Blaze_Perf01_1772436155932_perf!localhost.rstats
+        type: statsSessionStore
+      - path: /BlazeDemo_Perf/Blaze_Perf01_1772436156865.executiondlr
+        type: statsSessionAsset
+  - name: Blaze_Perf01_1772436155932_orch!system.mstats
+  - name: Blaze_Perf01_1772436155932_orch!system.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: Blaze_Perf01_1772436155932_perf!localhost.mstats
+  - name: Blaze_Perf01_1772436155932_perf!localhost.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: Blaze_Perf01_1772436156865.executiondlr
+  - name: Blaze_Perf02.recdata
+  - name: Blaze_Perf02.recsession
+    type: com.ibm.rational.test.lt.recsession
+    dependencies: 
+      - path: /BlazeDemo_Perf/Blaze_Perf02.recdata
+        type: recsessionRecdata
+  - name: Blaze_Perf02.testsuite
+    type: com.ibm.rational.test.lt.test
+    version: 11.0.7.0
+    properties: 
+      features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
+      type: com.ibm.rational.test.lt.lttest
+      uid: A1F1160A1384F280CCE9B73266343833
+    dependencies: 
+      - path: /BlazeDemo_Perf/Blaze_Perf02.recsession
+        type: testRecsession
   - name: Blaze_Sch.testsuite
     type: com.ibm.rational.test.lt.schedule
     version: 11.0.7.0
@@ -42,6 +85,52 @@ User Group 1: Group Size 100.0 percent
     dependencies: 
       - path: /BlazeDemo_Perf/Blaze_Perf01.testsuite
         type: scheduleInvokedTest
+  - name: Blaze_Sch01.testsuite
+    type: com.ibm.rational.test.lt.schedule
+    version: 11.0.7.0
+    properties: 
+      description: 'Stages:
+
+	users=3; duration=Run Until Finished
+
+User Group 1: Group Size 100.0 percent
+
+	Test(s): Blaze_Perf02
+
+'
+      name: Blaze_Sch01
+      type: com.ibm.rational.test.common.schedule.Schedule
+      uid: A1F11609A4D2EF40CCE9B73266343833
+    dependencies: 
+      - path: /BlazeDemo_Perf/Blaze_Perf02.testsuite
+        type: scheduleInvokedTest
+  - name: Blaze_Sch01_1772436828478.stats
+    type: com.ibm.rational.test.lt.stats.session
+    properties: 
+      startTime: 1772436828478
+      tags: 
+      testId: A1F11609A4D2EF40CCE9B73266343833
+      testName: Blaze_Sch01
+    dependencies: 
+      - path: /BlazeDemo_Perf/Blaze_Sch01.testsuite
+        type: statsSessionTest
+      - path: /BlazeDemo_Perf/Blaze_Sch01_1772436828478_orch!system.mstats
+        type: statsSessionStore
+      - path: /BlazeDemo_Perf/Blaze_Sch01_1772436828478_orch!system.rstats
+        type: statsSessionStore
+      - path: /BlazeDemo_Perf/Blaze_Sch01_1772436828478_perf!localhost.mstats
+        type: statsSessionStore
+      - path: /BlazeDemo_Perf/Blaze_Sch01_1772436828478_perf!localhost.rstats
+        type: statsSessionStore
+      - path: /BlazeDemo_Perf/Blaze_Sch01_1772436830299.executiondlr
+        type: statsSessionAsset
+  - name: Blaze_Sch01_1772436828478_orch!system.mstats
+  - name: Blaze_Sch01_1772436828478_orch!system.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: Blaze_Sch01_1772436828478_perf!localhost.mstats
+  - name: Blaze_Sch01_1772436828478_perf!localhost.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: Blaze_Sch01_1772436830299.executiondlr
   - name: Blaze_Sch_1772371505357.stats
     type: com.ibm.rational.test.lt.stats.session
     properties: 
@@ -128,6 +217,10 @@ User Group 1: Group Size 100.0 percent
       - name: test
         resources: 
           - name: Blaze_Perf01_Test_A1F11571F7409A90FAEDE43133316164.java
+            type: com.ibm.rational.test.lt.generatedCode
+          - name: Blaze_Perf02_Test_A1F1160A1384F280CCE9B73266343833.java
+            type: com.ibm.rational.test.lt.generatedCode
+          - name: Blaze_Sch01_Schedule_A1F11609A4D2EF40CCE9B73266343833.java
             type: com.ibm.rational.test.lt.generatedCode
           - name: Blaze_Sch_Schedule_A1F1157203046230FAEDE43133316164.java
             type: com.ibm.rational.test.lt.generatedCode

@@ -66,6 +66,33 @@ resources:
     dependencies: 
       - path: /BlazeDemo_Perf/Blaze_Perf02.recsession
         type: testRecsession
+  - name: Blaze_Perf02_1772440358058.stats
+    type: com.ibm.rational.test.lt.stats.session
+    properties: 
+      startTime: 1772440358058
+      tags: 
+      testId: A1F1160A1384F280CCE9B73266343833
+      testName: Blaze_Perf02
+    dependencies: 
+      - path: /BlazeDemo_Perf/Blaze_Perf02.testsuite
+        type: statsSessionTest
+      - path: /BlazeDemo_Perf/Blaze_Perf02_1772440358058_orch!system.mstats
+        type: statsSessionStore
+      - path: /BlazeDemo_Perf/Blaze_Perf02_1772440358058_orch!system.rstats
+        type: statsSessionStore
+      - path: /BlazeDemo_Perf/Blaze_Perf02_1772440358058_perf!localhost.mstats
+        type: statsSessionStore
+      - path: /BlazeDemo_Perf/Blaze_Perf02_1772440358058_perf!localhost.rstats
+        type: statsSessionStore
+      - path: /BlazeDemo_Perf/Blaze_Perf02_1772440359104.executiondlr
+        type: statsSessionAsset
+  - name: Blaze_Perf02_1772440358058_orch!system.mstats
+  - name: Blaze_Perf02_1772440358058_orch!system.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: Blaze_Perf02_1772440358058_perf!localhost.mstats
+  - name: Blaze_Perf02_1772440358058_perf!localhost.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: Blaze_Perf02_1772440359104.executiondlr
   - name: Blaze_Sch.testsuite
     type: com.ibm.rational.test.lt.schedule
     version: 11.0.7.0

@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./CommonBaseEvents.xsl"?>
+<CommonBaseEvents>
+	<CommonBaseEvent creationTime="2025-11-24T08:14:25.533Z" msg="Calculated host ID: {}" severity="50" version="1.0.1">
+		<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+			<values>0</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+			<values>1</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+			<children name="CommonBaseEventLogRecord:name" type="string">
+				<values>INFO</values>
+			</children>
+			<children name="CommonBaseEventLogRecord:value" type="int">
+				<values>800</values>
+			</children>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+			<values>com.hcl.products.onetest.licensing.client.manager.LicenseManager</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:sourceClassName" type="string">
+			<values>com.hcl.products.onetest.licensing.client.manager.LicenseManager</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:sourceMethodName" type="string">
+			<values>&lt;init&gt;</values>
+		</extendedDataElements>
+		<sourceComponentId component="Logging" componentIdType="Application" executionEnvironment="Java" location="10.225.4.24" locationType="IPV4" subComponent="Logger" componentType="Logging_Application"/>
+		<msgDataElement>
+			<msgCatalogTokens value="kpzPxo16VMgWWpcEiKox4q07gZ4CknyR"/>
+		</msgDataElement>
+		<situation categoryName="ReportSituation">
+			<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+		</situation>
+	</CommonBaseEvent>
+	<CommonBaseEvent creationTime="2025-11-24T08:14:27.636Z" msg="License request for preferred feature [HOT_Perf_SAP_FltgUsr] failed, will attempt secondary feature" severity="50" version="1.0.1">
+		<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+			<values>1</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+			<values>1</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+			<children name="CommonBaseEventLogRecord:name" type="string">
+				<values>INFO</values>
+			</children>
+			<children name="CommonBaseEventLogRecord:value" type="int">
+				<values>800</values>
+			</children>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+			<values>com.hcl.products.onetest.licensing.client.manager.LicenseManager</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:sourceClassName" type="string">
+			<values>com.hcl.products.onetest.licensing.client.manager.LicenseManager</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:sourceMethodName" type="string">
+			<values>obtainLicense</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:stackTrace" type="stringArray">
+			<values>com.hcl.products.onetest.licensing.client.error.codes.FeatureNotFound: The requested feature is not mapped to the license server</values>
+			<values>java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)</values>
+			<values>java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)</values>
+			<values>java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)</values>
+			<values>java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)</values>
+			<values>java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)</values>
+			<values>com.hcl.products.onetest.licensing.client.error.codes.LicensingErrorDecoder.decode(LicensingErrorDecoder.java:32)</values>
+			<values>feign.InvocationContext.decodeError(InvocationContext.java:133)</values>
+			<values>feign.InvocationContext.proceed(InvocationContext.java:80)</values>
+			<values>feign.ResponseHandler.handleResponse(ResponseHandler.java:69)</values>
+			<values>feign.SynchronousMethodHandler.executeAndDecode(SynchronousMethodHandler.java:109)</values>
+			<values>feign.SynchronousMethodHandler.invoke(SynchronousMethodHandler.java:53)</values>
+			<values>feign.ReflectiveFeign$FeignInvocationHandler.invoke(ReflectiveFeign.java:104)</values>
+			<values>jdk.proxy9/jdk.proxy9.$Proxy36.requestLicenseWithLeaseId(Unknown Source)</values>
+			<values>com.hcl.products.onetest.licensing.client.manager.LicenseManagerUtil.sendLicenseRequest(LicenseManagerUtil.java:55)</values>
+			<values>com.hcl.products.onetest.licensing.client.manager.LicenseManager.obtainLicense(LicenseManager.java:293)</values>
+			<values>com.hcl.products.onetest.licensing.client.manager.LicenseManager.requestTotal(LicenseManager.java:425)</values>
+			<values>com.hcl.products.test.common.licensing.key.LicenseHandler.requestLicense(LicenseHandler.java:137)</values>
+			<values>java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</values>
+			<values>java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)</values>
+			<values>java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</values>
+			<values>java.base/java.lang.reflect.Method.invoke(Method.java:575)</values>
+			<values>com.ibm.rational.test.lt.core.license.impl.LicenseUtil$LicenseUtilImpl.invokeMethod(LicenseUtil.java:110)</values>
+			<values>com.ibm.rational.test.lt.core.license.impl.LicenseUtil.invokeMethod(LicenseUtil.java:54)</values>
+			<values>com.ibm.rational.test.lt.core.license.impl.LicenseUtil.invokeMethod(LicenseUtil.java:49)</values>
+			<values>com.ibm.rational.test.lt.core.license.impl.HclLicenseMode.requestLicense(HclLicenseMode.java:42)</values>
+			<values>com.ibm.rational.test.lt.core.LicenseManager.requestLicenseForProduct(LicenseManager.java:63)</values>
+			<values>com.ibm.rational.test.lt.core.LicenseManager.requestLicenseSilently(LicenseManager.java:83)</values>
+			<values>com.ibm.rational.test.lt.core.LicenseManager.requestLicense(LicenseManager.java:37)</values>
+			<values>com.ibm.rational.test.lt.core.LTCorePlugin.requestLicense(LTCorePlugin.java:565)</values>
+			<values>com.ibm.rational.test.lt.core.sap.SapCorePlugin.requestLicense(SapCorePlugin.java:133)</values>
+			<values>com.ibm.rational.test.lt.core.sap.SapCorePlugin.start(SapCorePlugin.java:81)</values>
+			<values>org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:813)</values>
+			<values>org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:1)</values>
+			<values>java.base/java.security.AccessController.doPrivileged(AccessController.java:751)</values>
+			<values>org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:805)</values>
+			<values>org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:762)</values>
+			<values>org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1032)</values>
+			<values>org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:371)</values>
+			<values>org.eclipse.osgi.container.Module.doStart(Module.java:605)</values>
+			<values>org.eclipse.osgi.container.Module.start(Module.java:468)</values>
+			<values>org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:513)</values>
+			<values>org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)</values>
+			<values>org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:570)</values>
+			<values>org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:335)</values>
+			<values>org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:397)</values>
+			<values>org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:488)</values>
+			<values>org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:416)</values>
+			<values>org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)</values>
+			<values>java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:1092)</values>
+			<values>org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:622)</values>
+			<values>org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:196)</values>
+			<values>org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:920)</values>
+			<values>org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:246)</values>
+			<values>org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:63)</values>
+			<values>com.ibm.rational.test.lt.models.behavior.extensions.ElementFactoryHandler.&lt;init&gt;(ElementFactoryHandler.java:87)</values>
+			<values>com.ibm.rational.test.lt.models.behavior.extensions.ElementFactoryHandler.getInstance(ElementFactoryHandler.java:56)</values>
+			<values>com.ibm.rational.test.lt.models.behavior.lttest.impl.LTTestImpl.setTest(LTTestImpl.java:832)</values>
+			<values>com.ibm.rational.test.lt.models.behavior.lttest.impl.LttestFactoryImpl.loadLTTest(LttestFactoryImpl.java:553)</values>
+			<values>com.ibm.rational.test.lt.testeditor.main.LoadTestEditor.createTestObject(LoadTestEditor.java:572)</values>
+			<values>com.ibm.rational.common.test.editor.framework.TestEditor.createTestObjectWithErrorChecking(TestEditor.java:376)</values>
+			<values>com.ibm.rational.common.test.editor.framework.TestEditor.setEditorObject(TestEditor.java:280)</values>
+			<values>com.ibm.rational.common.test.editor.framework.editor.RptEmfEditor.identifyEditorObject(RptEmfEditor.java:175)</values>
+			<values>com.ibm.rational.common.test.editor.framework.editor.RptEmfEditor.setInput(RptEmfEditor.java:86)</values>
+			<values>com.ibm.rational.common.test.editor.framework.TestEditor.setInput(TestEditor.java:263)</values>
+			<values>com.ibm.rational.common.test.editor.framework.editor.RptEditor.init(RptEditor.java:59)</values>
+			<values>org.eclipse.ui.internal.EditorReference.initialize(EditorReference.java:353)</values>
+			<values>org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:344)</values>
+			<values>java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</values>
+			<values>java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)</values>
+			<values>java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</values>
+			<values>java.base/java.lang.reflect.Method.invoke(Method.java:575)</values>
+			<values>org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)</values>
+			<values>org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:995)</values>
+			<values>org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:960)</values>
+			<values>org.eclipse.e4.core.internal.di.InjectorImpl.internalInject(InjectorImpl.java:140)</values>
+			<values>org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:403)</values>
+			<values>org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:330)</values>
+			<values>org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:202)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:91)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:60)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:42)</values>
+			<values>org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:132)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:995)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:659)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)</values>
+			<values>org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)</values>
+			<values>org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.showTab(StackRenderer.java:1209)</values>
+			<values>org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:116)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:677)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)</values>
+			<values>org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)</values>
+			<values>org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$1.run(PartRenderingEngine.java:544)</values>
+			<values>org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:528)</values>
+			<values>org.eclipse.e4.ui.workbench.renderers.swt.ElementReferenceRenderer.createWidget(ElementReferenceRenderer.java:73)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:995)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:659)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)</values>
+			<values>org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)</values>
+			<values>org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)</values>
+			<values>org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:150)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)</values>
+			<values>org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)</values>
+			<values>org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)</values>
+			<values>org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:150)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)</values>
+			<values>org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)</values>
+			<values>org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)</values>
+			<values>org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveRenderer.processContents(PerspectiveRenderer.java:51)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)</values>
+			<values>org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)</values>
+			<values>org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.showTab(PerspectiveStackRenderer.java:82)</values>
+			<values>org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:116)</values>
+			<values>org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.postProcess(PerspectiveStackRenderer.java:64)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:677)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)</values>
+			<values>org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)</values>
+			<values>org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)</values>
+			<values>org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:150)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)</values>
+			<values>org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)</values>
+			<values>org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)</values>
+			<values>org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.processContents(WBWRenderer.java:658)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)</values>
+			<values>org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1083)</values>
+			<values>org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)</values>
+			<values>org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)</values>
+			<values>org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)</values>
+			<values>org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)</values>
+			<values>org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)</values>
+			<values>org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)</values>
+			<values>org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)</values>
+			<values>org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)</values>
+			<values>org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)</values>
+			<values>org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)</values>
+			<values>org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)</values>
+			<values>java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</values>
+			<values>java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)</values>
+			<values>java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</values>
+			<values>java.base/java.lang.reflect.Method.invoke(Method.java:575)</values>
+			<values>org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)</values>
+			<values>org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)</values>
+			<values>org.eclipse.equinox.launcher.Main.run(Main.java:1467)</values>
+		</extendedDataElements>
+		<sourceComponentId component="Logging" componentIdType="Application" executionEnvironment="Java" location="10.225.4.24" locationType="IPV4" subComponent="Logger" componentType="Logging_Application"/>
+		<situation categoryName="ReportSituation">
+			<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+		</situation>
+	</CommonBaseEvent>
+	<CommonBaseEvent creationTime="2025-11-24T08:14:29.134Z" msg="License request for preferred feature [HOT_UI_FltgUsr] failed, will attempt secondary feature" severity="50" version="1.0.1">
+		<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+			<values>2</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+			<values>1</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+			<children name="CommonBaseEventLogRecord:name" type="string">
+				<values>INFO</values>
+			</children>
+			<children name="CommonBaseEventLogRecord:value" type="int">
+				<values>800</values>
+			</children>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+			<values>com.hcl.products.onetest.licensing.client.manager.LicenseManager</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:sourceClassName" type="string">
+			<values>com.hcl.products.onetest.licensing.client.manager.LicenseManager</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:sourceMethodName" type="string">
+			<values>obtainLicense</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:stackTrace" type="stringArray">
+			<values>com.hcl.products.onetest.licensing.client.error.codes.FeatureNotFound: The requested feature is not mapped to the license server</values>
+			<values>java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)</values>
+			<values>java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)</values>
+			<values>java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)</values>
+			<values>java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)</values>
+			<values>java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)</values>
+			<values>com.hcl.products.onetest.licensing.client.error.codes.LicensingErrorDecoder.decode(LicensingErrorDecoder.java:32)</values>
+			<values>feign.InvocationContext.decodeError(InvocationContext.java:133)</values>
+			<values>feign.InvocationContext.proceed(InvocationContext.java:80)</values>
+			<values>feign.ResponseHandler.handleResponse(ResponseHandler.java:69)</values>
+			<values>feign.SynchronousMethodHandler.executeAndDecode(SynchronousMethodHandler.java:109)</values>
+			<values>feign.SynchronousMethodHandler.invoke(SynchronousMethodHandler.java:53)</values>
+			<values>feign.ReflectiveFeign$FeignInvocationHandler.invoke(ReflectiveFeign.java:104)</values>
+			<values>jdk.proxy9/jdk.proxy9.$Proxy36.requestLicenseWithLeaseId(Unknown Source)</values>
+			<values>com.hcl.products.onetest.licensing.client.manager.LicenseManagerUtil.sendLicenseRequest(LicenseManagerUtil.java:55)</values>
+			<values>com.hcl.products.onetest.licensing.client.manager.LicenseManager.obtainLicense(LicenseManager.java:293)</values>
+			<values>com.hcl.products.onetest.licensing.client.manager.LicenseManager.requestTotal(LicenseManager.java:425)</values>
+			<values>com.hcl.products.test.common.licensing.key.LicenseHandler.requestLicense(LicenseHandler.java:137)</values>
+			<values>java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</values>
+			<values>java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)</values>
+			<values>java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</values>
+			<values>java.base/java.lang.reflect.Method.invoke(Method.java:575)</values>
+			<values>com.ibm.rational.test.lt.core.license.impl.LicenseUtil$LicenseUtilImpl.invokeMethod(LicenseUtil.java:110)</values>
+			<values>com.ibm.rational.test.lt.core.license.impl.LicenseUtil.invokeMethod(LicenseUtil.java:54)</values>
+			<values>com.ibm.rational.test.lt.core.license.impl.LicenseUtil.invokeMethod(LicenseUtil.java:49)</values>
+			<values>com.ibm.rational.test.lt.core.license.impl.HclLicenseMode.requestLicense(HclLicenseMode.java:42)</values>
+			<values>com.ibm.rational.test.lt.core.LicenseManager.requestLicenseForProduct(LicenseManager.java:63)</values>
+			<values>com.ibm.rational.test.lt.core.LicenseManager.requestLicenseSilently(LicenseManager.java:83)</values>
+			<values>com.ibm.rational.test.lt.core.LicenseManager.requestLicense(LicenseManager.java:37)</values>
+			<values>com.ibm.rational.test.lt.core.LicenseManager.requestLicense(LicenseManager.java:111)</values>
+			<values>com.ibm.rational.test.lt.core.LTCorePlugin.requestLicense(LTCorePlugin.java:571)</values>
+			<values>com.ibm.rational.test.common.models.behavior.CMBPlugin.getDefault(CMBPlugin.java:73)</values>
+			<values>com.ibm.rational.test.common.models.behavior.util.BehaviorUtil.createCurrentCBVersion(BehaviorUtil.java:1165)</values>
+			<values>com.ibm.rational.test.common.models.behavior.util.BehaviorUtil.&lt;clinit&gt;(BehaviorUtil.java:101)</values>
+			<values>com.ibm.rational.test.common.models.behavior.impl.CBBlockElementImpl.eNotify(CBBlockElementImpl.java:266)</values>
+			<values>com.ibm.rational.test.common.models.behavior.impl.CBVersionImpl.setMajor(CBVersionImpl.java:162)</values>
+			<values>com.ibm.rational.test.lt.models.behavior.lttest.impl.LTTestValidator.validate(LTTestValidator.java:78)</values>
+			<values>com.ibm.rational.test.lt.models.behavior.lttest.impl.LTTestImpl.setTest(LTTestImpl.java:834)</values>
+			<values>com.ibm.rational.test.lt.models.behavior.lttest.impl.LttestFactoryImpl.loadLTTest(LttestFactoryImpl.java:553)</values>
+			<values>com.ibm.rational.test.lt.testeditor.main.LoadTestEditor.createTestObject(LoadTestEditor.java:572)</values>
+			<values>com.ibm.rational.common.test.editor.framework.TestEditor.createTestObjectWithErrorChecking(TestEditor.java:376)</values>
+			<values>com.ibm.rational.common.test.editor.framework.TestEditor.setEditorObject(TestEditor.java:280)</values>
+			<values>com.ibm.rational.common.test.editor.framework.editor.RptEmfEditor.identifyEditorObject(RptEmfEditor.java:175)</values>
+			<values>com.ibm.rational.common.test.editor.framework.editor.RptEmfEditor.setInput(RptEmfEditor.java:86)</values>
+			<values>com.ibm.rational.common.test.editor.framework.TestEditor.setInput(TestEditor.java:263)</values>
+			<values>com.ibm.rational.common.test.editor.framework.editor.RptEditor.init(RptEditor.java:59)</values>
+			<values>org.eclipse.ui.internal.EditorReference.initialize(EditorReference.java:353)</values>
+			<values>org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:344)</values>
+			<values>java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</values>
+			<values>java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)</values>
+			<values>java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</values>
+			<values>java.base/java.lang.reflect.Method.invoke(Method.java:575)</values>
+			<values>org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)</values>
+			<values>org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:995)</values>
+			<values>org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:960)</values>
+			<values>org.eclipse.e4.core.internal.di.InjectorImpl.internalInject(InjectorImpl.java:140)</values>
+			<values>org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:403)</values>
+			<values>org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:330)</values>
+			<values>org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:202)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:91)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:60)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:42)</values>
+			<values>org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:132)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:995)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:659)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)</values>
+			<values>org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)</values>
+			<values>org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.showTab(StackRenderer.java:1209)</values>
+			<values>org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:116)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:677)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)</values>
+			<values>org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)</values>
+			<values>org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$1.run(PartRenderingEngine.java:544)</values>
+			<values>org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:528)</values>
+			<values>org.eclipse.e4.ui.workbench.renderers.swt.ElementReferenceRenderer.createWidget(ElementReferenceRenderer.java:73)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:995)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:659)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)</values>
+			<values>org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)</values>
+			<values>org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)</values>
+			<values>org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:150)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)</values>
+			<values>org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)</values>
+			<values>org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)</values>
+			<values>org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:150)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)</values>
+			<values>org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)</values>
+			<values>org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)</values>
+			<values>org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveRenderer.processContents(PerspectiveRenderer.java:51)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)</values>
+			<values>org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)</values>
+			<values>org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.showTab(PerspectiveStackRenderer.java:82)</values>
+			<values>org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:116)</values>
+			<values>org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.postProcess(PerspectiveStackRenderer.java:64)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:677)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)</values>
+			<values>org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)</values>
+			<values>org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)</values>
+			<values>org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:150)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)</values>
+			<values>org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)</values>
+			<values>org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)</values>
+			<values>org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.processContents(WBWRenderer.java:658)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)</values>
+			<values>org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1083)</values>
+			<values>org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)</values>
+			<values>org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)</values>
+			<values>org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)</values>
+			<values>org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)</values>
+			<values>org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)</values>
+			<values>org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)</values>
+			<values>org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)</values>
+			<values>org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)</values>
+			<values>org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)</values>
+			<values>org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)</values>
+			<values>org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)</values>
+			<values>org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)</values>
+			<values>java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</values>
+			<values>java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)</values>
+			<values>java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</values>
+			<values>java.base/java.lang.reflect.Method.invoke(Method.java:575)</values>
+			<values>org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)</values>
+			<values>org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)</values>
+			<values>org.eclipse.equinox.launcher.Main.run(Main.java:1467)</values>
+		</extendedDataElements>
+		<sourceComponentId component="Logging" componentIdType="Application" executionEnvironment="Java" location="10.225.4.24" locationType="IPV4" subComponent="Logger" componentType="Logging_Application"/>
+		<situation categoryName="ReportSituation">
+			<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+		</situation>
+	</CommonBaseEvent>
+</CommonBaseEvents>

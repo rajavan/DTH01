@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./CommonBaseEvents.xsl"?>
+<CommonBaseEvents>
+	<CommonBaseEvent creationTime="2025-12-03T14:15:09.775Z" msg="Calculated host ID: {}" severity="50" version="1.0.1">
+		<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+			<values>0</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+			<values>72</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+			<children name="CommonBaseEventLogRecord:name" type="string">
+				<values>INFO</values>
+			</children>
+			<children name="CommonBaseEventLogRecord:value" type="int">
+				<values>800</values>
+			</children>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+			<values>com.hcl.products.onetest.licensing.client.manager.LicenseManager</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:sourceClassName" type="string">
+			<values>com.hcl.products.onetest.licensing.client.manager.LicenseManager</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:sourceMethodName" type="string">
+			<values>&lt;init&gt;</values>
+		</extendedDataElements>
+		<sourceComponentId component="Logging" componentIdType="Application" executionEnvironment="Java" location="10.225.44.25" locationType="IPV4" subComponent="Logger" componentType="Logging_Application"/>
+		<msgDataElement>
+			<msgCatalogTokens value="kpzPxo16VMgWWpcEiKox4q07gZ4CknyR"/>
+		</msgDataElement>
+		<situation categoryName="ReportSituation">
+			<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+		</situation>
+	</CommonBaseEvent>
+	<CommonBaseEvent creationTime="2025-12-03T14:15:11.857Z" msg="License request for preferred feature [HOT_UI_FltgUsr] failed, will attempt secondary feature" severity="50" version="1.0.1">
+		<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+			<values>1</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+			<values>72</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+			<children name="CommonBaseEventLogRecord:name" type="string">
+				<values>INFO</values>
+			</children>
+			<children name="CommonBaseEventLogRecord:value" type="int">
+				<values>800</values>
+			</children>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+			<values>com.hcl.products.onetest.licensing.client.manager.LicenseManager</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:sourceClassName" type="string">
+			<values>com.hcl.products.onetest.licensing.client.manager.LicenseManager</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:sourceMethodName" type="string">
+			<values>obtainLicense</values>
+		</extendedDataElements>
+		<extendedDataElements name="CommonBaseEventLogRecord:stackTrace" type="stringArray">
+			<values>com.hcl.products.onetest.licensing.client.error.codes.FeatureNotFound: The requested feature is not mapped to the license server</values>
+			<values>java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)</values>
+			<values>java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)</values>
+			<values>java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)</values>
+			<values>java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)</values>
+			<values>java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)</values>
+			<values>com.hcl.products.onetest.licensing.client.error.codes.LicensingErrorDecoder.decode(LicensingErrorDecoder.java:32)</values>
+			<values>feign.InvocationContext.decodeError(InvocationContext.java:133)</values>
+			<values>feign.InvocationContext.proceed(InvocationContext.java:80)</values>
+			<values>feign.ResponseHandler.handleResponse(ResponseHandler.java:69)</values>
+			<values>feign.SynchronousMethodHandler.executeAndDecode(SynchronousMethodHandler.java:109)</values>
+			<values>feign.SynchronousMethodHandler.invoke(SynchronousMethodHandler.java:53)</values>
+			<values>feign.ReflectiveFeign$FeignInvocationHandler.invoke(ReflectiveFeign.java:104)</values>
+			<values>jdk.proxy9/jdk.proxy9.$Proxy36.requestLicenseWithLeaseId(Unknown Source)</values>
+			<values>com.hcl.products.onetest.licensing.client.manager.LicenseManagerUtil.sendLicenseRequest(LicenseManagerUtil.java:55)</values>
+			<values>com.hcl.products.onetest.licensing.client.manager.LicenseManager.obtainLicense(LicenseManager.java:293)</values>
+			<values>com.hcl.products.onetest.licensing.client.manager.LicenseManager.requestTotal(LicenseManager.java:425)</values>
+			<values>com.hcl.products.test.common.licensing.key.LicenseHandler.requestLicense(LicenseHandler.java:137)</values>
+			<values>java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</values>
+			<values>java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)</values>
+			<values>java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</values>
+			<values>java.base/java.lang.reflect.Method.invoke(Method.java:575)</values>
+			<values>com.ibm.rational.test.lt.core.license.impl.LicenseUtil$LicenseUtilImpl.invokeMethod(LicenseUtil.java:110)</values>
+			<values>com.ibm.rational.test.lt.core.license.impl.LicenseUtil.invokeMethod(LicenseUtil.java:54)</values>
+			<values>com.ibm.rational.test.lt.core.license.impl.LicenseUtil.invokeMethod(LicenseUtil.java:49)</values>
+			<values>com.ibm.rational.test.lt.core.license.impl.HclLicenseMode.requestLicense(HclLicenseMode.java:42)</values>
+			<values>com.ibm.rational.test.lt.core.LicenseManager.requestLicenseForProduct(LicenseManager.java:63)</values>
+			<values>com.ibm.rational.test.lt.core.LicenseManager.requestLicenseSilently(LicenseManager.java:83)</values>
+			<values>com.ibm.rational.test.lt.core.LicenseManager.requestLicense(LicenseManager.java:37)</values>
+			<values>com.ibm.rational.test.lt.core.LicenseManager.requestLicense(LicenseManager.java:111)</values>
+			<values>com.ibm.rational.test.lt.core.LTCorePlugin.requestLicense(LTCorePlugin.java:571)</values>
+			<values>com.ibm.rational.test.common.schedule.editor.ScheduleEditorPlugin.start(ScheduleEditorPlugin.java:76)</values>
+			<values>org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:813)</values>
+			<values>org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:1)</values>
+			<values>java.base/java.security.AccessController.doPrivileged(AccessController.java:751)</values>
+			<values>org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:805)</values>
+			<values>org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:762)</values>
+			<values>org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1032)</values>
+			<values>org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:371)</values>
+			<values>org.eclipse.osgi.container.Module.doStart(Module.java:605)</values>
+			<values>org.eclipse.osgi.container.Module.start(Module.java:468)</values>
+			<values>org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:513)</values>
+			<values>org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)</values>
+			<values>org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:570)</values>
+			<values>org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:335)</values>
+			<values>org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:397)</values>
+			<values>org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:488)</values>
+			<values>org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:416)</values>
+			<values>org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)</values>
+			<values>java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:1092)</values>
+			<values>org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:622)</values>
+			<values>org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:196)</values>
+			<values>org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:920)</values>
+			<values>org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:246)</values>
+			<values>org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:63)</values>
+			<values>org.eclipse.ui.internal.WorkbenchPlugin.lambda$0(WorkbenchPlugin.java:287)</values>
+			<values>org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:57)</values>
+			<values>org.eclipse.ui.internal.WorkbenchPlugin.createExtension(WorkbenchPlugin.java:285)</values>
+			<values>org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:55)</values>
+			<values>org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)</values>
+			<values>org.eclipse.ui.internal.Workbench$40.run(Workbench.java:2667)</values>
+			<values>org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)</values>
+		</extendedDataElements>
+		<sourceComponentId component="Logging" componentIdType="Application" executionEnvironment="Java" location="10.225.44.25" locationType="IPV4" subComponent="Logger" componentType="Logging_Application"/>
+		<situation categoryName="ReportSituation">
+			<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+		</situation>
+	</CommonBaseEvent>
+</CommonBaseEvents>

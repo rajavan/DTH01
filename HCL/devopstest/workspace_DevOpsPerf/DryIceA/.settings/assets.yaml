@@ -1,0 +1,17 @@
+name: DryIceA
+version: 2
+projectReferences: 
+resources: 
+  - name: .classpath
+    type: com.ibm.rational.test.lt.classpath
+    dependencies: 
+      - path: /DryIceA/src
+        type: javaClasspath
+  - name: Tenant01.recdata
+  - name: Tenant01.recsession
+    type: com.ibm.rational.test.lt.recsession
+    dependencies: 
+      - path: /DryIceA/Tenant01.recdata
+        type: recsessionRecdata
+  - name: src
+    resources: 

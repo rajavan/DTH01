@@ -1,0 +1,358 @@
+name: Demo_JPetStore
+version: 2
+projectReferences: 
+resources: 
+  - name: .classpath
+    type: com.ibm.rational.test.lt.classpath
+    dependencies: 
+      - path: /Demo_JPetStore/src
+        type: javaClasspath
+  - name: DC_Rule_22Oct.dcrules
+    type: com.ibm.rational.test.lt.dcrules
+    version: 8.2.1-7
+  - name: Demo2.recdata
+  - name: Demo2.recsession
+    type: com.ibm.rational.test.lt.recsession
+    dependencies: 
+      - path: /Demo_JPetStore/Demo2.recdata
+        type: recsessionRecdata
+  - name: Demo2.testsuite
+    type: com.ibm.rational.test.lt.test
+    version: 11.0.6.0
+    properties: 
+      features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
+      type: com.ibm.rational.test.lt.lttest
+      uid: A1F0AF2B6B4D2DC0C10AB56564643036
+    dependencies: 
+      - path: /Demo_JPetStore/Demo2.recsession
+        type: testRecsession
+  - name: Demo2_1761126656469.stats
+    type: com.ibm.rational.test.lt.stats.session
+    properties: 
+      startTime: 1761126656469
+      tags: 
+      testId: A1F0AF2B6B4D2DC0C10AB56564643036
+      testName: Demo2
+    dependencies: 
+      - path: /Demo_JPetStore/Demo2.testsuite
+        type: statsSessionTest
+      - path: /Demo_JPetStore/Demo2_1761126656469_orch!system.mstats
+        type: statsSessionStore
+      - path: /Demo_JPetStore/Demo2_1761126656469_orch!system.rstats
+        type: statsSessionStore
+      - path: /Demo_JPetStore/Demo2_1761126656469_perf!localhost.mstats
+        type: statsSessionStore
+      - path: /Demo_JPetStore/Demo2_1761126656469_perf!localhost.rstats
+        type: statsSessionStore
+      - path: /Demo_JPetStore/Demo2_1761126656860.executiondlr
+        type: statsSessionAsset
+  - name: Demo2_1761126656469_orch!system.mstats
+  - name: Demo2_1761126656469_orch!system.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: Demo2_1761126656469_perf!localhost.mstats
+  - name: Demo2_1761126656469_perf!localhost.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: Demo2_1761126656860.executiondlr
+  - name: Demo2_1761127108309.stats
+    type: com.ibm.rational.test.lt.stats.session
+    properties: 
+      startTime: 1761127108309
+      tags: 
+      testId: A1F0AF2B6B4D2DC0C10AB56564643036
+      testName: Demo2
+    dependencies: 
+      - path: /Demo_JPetStore/Demo2.testsuite
+        type: statsSessionTest
+      - path: /Demo_JPetStore/Demo2_1761127108309_orch!system.mstats
+        type: statsSessionStore
+      - path: /Demo_JPetStore/Demo2_1761127108309_orch!system.rstats
+        type: statsSessionStore
+      - path: /Demo_JPetStore/Demo2_1761127108309_perf!localhost.mstats
+        type: statsSessionStore
+      - path: /Demo_JPetStore/Demo2_1761127108309_perf!localhost.rstats
+        type: statsSessionStore
+      - path: /Demo_JPetStore/Demo2_1761127108723.executiondlr
+        type: statsSessionAsset
+  - name: Demo2_1761127108309_orch!system.mstats
+  - name: Demo2_1761127108309_orch!system.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: Demo2_1761127108309_perf!localhost.mstats
+  - name: Demo2_1761127108309_perf!localhost.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: Demo2_1761127108723.executiondlr
+  - name: Demo2_1761127717046.stats
+    type: com.ibm.rational.test.lt.stats.session
+    properties: 
+      startTime: 1761127717046
+      tags: 
+      testId: A1F0AF2B6B4D2DC0C10AB56564643036
+      testName: Demo2
+    dependencies: 
+      - path: /Demo_JPetStore/Demo2.testsuite
+        type: statsSessionTest
+      - path: /Demo_JPetStore/Demo2_1761127717046_orch!system.mstats
+        type: statsSessionStore
+      - path: /Demo_JPetStore/Demo2_1761127717046_orch!system.rstats
+        type: statsSessionStore
+      - path: /Demo_JPetStore/Demo2_1761127717046_perf!localhost.mstats
+        type: statsSessionStore
+      - path: /Demo_JPetStore/Demo2_1761127717046_perf!localhost.rstats
+        type: statsSessionStore
+      - path: /Demo_JPetStore/Demo2_1761127718236.executiondlr
+        type: statsSessionAsset
+  - name: Demo2_1761127717046_orch!system.mstats
+  - name: Demo2_1761127717046_orch!system.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: Demo2_1761127717046_perf!localhost.mstats
+  - name: Demo2_1761127717046_perf!localhost.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: Demo2_1761127718236.executiondlr
+  - name: Demo2_1761128062316.stats
+    type: com.ibm.rational.test.lt.stats.session
+    properties: 
+      startTime: 1761128062316
+      tags: 
+      testId: A1F0AF2B6B4D2DC0C10AB56564643036
+      testName: Demo2
+    dependencies: 
+      - path: /Demo_JPetStore/Demo2.testsuite
+        type: statsSessionTest
+      - path: /Demo_JPetStore/Demo2_1761128062316_orch!system.mstats
+        type: statsSessionStore
+      - path: /Demo_JPetStore/Demo2_1761128062316_orch!system.rstats
+        type: statsSessionStore
+      - path: /Demo_JPetStore/Demo2_1761128062316_perf!localhost.mstats
+        type: statsSessionStore
+      - path: /Demo_JPetStore/Demo2_1761128062316_perf!localhost.rstats
+        type: statsSessionStore
+      - path: /Demo_JPetStore/Demo2_1761128064390.executiondlr
+        type: statsSessionAsset
+  - name: Demo2_1761128062316_orch!system.mstats
+  - name: Demo2_1761128062316_orch!system.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: Demo2_1761128062316_perf!localhost.mstats
+  - name: Demo2_1761128062316_perf!localhost.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: Demo2_1761128064390.executiondlr
+  - name: Demo2_1761129001820.stats
+    type: com.ibm.rational.test.lt.stats.session
+    properties: 
+      startTime: 1761129001820
+      tags: 
+      testId: A1F0AF2B6B4D2DC0C10AB56564643036
+      testName: Demo2
+    dependencies: 
+      - path: /Demo_JPetStore/Demo2.testsuite
+        type: statsSessionTest
+      - path: /Demo_JPetStore/Demo2_1761129001820_orch!system.mstats
+        type: statsSessionStore
+      - path: /Demo_JPetStore/Demo2_1761129001820_orch!system.rstats
+        type: statsSessionStore
+      - path: /Demo_JPetStore/Demo2_1761129001820_perf!localhost.mstats
+        type: statsSessionStore
+      - path: /Demo_JPetStore/Demo2_1761129001820_perf!localhost.rstats
+        type: statsSessionStore
+      - path: /Demo_JPetStore/Demo2_1761129003098.executiondlr
+        type: statsSessionAsset
+  - name: Demo2_1761129001820_orch!system.mstats
+  - name: Demo2_1761129001820_orch!system.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: Demo2_1761129001820_perf!localhost.mstats
+  - name: Demo2_1761129001820_perf!localhost.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: Demo2_1761129003098.executiondlr
+  - name: Demo2_1761132782956.stats
+    type: com.ibm.rational.test.lt.stats.session
+    properties: 
+      startTime: 1761132782956
+      tags: 
+      testId: A1F0AF2B6B4D2DC0C10AB56564643036
+      testName: Demo2
+    dependencies: 
+      - path: /Demo_JPetStore/Demo2.testsuite
+        type: statsSessionTest
+      - path: /Demo_JPetStore/Demo2_1761132782956_orch!system.mstats
+        type: statsSessionStore
+      - path: /Demo_JPetStore/Demo2_1761132782956_orch!system.rstats
+        type: statsSessionStore
+      - path: /Demo_JPetStore/Demo2_1761132782956_perf!localhost.mstats
+        type: statsSessionStore
+      - path: /Demo_JPetStore/Demo2_1761132782956_perf!localhost.rstats
+        type: statsSessionStore
+      - path: /Demo_JPetStore/Demo2_1761132783352.executiondlr
+        type: statsSessionAsset
+  - name: Demo2_1761132782956_orch!system.mstats
+  - name: Demo2_1761132782956_orch!system.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: Demo2_1761132782956_perf!localhost.mstats
+  - name: Demo2_1761132782956_perf!localhost.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: Demo2_1761132783352.executiondlr
+  - name: Demo_Sch.testsuite
+    type: com.ibm.rational.test.lt.schedule
+    version: 11.0.6.0
+    properties: 
+      description: 'Stages:
+
+	users=5; duration=Run Until Finished
+
+User Group 1: Group Size 100.0 percent
+
+	Agent(s): localhost
+
+	Test(s): Demo2
+
+'
+      name: Demo_Sch
+      type: com.ibm.rational.test.common.schedule.Schedule
+      uid: A1F0AF28E247BBF0C10AB56564643036
+    dependencies: 
+      - path: /Demo_JPetStore/Demo2.testsuite
+        type: scheduleInvokedTest
+      - path: /Demo_JPetStore/localhost.location
+        type: scheduleLocation
+      - path: /Demo_JPetStore/localhost2.location
+        type: scheduleIPOTLocation
+  - name: Demo_Sch_1761125120277.stats
+    type: com.ibm.rational.test.lt.stats.session
+    properties: 
+      startTime: 1761125120277
+      tags: 
+      testId: A1F0AF28E247BBF0C10AB56564643036
+      testName: Demo_Sch
+    dependencies: 
+      - path: /Demo_JPetStore/Demo_Sch.testsuite
+        type: statsSessionTest
+      - path: /Demo_JPetStore/Demo_Sch_1761125120277_orch!rm_metadata.mstats
+        type: statsSessionStore
+      - path: /Demo_JPetStore/Demo_Sch_1761125120277_orch!rm_metadata.rstats
+        type: statsSessionStore
+      - path: /Demo_JPetStore/Demo_Sch_1761125120277_orch!system.mstats
+        type: statsSessionStore
+      - path: /Demo_JPetStore/Demo_Sch_1761125120277_orch!system.rstats
+        type: statsSessionStore
+      - path: /Demo_JPetStore/Demo_Sch_1761125120277_perf!localhost.mstats
+        type: statsSessionStore
+      - path: /Demo_JPetStore/Demo_Sch_1761125120277_perf!localhost.rstats
+        type: statsSessionStore
+      - path: /Demo_JPetStore/Demo_Sch_1761125120277_rm!localhost_wmi.mstats
+        type: statsSessionStore
+      - path: /Demo_JPetStore/Demo_Sch_1761125120277_rm!localhost_wmi.rstats
+        type: statsSessionStore
+      - path: /Demo_JPetStore/Demo_Sch_1761125121672.executiondlr
+        type: statsSessionAsset
+  - name: Demo_Sch_1761125120277_orch!rm_metadata.mstats
+  - name: Demo_Sch_1761125120277_orch!rm_metadata.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: Demo_Sch_1761125120277_orch!system.mstats
+  - name: Demo_Sch_1761125120277_orch!system.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: Demo_Sch_1761125120277_perf!localhost.mstats
+  - name: Demo_Sch_1761125120277_perf!localhost.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: Demo_Sch_1761125120277_rm!localhost_wmi.mstats
+  - name: Demo_Sch_1761125120277_rm!localhost_wmi.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: Demo_Sch_1761125121672.executiondlr
+  - name: Demo_Sch_1761132551468.stats
+    type: com.ibm.rational.test.lt.stats.session
+    properties: 
+      startTime: 1761132551468
+      tags: 
+      testId: A1F0AF28E247BBF0C10AB56564643036
+      testName: Demo_Sch
+    dependencies: 
+      - path: /Demo_JPetStore/Demo_Sch.testsuite
+        type: statsSessionTest
+      - path: /Demo_JPetStore/Demo_Sch_1761132551468_orch!system.mstats
+        type: statsSessionStore
+      - path: /Demo_JPetStore/Demo_Sch_1761132551468_orch!system.rstats
+        type: statsSessionStore
+      - path: /Demo_JPetStore/Demo_Sch_1761132551468_perf!localhost.mstats
+        type: statsSessionStore
+      - path: /Demo_JPetStore/Demo_Sch_1761132551468_perf!localhost.rstats
+        type: statsSessionStore
+      - path: /Demo_JPetStore/Demo_Sch_1761132553626.executiondlr
+        type: statsSessionAsset
+  - name: Demo_Sch_1761132551468_orch!system.mstats
+  - name: Demo_Sch_1761132551468_orch!system.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: Demo_Sch_1761132551468_perf!localhost.mstats
+  - name: Demo_Sch_1761132551468_perf!localhost.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: Demo_Sch_1761132553626.executiondlr
+  - name: Demo_Sch_1761138702986.stats
+    type: com.ibm.rational.test.lt.stats.session
+    properties: 
+      startTime: 1761138702986
+      tags: 
+      testId: A1F0AF28E247BBF0C10AB56564643036
+      testName: Demo_Sch
+    dependencies: 
+      - path: /Demo_JPetStore/Demo_Sch.testsuite
+        type: statsSessionTest
+      - path: /Demo_JPetStore/Demo_Sch_1761138702986_orch!system.mstats
+        type: statsSessionStore
+      - path: /Demo_JPetStore/Demo_Sch_1761138702986_orch!system.rstats
+        type: statsSessionStore
+      - path: /Demo_JPetStore/Demo_Sch_1761138702986_perf!localhost.mstats
+        type: statsSessionStore
+      - path: /Demo_JPetStore/Demo_Sch_1761138702986_perf!localhost.rstats
+        type: statsSessionStore
+      - path: /Demo_JPetStore/Demo_Sch_1761138704537.executiondlr
+        type: statsSessionAsset
+  - name: Demo_Sch_1761138702986_orch!system.mstats
+  - name: Demo_Sch_1761138702986_orch!system.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: Demo_Sch_1761138702986_perf!localhost.mstats
+  - name: Demo_Sch_1761138702986_perf!localhost.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: Demo_Sch_1761138704537.executiondlr
+  - name: JPetStoreDemo_Day1.recdata
+  - name: JPetStoreDemo_Day1.recsession
+    type: com.ibm.rational.test.lt.recsession
+    dependencies: 
+      - path: /Demo_JPetStore/JPetStoreDemo_Day1.recdata
+        type: recsessionRecdata
+  - name: JPetStoreDemo_Day1.testsuite
+    type: com.ibm.rational.test.lt.test
+    version: 11.0.6.0
+    properties: 
+      features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
+      type: com.ibm.rational.test.lt.lttest
+      uid: A1F0AF28C737A230C10AB56564643036
+    dependencies: 
+      - path: /Demo_JPetStore/JPetStoreDemo_Day1.recsession
+        type: testRecsession
+  - name: LP3-AP-51627966.PROD.HCLPNP.COM.location
+    type: com.ibm.rational.test.lt.location
+  - name: Tenant01.recdata
+  - name: Tenant01.recsession
+    type: com.ibm.rational.test.lt.recsession
+    dependencies: 
+      - path: /Demo_JPetStore/Tenant01.recdata
+        type: recsessionRecdata
+  - name: Tenant01.testsuite
+    type: com.ibm.rational.test.lt.test
+    version: 11.0.6.0
+    properties: 
+      features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http,com.ibm.rational.test.lt.feature.websocket'
+      type: com.ibm.rational.test.lt.lttest
+      uid: A1F0C604839B5790C8D4B13435653430
+    dependencies: 
+      - path: /Demo_JPetStore/Tenant01.recsession
+        type: testRecsession
+  - name: localhost.location
+    type: com.ibm.rational.test.lt.location
+  - name: localhost2.location
+    type: com.ibm.rational.test.lt.location
+  - name: src
+    resources: 
+      - name: test
+        resources: 
+          - name: Demo2_Test_A1F0AF2B6B4D2DC0C10AB56564643036.java
+            type: com.ibm.rational.test.lt.generatedCode
+          - name: Demo_Sch_Schedule_A1F0AF28E247BBF0C10AB56564643036.java
+            type: com.ibm.rational.test.lt.generatedCode
+          - name: JPetStoreDemo_Day1_Test_A1F0AF28C737A230C10AB56564643036.java
+            type: com.ibm.rational.test.lt.generatedCode

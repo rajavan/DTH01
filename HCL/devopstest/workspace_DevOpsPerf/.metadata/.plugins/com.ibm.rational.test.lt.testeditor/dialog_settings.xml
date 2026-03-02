@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="customcode">
+		<item key="defpkg" value="customcode"/>
+	</section>
+	<section name="A1F0A0BE89BA3E40FAF6B53435663735">
+		<section name="ShowDatapoolCandidatesDialog">
+			<item key="show_candidates" value="true"/>
+		</section>
+	</section>
+	<section name="A1F0A0C352F3C660DAA7E56361373033">
+		<section name="ShowDatapoolCandidatesDialog">
+			<item key="show_candidates" value="true"/>
+		</section>
+	</section>
+	<section name="A1F0A0DF6BAF314BFAF6B53435663735">
+		<item key="count" value="0"/>
+		<section name="ShowDatapoolCandidatesDialog">
+			<item key="show_candidates" value="true"/>
+		</section>
+	</section>
+	<section name="defaultBuiltinDataSourceSelection">
+		<section name="bids.current.time">
+		</section>
+		<section name="bids.current.date">
+		</section>
+		<section name="bids.random.number">
+		</section>
+		<section name="bids.sequence.number">
+		</section>
+	</section>
+	<section name="com.ibm.rational.test.lt.testeditor.common.DatasourceSelectionDialog">
+		<item key="DIALOG_X_ORIGIN" value="690"/>
+		<item key="DIALOG_Y_ORIGIN" value="9"/>
+		<item key="DIALOG_WIDTH" value="559"/>
+		<item key="DIALOG_HEIGHT" value="817"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+	<section name="A1F0AF23E9E8F540C10AB56564643036">
+		<section name="ShowDatapoolCandidatesDialog">
+			<item key="show_candidates" value="true"/>
+		</section>
+	</section>
+	<section name="A1F0AF28C737A230C10AB56564643036">
+		<section name="ShowDatapoolCandidatesDialog">
+			<item key="show_candidates" value="true"/>
+		</section>
+	</section>
+	<section name="A1F0AF2B6B4D2DC0C10AB56564643036">
+		<item key="count" value="4"/>
+		<item key="0" value="A1F0AF2BDD8EE779C10AB56564643036"/>
+		<item key="1" value="A1F0AF2BBEA3DD8EC10AB56564643036"/>
+		<item key="2" value="A1F0AF2BBEA3DD7FC10AB56564643036"/>
+		<item key="3" value="A1F0AF2BBEA3DD70C10AB56564643036"/>
+		<section name="ShowDatapoolCandidatesDialog">
+			<item key="show_candidates" value="true"/>
+		</section>
+	</section>
+	<section name="com.ibm.rational.test.lt.testeditor.common.ShowReferencesDialog">
+		<item key="form0" value="75"/>
+		<item key="form1" value="25"/>
+		<item key="col0" value="34"/>
+		<item key="col1" value="26"/>
+		<item key="col2" value="25"/>
+		<item key="col3" value="5"/>
+		<item key="col4" value="5"/>
+		<item key="col5" value="5"/>
+		<item key="DIALOG_X_ORIGIN" value="437"/>
+		<item key="DIALOG_Y_ORIGIN" value="13"/>
+		<item key="DIALOG_WIDTH" value="1064"/>
+		<item key="DIALOG_HEIGHT" value="760"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+	<section name="A1F0C604839B5790C8D4B13435653430">
+		<section name="ShowDatapoolCandidatesDialog">
+			<item key="show_candidates" value="true"/>
+		</section>
+	</section>
+</section>

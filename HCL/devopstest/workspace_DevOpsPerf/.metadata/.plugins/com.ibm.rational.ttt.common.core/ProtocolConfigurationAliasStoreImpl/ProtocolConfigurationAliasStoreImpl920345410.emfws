@@ -1,0 +1,25 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<com.ibm.rational.test.lt.models.wscore.protocol:ProtocolConfigurationAliasStore xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.ibm.rational.test.lt.models.wscore.protocol="http:///com/ibm/rational/test/lt/models/wscore/protocol.ecore" xmlns:com.ibm.rational.test.lt.models.wscore.protocol.http="http:///com/ibm/rational/test/lt/models/wscore/protocol/http.ecore" aliasName="XdefaulthttpX">
+  <configuration xsi:type="com.ibm.rational.test.lt.models.wscore.protocol.http:HttpCallConfiguration">
+    <ConnectionType/>
+    <SSLConnection storeAlias=""/>
+    <Proxy adresse="" port="0">
+      <BasicAuthentification userName="" password=""/>
+      <NTLMAuthentification negHostName="" negDomainName="" autHostName="" autDomainName="" autUserName="" authPassWord=""/>
+    </Proxy>
+    <BasicAuthentification userName="" password=""/>
+    <NTLMAuthentification negHostName="" negDomainName="" autHostName="" autDomainName="" autUserName="" authPassWord=""/>
+    <KerberosAuthentification userName="" password="" realm=""/>
+    <CustomClassAdapter useCustomClass="false" className=""/>
+    <variousProperties value="4096" name="JETTY_CLIENT_INPUTBUFFER"/>
+    <variousProperties value="300000" name="JETTY_CLIENT_CONNECT_TIMEOUT"/>
+    <variousProperties value="10" name="JETTY_BLOCKING_QUEUE_SIZE"/>
+    <variousProperties value="5" name="JETTY_POOL_MAX_THREAD"/>
+    <variousProperties value="1" name="JETTY_POOL_MIN_THREAD"/>
+    <variousProperties value="512" name="JETTY_CLIENT_MAPPEDBYTES_SIZE"/>
+    <variousProperties value="120000" name="JETTY_CLIENT_SESSION_TIMEOUT"/>
+    <variousProperties value="65535" name="JETTY_INITIAL_SESSION_REC_WINDOW"/>
+    <variousProperties value="65535" name="JETTY_INITIAL_STREAM_REC_WINDOW"/>
+    <variousProperties value="true" name="JETTY_CLIENT_ENABLE_PUSH"/>
+  </configuration>
+</com.ibm.rational.test.lt.models.wscore.protocol:ProtocolConfigurationAliasStore>

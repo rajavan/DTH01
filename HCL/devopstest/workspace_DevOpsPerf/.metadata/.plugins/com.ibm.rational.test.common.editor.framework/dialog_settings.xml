@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="com.ibm.rational.test.common.editor.framework.SearchPage">
+		<item key="srch.label.case.default" value="false"/>
+		<item key="srch.label.limit.default" value="false"/>
+		<item key="srch.label.recursive.default" value="true"/>
+		<item key="srch.label.regex.default" value="false"/>
+		<item key="srch.label.select.default" value="false"/>
+		<item key="search.type.HTTPPages" value="true"/>
+		<item key="search.type.HTTPRequests" value="true"/>
+		<item key="search.type.HTTPResponses" value="true"/>
+		<item key="SocketConnectSearcher" value="false"/>
+		<item key="SocketSendSearcher" value="false"/>
+		<item key="SocketReceiveSearcher" value="false"/>
+		<item key="search.type.NamesAndDescriptions" value="false"/>
+		<item key="search.type.LTTransaction" value="false"/>
+		<item key="search.type.LTArmEnabled" value="false"/>
+		<item key="search.type.Controls" value="false"/>
+		<item key="search.type.VerificationPoint" value="false"/>
+		<item key="searh.type.DataSources" value="false"/>
+		<item key="search.type.Substituters" value="false"/>
+		<item key="search.type.SubstitutionSites" value="false"/>
+		<item key="TN3270_ACTIONS" value="false"/>
+		<item key="com.ibm.rational.test.lt.ui.sap.testeditor.search.SapScreen" value="false"/>
+		<item key="com.ibm.rational.test.lt.ui.sap.testeditor.search.SapEvent" value="false"/>
+		<item key="SOCKET_ACTIONS" value="false"/>
+		<item key="com.ibm.rational.test.lt.ui.websocket.search.WebSocketRequest" value="false"/>
+		<item key="com.ibm.rational.test.lt.ui.websocket.search.WebSocketResponse" value="false"/>
+		<item key="com.ibm.rational.test.lt.ui.ws.testeditor.search.propertiesVP" value="false"/>
+		<item key="com.ibm.rational.test.lt.ui.ws.testeditor.search.containsVP" value="false"/>
+		<item key="com.ibm.rational.test.lt.ui.ws.testeditor.search.customsecurity" value="false"/>
+		<item key="com.ibm.rational.test.lt.ui.ws.testeditor.search.equalsVP" value="false"/>
+		<item key="com.ibm.rational.test.lt.ui.ws.testeditor.search.xpathVP" value="false"/>
+		<item key="com.ibm.rational.test.lt.ui.ws.testeditor.search.attachmentVP" value="false"/>
+		<item key="com.ibm.rational.test.lt.ui.ws.testeditor.search.ReturnProperties" value="false"/>
+		<item key="com.ibm.rational.test.lt.ui.ws.testeditor.search.Attachment" value="false"/>
+		<item key="com.ibm.rational.test.lt.ui.ws.testeditor.search.MessageDetail" value="false"/>
+		<item key="com.ibm.rational.test.lt.ui.ws.testeditor.search.CallProcotol" value="false"/>
+		<item key="com.ibm.rational.test.lt.ui.ws.testeditor.search.textVP" value="false"/>
+		<item key="MoebSearchActions" value="false"/>
+	</section>
+	<section name="EDITOR_STATE">
+		<section name="editor-A1F0A0BE89BA3E40FAF6B53435663735">
+			<item key="file" value="L/JPetStore_LoopDemo/JPetStoreDemo1.testsuite"/>
+			<item key="lastEditorViewMode" value="0"/>
+			<list key="lastselection">
+				<item value="A1F0A0BE8A349E60FAF6B53435663735"/>
+			</list>
+			<list key="lastFieldSelection">
+				<item value="Label.Transaction.Name"/>
+				<item value="13"/>
+				<item value="13"/>
+			</list>
+		</section>
+		<section name="editor-A1F0A0C352F3C660DAA7E56361373033">
+			<item key="file" value="L/JpetStoreDemo_1105/JPetStoreDemo1105.testsuite"/>
+			<item key="lastEditorViewMode" value="0"/>
+			<list key="lastselection">
+				<item value="A1F0A0C3534E6987DAA7E56361373033"/>
+			</list>
+			<list key="lastFieldSelection">
+				<item value="_FIELD_HTTP_HDR_VALUE"/>
+				<item value="0"/>
+				<item value="18"/>
+			</list>
+		</section>
+		<section name="editor-A1F0A0DF6BAF314BFAF6B53435663735">
+			<item key="file" value="L/JpetStoreDemo_1105/Copy of JPetStoreDemo1105.testsuite"/>
+			<item key="lastEditorViewMode" value="0"/>
+			<list key="lastselection">
+				<item value="A1F0A0C3534E6987DAA7E56361373033"/>
+			</list>
+			<list key="lastFieldSelection">
+				<item value="_FIELD_HTTP_HDR_VALUE"/>
+				<item value="0"/>
+				<item value="18"/>
+			</list>
+		</section>
+		<section name="editor-A1F0A8121475D670DE1DB43238303936">
+			<item key="file" value="L/JpetStoreDemo_1105/Sched_JPetStore.testsuite"/>
+			<item key="lastEditorViewMode" value="0"/>
+			<list key="lastselection">
+				<item value="A1F0A81214ADD664DE1DB43238303936"/>
+			</list>
+		</section>
+		<section name="editor-A1F0AF23E9E8F540C10AB56564643036">
+			<item key="file" value="L/JpetStoreDemo_1105/Demo2.testsuite"/>
+			<item key="lastEditorViewMode" value="0"/>
+			<list key="lastselection">
+				<item value="A1F0AF23E9E8F540C10AB56564643036"/>
+			</list>
+			<list key="lastFieldSelection">
+				<item value="kerberos_realm"/>
+				<item value="0"/>
+				<item value="0"/>
+			</list>
+		</section>
+		<section name="editor-A1F0AF2695B2B3A0C10AB56564643036">
+			<item key="file" value="L/JpetStoreDemo_1105/MySch.testsuite"/>
+			<item key="lastEditorViewMode" value="0"/>
+			<list key="lastselection">
+				<item value="A1F0AF2695B2B3A0C10AB56564643036"/>
+			</list>
+		</section>
+		<section name="editor-A1F0AF28C737A230C10AB56564643036">
+			<item key="file" value="L/Demo_JPetStore/JPetStoreDemo_Day1.testsuite"/>
+			<item key="lastEditorViewMode" value="0"/>
+			<list key="lastselection">
+				<item value="A1F0AF28C8657411C10AB56564643036"/>
+			</list>
+		</section>
+		<section name="editor-A1F0AF28E247BBF0C10AB56564643036">
+			<item key="file" value="L/Demo_JPetStore/Demo_Sch.testsuite"/>
+			<item key="lastEditorViewMode" value="0"/>
+			<list key="lastselection">
+				<item value="A1F0AF28E24858B1C10AB56564643036"/>
+			</list>
+		</section>
+		<section name="editor-A1F0AF2B6B4D2DC0C10AB56564643036">
+			<item key="file" value="L/Demo_JPetStore/Demo2.testsuite"/>
+			<item key="lastEditorViewMode" value="0"/>
+			<list key="lastselection">
+				<item value="A1F0AF2B6B4D2DC0C10AB56564643036"/>
+			</list>
+			<list key="lastFieldSelection">
+				<item value="_FIELD_HTTP_URL_"/>
+				<item value="0"/>
+				<item value="17"/>
+			</list>
+		</section>
+		<section name="editor-A1F0C604839B5790C8D4B13435653430">
+			<item key="file" value="L/Demo_JPetStore/Tenant01.testsuite"/>
+			<item key="lastEditorViewMode" value="0"/>
+			<list key="lastselection">
+				<item value="A1F0C6048443CC90C8D4B13435653430"/>
+			</list>
+			<list key="lastFieldSelection">
+				<item value="_FIELD_HTTP_HDR_VALUE"/>
+				<item value="0"/>
+				<item value="32"/>
+			</list>
+		</section>
+	</section>
+	<section name="last.test.options.tab">
+		<section name="editor-A1F0A0BE89BA3E40FAF6B53435663735">
+			<item key="id" value="com.ibm.rational.test.lt.testeditor.main.options.DigiCertsOptionsHandler"/>
+		</section>
+		<section name="editor-A1F0A0C352F3C660DAA7E56361373033">
+		</section>
+		<section name="editor-A1F0A0DF6BAF314BFAF6B53435663735">
+		</section>
+		<section name="editor-A1F0A8121475D670DE1DB43238303936">
+		</section>
+		<section name="editor-A1F0AF23E9E8F540C10AB56564643036">
+			<item key="id" value="com.ibm.rational.test.lt.testeditor.main.options.LtTestOptions"/>
+		</section>
+		<section name="editor-A1F0AF2695B2B3A0C10AB56564643036">
+			<item key="id" value="com.ibm.rational.test.lt.execution.rm.options.ui.ResourceMonitoringHandler"/>
+		</section>
+		<section name="editor-A1F0AF28C737A230C10AB56564643036">
+		</section>
+		<section name="editor-A1F0AF28E247BBF0C10AB56564643036">
+			<item key="id" value="com.ibm.rational.test.common.schedule.editor.options.StatisticsOptionsHandler"/>
+		</section>
+		<section name="editor-A1F0AF2B6B4D2DC0C10AB56564643036">
+			<item key="id" value="com.ibm.rational.test.lt.testeditor.main.options.TestPDLogOptionsHandler"/>
+		</section>
+		<section name="editor-A1F0C604839B5790C8D4B13435653430">
+		</section>
+	</section>
+	<section name="sync-points">
+		<item key="size" value="0"/>
+	</section>
+	<section name="CEF_NewWizard">
+	</section>
+	<section name="com.ibm.rational.test.common.editor.framework.dialog.CommonLocationSelectionDialog">
+		<item key="DIALOG_X_ORIGIN" value="694"/>
+		<item key="DIALOG_Y_ORIGIN" value="103"/>
+		<item key="DIALOG_WIDTH" value="551"/>
+		<item key="DIALOG_HEIGHT" value="625"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+</section>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;JPetStore_LoopDemo/JPetStore_Demo1.recsession&apos;" deleteContents="false" description="Delete resource &apos;JPetStore_LoopDemo/JPetStore_Demo1.recsession&apos;" element1="/JPetStore_LoopDemo/JPetStore_Demo1.recsession" element2="/JPetStore_LoopDemo/JPetStore_Demo1.recdata" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="2" stamp="1759539957180"/>
+</session>

@@ -1,0 +1,12 @@
+<?xml version="1.1" encoding="UTF-8"?><rpt:ruleSet xmlns:rpt="rpt" genuid="7" version="7">
+  <arg:topLevelArgumentContainer xmlns:arg="arg:com.ibm.rational.test.lt.datacorrelation.rules"/>
+  <pass:full xmlns:pass="pass:com.ibm.rational.test.lt.datacorrelation.rules" uid="1" label="Accumulated Actions">
+    <rul:removeReference xmlns:rul="rule:com.ibm.rational.test.lt.datacorrelation.rules" uid="2">
+      <cnd:and xmlns:cnd="condition:com.ibm.rational.test.lt.datacorrelation.rules" uid="3">
+        <cnd:referenceRegexp regexp="/data-na\.nestlenutritionstore\.com(.*?)&quot;" uid="4" occurrence="1"/>
+        <cnd:dataSourceName regexp="\Qdata-na.nestlenutritionstore.com\E(?:_\d+)?" uid="5"/>
+        <cnd:referenceAttribute uid="6" attributeName="resp_content"/>
+      </cnd:and>
+    </rul:removeReference>
+  </pass:full>
+</rpt:ruleSet>

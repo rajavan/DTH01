@@ -1,0 +1,1871 @@
+<CommonBaseEvent creationTime="2025-10-04T04:56:11.709Z" globalInstanceId="A1F0A0DE7327D6E0C4E0B76337613731" msg="RPXE0001W 1 users successfully added" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>0</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>53</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.1.2" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2025-10-04T04:56:32.960Z" globalInstanceId="A1F0A0DE7F7010C0C4E0B76337613731" msg="RPXE0031W Exception finishing connection for action JPetStoreDev (class com.ibm.rational.test.lt.execution.http.impl.HTTPAction) user [DefaultUserGroup][000001]&#xA;java.net.ConnectException: Connection timed out: getsockopt&#xD;&#xA;&#x9;at java.base/sun.nio.ch.Net.pollConnect(Native Method)&#xD;&#xA;&#x9;at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)&#xD;&#xA;&#x9;at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:953)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.io.impl.KernelChannel.finishConnect(KernelChannel.java:216)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.io.impl.KChannel.finishConnect(KChannel.java:286)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.io.impl.KChannel.executeAction(KChannel.java:254)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)&#xD;&#xA;&#x9;at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)&#xD;&#xA;&#x9;at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)&#xD;&#xA;&#x9;at java.base/java.lang.Thread.run(Thread.java:853)&#xD;&#xA;" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>1</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>53</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:stackTrace" type="stringArray">
+		<values>java.net.ConnectException: Connection timed out: getsockopt</values>
+		<values>java.base/sun.nio.ch.Net.pollConnect(Native Method)</values>
+		<values>java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)</values>
+		<values>java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:953)</values>
+		<values>com.ibm.rational.test.lt.kernel.io.impl.KernelChannel.finishConnect(KernelChannel.java:216)</values>
+		<values>com.ibm.rational.test.lt.kernel.io.impl.KChannel.finishConnect(KChannel.java:286)</values>
+		<values>com.ibm.rational.test.lt.kernel.io.impl.KChannel.executeAction(KChannel.java:254)</values>
+		<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)</values>
+		<values>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)</values>
+		<values>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)</values>
+		<values>java.base/java.lang.Thread.run(Thread.java:853)</values>
+	</extendedDataElements>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.1.2" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2025-10-04T04:56:32.967Z" globalInstanceId="A1F0A0DE7F70AD00C4E0B76337613731" msg="RPXE0039W User [DefaultUserGroup][000001] experienced exception com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Connection failed, &apos;Continuing&apos;&#xA;in Test Action:&#xA;&#x9;JPetStoreDev&#xA;&#x9;Serial 1&#xA;&#x9;&#xA;&#x9;JPetStore Demo&#xA;&#x9;JPetStoreDemo1105&#xA;&#x9;DefaultScenario&#xA;&#x9;[DefaultUserGroup][000001]&#xA;&#x9;DefaultUserGroup&#xA;&#x9;DefaultSchedule&#xA;&#x9;Engine&#xA;com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Connection failed, &apos;Continuing&apos;&#xD;&#xA;&#x9;at test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:119)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)&#xD;&#xA;&#x9;at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)&#xD;&#xA;&#x9;at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)&#xD;&#xA;&#x9;at java.base/java.lang.Thread.run(Thread.java:853)&#xD;&#xA;Caused by: com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Connection failed&#xD;&#xA;&#x9;... 6 more&#xD;&#xA;" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>2</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>53</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:stackTrace" type="stringArray">
+		<values>com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Connection failed, &apos;Continuing&apos;</values>
+		<values>test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:119)</values>
+		<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)</values>
+		<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)</values>
+		<values>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)</values>
+		<values>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)</values>
+		<values>java.base/java.lang.Thread.run(Thread.java:853)</values>
+		<children name="Cause" type="stringArray">
+			<values>com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Connection failed</values>
+			<values>test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:119)</values>
+			<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)</values>
+			<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)</values>
+			<values>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)</values>
+			<values>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)</values>
+			<values>java.base/java.lang.Thread.run(Thread.java:853)</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.1.2" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2025-10-04T04:56:32.967Z" globalInstanceId="A1F0A0DE7F70AD01C4E0B76337613731" msg="RPXE0039W User [DefaultUserGroup][000001] experienced exception com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Response code verification failed, &apos;Continuing&apos;&#xA;in Test Action:&#xA;&#x9;JPetStoreDev&#xA;&#x9;Serial 1&#xA;&#x9;&#xA;&#x9;JPetStore Demo&#xA;&#x9;JPetStoreDemo1105&#xA;&#x9;DefaultScenario&#xA;&#x9;[DefaultUserGroup][000001]&#xA;&#x9;DefaultUserGroup&#xA;&#x9;DefaultSchedule&#xA;&#x9;Engine&#xA;com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Response code verification failed, &apos;Continuing&apos;&#xD;&#xA;&#x9;at test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:116)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)&#xD;&#xA;&#x9;at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)&#xD;&#xA;&#x9;at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)&#xD;&#xA;&#x9;at java.base/java.lang.Thread.run(Thread.java:853)&#xD;&#xA;Caused by: com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Response code verification failed&#xD;&#xA;&#x9;... 6 more&#xD;&#xA;" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>3</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>53</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:stackTrace" type="stringArray">
+		<values>com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Response code verification failed, &apos;Continuing&apos;</values>
+		<values>test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:116)</values>
+		<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)</values>
+		<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)</values>
+		<values>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)</values>
+		<values>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)</values>
+		<values>java.base/java.lang.Thread.run(Thread.java:853)</values>
+		<children name="Cause" type="stringArray">
+			<values>com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Response code verification failed</values>
+			<values>test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:116)</values>
+			<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)</values>
+			<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)</values>
+			<values>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)</values>
+			<values>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)</values>
+			<values>java.base/java.lang.Thread.run(Thread.java:853)</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.1.2" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2025-10-04T04:56:33.023Z" globalInstanceId="A1F0A0DE7F77D8F0C4E0B76337613731" msg="RPXE0039W User [DefaultUserGroup][000001] experienced exception com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Test verdict was set to fail, &apos;Continuing&apos;&#xA;in Test Action:&#xA;&#x9;favicon.ico&#xA;&#x9;Serial 4&#xA;&#x9;&#xA;&#x9;JPetStore Demo&#xA;&#x9;JPetStoreDemo1105&#xA;&#x9;DefaultScenario&#xA;&#x9;[DefaultUserGroup][000001]&#xA;&#x9;DefaultUserGroup&#xA;&#x9;DefaultSchedule&#xA;&#x9;Engine&#xA;com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Test verdict was set to fail, &apos;Continuing&apos;&#xD;&#xA;&#x9;at test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:122)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)&#xD;&#xA;&#x9;at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)&#xD;&#xA;&#x9;at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)&#xD;&#xA;&#x9;at java.base/java.lang.Thread.run(Thread.java:853)&#xD;&#xA;Caused by: com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Test verdict was set to fail&#xD;&#xA;&#x9;... 6 more&#xD;&#xA;" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>4</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>53</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:stackTrace" type="stringArray">
+		<values>com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Test verdict was set to fail, &apos;Continuing&apos;</values>
+		<values>test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:122)</values>
+		<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)</values>
+		<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)</values>
+		<values>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)</values>
+		<values>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)</values>
+		<values>java.base/java.lang.Thread.run(Thread.java:853)</values>
+		<children name="Cause" type="stringArray">
+			<values>com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Test verdict was set to fail</values>
+			<values>test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:122)</values>
+			<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)</values>
+			<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)</values>
+			<values>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)</values>
+			<values>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)</values>
+			<values>java.base/java.lang.Thread.run(Thread.java:853)</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.1.2" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2025-10-04T04:56:54.074Z" globalInstanceId="A1F0A0DE8C03F9A0C4E0B76337613731" msg="RPXE0031W Exception finishing connection for action index.shtml (class com.ibm.rational.test.lt.execution.http.impl.HTTPAction) user [DefaultUserGroup][000001]&#xA;java.net.ConnectException: Connection timed out: getsockopt&#xD;&#xA;&#x9;at java.base/sun.nio.ch.Net.pollConnect(Native Method)&#xD;&#xA;&#x9;at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)&#xD;&#xA;&#x9;at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:953)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.io.impl.KernelChannel.finishConnect(KernelChannel.java:216)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.io.impl.KChannel.finishConnect(KChannel.java:286)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.io.impl.KChannel.executeAction(KChannel.java:254)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)&#xD;&#xA;&#x9;at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)&#xD;&#xA;&#x9;at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)&#xD;&#xA;&#x9;at java.base/java.lang.Thread.run(Thread.java:853)&#xD;&#xA;" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>5</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>53</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:stackTrace" type="stringArray">
+		<values>java.net.ConnectException: Connection timed out: getsockopt</values>
+		<values>java.base/sun.nio.ch.Net.pollConnect(Native Method)</values>
+		<values>java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)</values>
+		<values>java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:953)</values>
+		<values>com.ibm.rational.test.lt.kernel.io.impl.KernelChannel.finishConnect(KernelChannel.java:216)</values>
+		<values>com.ibm.rational.test.lt.kernel.io.impl.KChannel.finishConnect(KChannel.java:286)</values>
+		<values>com.ibm.rational.test.lt.kernel.io.impl.KChannel.executeAction(KChannel.java:254)</values>
+		<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)</values>
+		<values>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)</values>
+		<values>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)</values>
+		<values>java.base/java.lang.Thread.run(Thread.java:853)</values>
+	</extendedDataElements>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.1.2" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2025-10-04T04:56:54.076Z" globalInstanceId="A1F0A0DE8C0447C0C4E0B76337613731" msg="RPXE0039W User [DefaultUserGroup][000001] experienced exception com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Connection failed, &apos;Continuing&apos;&#xA;in Test Action:&#xA;&#x9;index.shtml&#xA;&#x9;Serial 1&#xA;&#x9;&#xA;&#x9;JPetStore Demo {1}&#xA;&#x9;JPetStoreDemo1105&#xA;&#x9;DefaultScenario&#xA;&#x9;[DefaultUserGroup][000001]&#xA;&#x9;DefaultUserGroup&#xA;&#x9;DefaultSchedule&#xA;&#x9;Engine&#xA;com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Connection failed, &apos;Continuing&apos;&#xD;&#xA;&#x9;at test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:119)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)&#xD;&#xA;&#x9;at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)&#xD;&#xA;&#x9;at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)&#xD;&#xA;&#x9;at java.base/java.lang.Thread.run(Thread.java:853)&#xD;&#xA;Caused by: com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Connection failed&#xD;&#xA;&#x9;... 6 more&#xD;&#xA;" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>6</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>53</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:stackTrace" type="stringArray">
+		<values>com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Connection failed, &apos;Continuing&apos;</values>
+		<values>test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:119)</values>
+		<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)</values>
+		<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)</values>
+		<values>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)</values>
+		<values>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)</values>
+		<values>java.base/java.lang.Thread.run(Thread.java:853)</values>
+		<children name="Cause" type="stringArray">
+			<values>com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Connection failed</values>
+			<values>test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:119)</values>
+			<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)</values>
+			<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)</values>
+			<values>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)</values>
+			<values>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)</values>
+			<values>java.base/java.lang.Thread.run(Thread.java:853)</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.1.2" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2025-10-04T04:56:54.076Z" globalInstanceId="A1F0A0DE8C046ED0C4E0B76337613731" msg="RPXE0039W User [DefaultUserGroup][000001] experienced exception com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Substitution failed, &apos;Continuing&apos;&#xA;in Test Action:&#xA;&#x9;index.shtml&#xA;&#x9;Serial 1&#xA;&#x9;&#xA;&#x9;JPetStore Demo {1}&#xA;&#x9;JPetStoreDemo1105&#xA;&#x9;DefaultScenario&#xA;&#x9;[DefaultUserGroup][000001]&#xA;&#x9;DefaultUserGroup&#xA;&#x9;DefaultSchedule&#xA;&#x9;Engine&#xA;com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Substitution failed, &apos;Continuing&apos;&#xD;&#xA;&#x9;at test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:124)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)&#xD;&#xA;&#x9;at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)&#xD;&#xA;&#x9;at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)&#xD;&#xA;&#x9;at java.base/java.lang.Thread.run(Thread.java:853)&#xD;&#xA;Caused by: com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Substitution failed&#xD;&#xA;&#x9;... 6 more&#xD;&#xA;" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>7</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>53</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:stackTrace" type="stringArray">
+		<values>com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Substitution failed, &apos;Continuing&apos;</values>
+		<values>test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:124)</values>
+		<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)</values>
+		<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)</values>
+		<values>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)</values>
+		<values>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)</values>
+		<values>java.base/java.lang.Thread.run(Thread.java:853)</values>
+		<children name="Cause" type="stringArray">
+			<values>com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Substitution failed</values>
+			<values>test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:124)</values>
+			<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)</values>
+			<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)</values>
+			<values>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)</values>
+			<values>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)</values>
+			<values>java.base/java.lang.Thread.run(Thread.java:853)</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.1.2" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2025-10-04T04:56:54.076Z" globalInstanceId="A1F0A0DE8C04BCF0C4E0B76337613731" msg="RPXE0039W User [DefaultUserGroup][000001] experienced exception com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Response code verification failed, &apos;Continuing&apos;&#xA;in Test Action:&#xA;&#x9;index.shtml&#xA;&#x9;Serial 1&#xA;&#x9;&#xA;&#x9;JPetStore Demo {1}&#xA;&#x9;JPetStoreDemo1105&#xA;&#x9;DefaultScenario&#xA;&#x9;[DefaultUserGroup][000001]&#xA;&#x9;DefaultUserGroup&#xA;&#x9;DefaultSchedule&#xA;&#x9;Engine&#xA;com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Response code verification failed, &apos;Continuing&apos;&#xD;&#xA;&#x9;at test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:116)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)&#xD;&#xA;&#x9;at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)&#xD;&#xA;&#x9;at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)&#xD;&#xA;&#x9;at java.base/java.lang.Thread.run(Thread.java:853)&#xD;&#xA;Caused by: com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Response code verification failed&#xD;&#xA;&#x9;... 6 more&#xD;&#xA;" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>8</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>53</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:stackTrace" type="stringArray">
+		<values>com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Response code verification failed, &apos;Continuing&apos;</values>
+		<values>test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:116)</values>
+		<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)</values>
+		<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)</values>
+		<values>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)</values>
+		<values>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)</values>
+		<values>java.base/java.lang.Thread.run(Thread.java:853)</values>
+		<children name="Cause" type="stringArray">
+			<values>com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Response code verification failed</values>
+			<values>test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:116)</values>
+			<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)</values>
+			<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)</values>
+			<values>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)</values>
+			<values>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)</values>
+			<values>java.base/java.lang.Thread.run(Thread.java:853)</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.1.2" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2025-10-04T04:57:15.159Z" globalInstanceId="A1F0A0DE98954A70C4E0B76337613731" msg="RPXE0031W Exception finishing connection for action viewCategory.shtml;jsessionid=076D40DC4487A699E4A950FC0CE5CB97 (class com.ibm.rational.test.lt.execution.http.impl.HTTPAction) user [DefaultUserGroup][000001]&#xA;java.net.ConnectException: Connection timed out: getsockopt&#xD;&#xA;&#x9;at java.base/sun.nio.ch.Net.pollConnect(Native Method)&#xD;&#xA;&#x9;at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)&#xD;&#xA;&#x9;at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:953)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.io.impl.KernelChannel.finishConnect(KernelChannel.java:216)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.io.impl.KChannel.finishConnect(KChannel.java:286)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.io.impl.KChannel.executeAction(KChannel.java:254)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)&#xD;&#xA;&#x9;at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)&#xD;&#xA;&#x9;at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)&#xD;&#xA;&#x9;at java.base/java.lang.Thread.run(Thread.java:853)&#xD;&#xA;" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>9</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>53</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:stackTrace" type="stringArray">
+		<values>java.net.ConnectException: Connection timed out: getsockopt</values>
+		<values>java.base/sun.nio.ch.Net.pollConnect(Native Method)</values>
+		<values>java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)</values>
+		<values>java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:953)</values>
+		<values>com.ibm.rational.test.lt.kernel.io.impl.KernelChannel.finishConnect(KernelChannel.java:216)</values>
+		<values>com.ibm.rational.test.lt.kernel.io.impl.KChannel.finishConnect(KChannel.java:286)</values>
+		<values>com.ibm.rational.test.lt.kernel.io.impl.KChannel.executeAction(KChannel.java:254)</values>
+		<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)</values>
+		<values>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)</values>
+		<values>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)</values>
+		<values>java.base/java.lang.Thread.run(Thread.java:853)</values>
+	</extendedDataElements>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.1.2" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2025-10-04T04:57:15.159Z" globalInstanceId="A1F0A0DE98954A71C4E0B76337613731" msg="RPXE0039W User [DefaultUserGroup][000001] experienced exception com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Connection failed, &apos;Continuing&apos;&#xA;in Test Action:&#xA;&#x9;viewCategory.shtml;jsessionid=076D40DC4487A699E4A950FC0CE5CB97&#xA;&#x9;Serial 1&#xA;&#x9;&#xA;&#x9;JPetStore Demo {2}&#xA;&#x9;JPetStoreDemo1105&#xA;&#x9;DefaultScenario&#xA;&#x9;[DefaultUserGroup][000001]&#xA;&#x9;DefaultUserGroup&#xA;&#x9;DefaultSchedule&#xA;&#x9;Engine&#xA;com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Connection failed, &apos;Continuing&apos;&#xD;&#xA;&#x9;at test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:119)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)&#xD;&#xA;&#x9;at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)&#xD;&#xA;&#x9;at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)&#xD;&#xA;&#x9;at java.base/java.lang.Thread.run(Thread.java:853)&#xD;&#xA;Caused by: com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Connection failed&#xD;&#xA;&#x9;... 6 more&#xD;&#xA;" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>10</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>53</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:stackTrace" type="stringArray">
+		<values>com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Connection failed, &apos;Continuing&apos;</values>
+		<values>test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:119)</values>
+		<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)</values>
+		<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)</values>
+		<values>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)</values>
+		<values>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)</values>
+		<values>java.base/java.lang.Thread.run(Thread.java:853)</values>
+		<children name="Cause" type="stringArray">
+			<values>com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Connection failed</values>
+			<values>test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:119)</values>
+			<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)</values>
+			<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)</values>
+			<values>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)</values>
+			<values>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)</values>
+			<values>java.base/java.lang.Thread.run(Thread.java:853)</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.1.2" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2025-10-04T04:57:15.159Z" globalInstanceId="A1F0A0DE98959890C4E0B76337613731" msg="RPXE0039W User [DefaultUserGroup][000001] experienced exception com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Substitution failed, &apos;Continuing&apos;&#xA;in Test Action:&#xA;&#x9;viewCategory.shtml;jsessionid=076D40DC4487A699E4A950FC0CE5CB97&#xA;&#x9;Serial 1&#xA;&#x9;&#xA;&#x9;JPetStore Demo {2}&#xA;&#x9;JPetStoreDemo1105&#xA;&#x9;DefaultScenario&#xA;&#x9;[DefaultUserGroup][000001]&#xA;&#x9;DefaultUserGroup&#xA;&#x9;DefaultSchedule&#xA;&#x9;Engine&#xA;com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Substitution failed, &apos;Continuing&apos;&#xD;&#xA;&#x9;at test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:124)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)&#xD;&#xA;&#x9;at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)&#xD;&#xA;&#x9;at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)&#xD;&#xA;&#x9;at java.base/java.lang.Thread.run(Thread.java:853)&#xD;&#xA;Caused by: com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Substitution failed&#xD;&#xA;&#x9;... 6 more&#xD;&#xA;" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>11</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>53</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:stackTrace" type="stringArray">
+		<values>com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Substitution failed, &apos;Continuing&apos;</values>
+		<values>test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:124)</values>
+		<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)</values>
+		<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)</values>
+		<values>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)</values>
+		<values>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)</values>
+		<values>java.base/java.lang.Thread.run(Thread.java:853)</values>
+		<children name="Cause" type="stringArray">
+			<values>com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Substitution failed</values>
+			<values>test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:124)</values>
+			<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)</values>
+			<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)</values>
+			<values>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)</values>
+			<values>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)</values>
+			<values>java.base/java.lang.Thread.run(Thread.java:853)</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.1.2" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2025-10-04T04:57:15.159Z" globalInstanceId="A1F0A0DE98959891C4E0B76337613731" msg="RPXE0039W User [DefaultUserGroup][000001] experienced exception com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Substitution failed, &apos;Continuing&apos;&#xA;in Test Action:&#xA;&#x9;viewCategory.shtml;jsessionid=076D40DC4487A699E4A950FC0CE5CB97&#xA;&#x9;Serial 1&#xA;&#x9;&#xA;&#x9;JPetStore Demo {2}&#xA;&#x9;JPetStoreDemo1105&#xA;&#x9;DefaultScenario&#xA;&#x9;[DefaultUserGroup][000001]&#xA;&#x9;DefaultUserGroup&#xA;&#x9;DefaultSchedule&#xA;&#x9;Engine&#xA;com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Substitution failed, &apos;Continuing&apos;&#xD;&#xA;&#x9;at test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:124)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)&#xD;&#xA;&#x9;at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)&#xD;&#xA;&#x9;at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)&#xD;&#xA;&#x9;at java.base/java.lang.Thread.run(Thread.java:853)&#xD;&#xA;Caused by: com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Substitution failed&#xD;&#xA;&#x9;... 6 more&#xD;&#xA;" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>12</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>53</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:stackTrace" type="stringArray">
+		<values>com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Substitution failed, &apos;Continuing&apos;</values>
+		<values>test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:124)</values>
+		<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)</values>
+		<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)</values>
+		<values>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)</values>
+		<values>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)</values>
+		<values>java.base/java.lang.Thread.run(Thread.java:853)</values>
+		<children name="Cause" type="stringArray">
+			<values>com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Substitution failed</values>
+			<values>test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:124)</values>
+			<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)</values>
+			<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)</values>
+			<values>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)</values>
+			<values>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)</values>
+			<values>java.base/java.lang.Thread.run(Thread.java:853)</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.1.2" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2025-10-04T04:57:15.159Z" globalInstanceId="A1F0A0DE98960DC0C4E0B76337613731" msg="RPXE0039W User [DefaultUserGroup][000001] experienced exception com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Response code verification failed, &apos;Continuing&apos;&#xA;in Test Action:&#xA;&#x9;viewCategory.shtml;jsessionid=076D40DC4487A699E4A950FC0CE5CB97&#xA;&#x9;Serial 1&#xA;&#x9;&#xA;&#x9;JPetStore Demo {2}&#xA;&#x9;JPetStoreDemo1105&#xA;&#x9;DefaultScenario&#xA;&#x9;[DefaultUserGroup][000001]&#xA;&#x9;DefaultUserGroup&#xA;&#x9;DefaultSchedule&#xA;&#x9;Engine&#xA;com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Response code verification failed, &apos;Continuing&apos;&#xD;&#xA;&#x9;at test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:116)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)&#xD;&#xA;&#x9;at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)&#xD;&#xA;&#x9;at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)&#xD;&#xA;&#x9;at java.base/java.lang.Thread.run(Thread.java:853)&#xD;&#xA;Caused by: com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Response code verification failed&#xD;&#xA;&#x9;... 6 more&#xD;&#xA;" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>13</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>53</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:stackTrace" type="stringArray">
+		<values>com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Response code verification failed, &apos;Continuing&apos;</values>
+		<values>test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:116)</values>
+		<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)</values>
+		<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)</values>
+		<values>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)</values>
+		<values>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)</values>
+		<values>java.base/java.lang.Thread.run(Thread.java:853)</values>
+		<children name="Cause" type="stringArray">
+			<values>com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Response code verification failed</values>
+			<values>test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:116)</values>
+			<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)</values>
+			<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)</values>
+			<values>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)</values>
+			<values>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)</values>
+			<values>java.base/java.lang.Thread.run(Thread.java:853)</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.1.2" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2025-10-04T04:57:36.196Z" globalInstanceId="A1F0A0DEA51F4840C4E0B76337613731" msg="RPXE0031W Exception finishing connection for action viewProduct.shtml (class com.ibm.rational.test.lt.execution.http.impl.HTTPAction) user [DefaultUserGroup][000001]&#xA;java.net.ConnectException: Connection timed out: getsockopt&#xD;&#xA;&#x9;at java.base/sun.nio.ch.Net.pollConnect(Native Method)&#xD;&#xA;&#x9;at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)&#xD;&#xA;&#x9;at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:953)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.io.impl.KernelChannel.finishConnect(KernelChannel.java:216)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.io.impl.KChannel.finishConnect(KChannel.java:286)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.io.impl.KChannel.executeAction(KChannel.java:254)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)&#xD;&#xA;&#x9;at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)&#xD;&#xA;&#x9;at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)&#xD;&#xA;&#x9;at java.base/java.lang.Thread.run(Thread.java:853)&#xD;&#xA;" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>14</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>53</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:stackTrace" type="stringArray">
+		<values>java.net.ConnectException: Connection timed out: getsockopt</values>
+		<values>java.base/sun.nio.ch.Net.pollConnect(Native Method)</values>
+		<values>java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)</values>
+		<values>java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:953)</values>
+		<values>com.ibm.rational.test.lt.kernel.io.impl.KernelChannel.finishConnect(KernelChannel.java:216)</values>
+		<values>com.ibm.rational.test.lt.kernel.io.impl.KChannel.finishConnect(KChannel.java:286)</values>
+		<values>com.ibm.rational.test.lt.kernel.io.impl.KChannel.executeAction(KChannel.java:254)</values>
+		<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)</values>
+		<values>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)</values>
+		<values>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)</values>
+		<values>java.base/java.lang.Thread.run(Thread.java:853)</values>
+	</extendedDataElements>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.1.2" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2025-10-04T04:57:36.196Z" globalInstanceId="A1F0A0DEA51F4841C4E0B76337613731" msg="RPXE0039W User [DefaultUserGroup][000001] experienced exception com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Connection failed, &apos;Continuing&apos;&#xA;in Test Action:&#xA;&#x9;viewProduct.shtml&#xA;&#x9;Serial 1&#xA;&#x9;&#xA;&#x9;JPetStore Demo {3}&#xA;&#x9;JPetStoreDemo1105&#xA;&#x9;DefaultScenario&#xA;&#x9;[DefaultUserGroup][000001]&#xA;&#x9;DefaultUserGroup&#xA;&#x9;DefaultSchedule&#xA;&#x9;Engine&#xA;com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Connection failed, &apos;Continuing&apos;&#xD;&#xA;&#x9;at test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:119)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)&#xD;&#xA;&#x9;at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)&#xD;&#xA;&#x9;at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)&#xD;&#xA;&#x9;at java.base/java.lang.Thread.run(Thread.java:853)&#xD;&#xA;Caused by: com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Connection failed&#xD;&#xA;&#x9;... 6 more&#xD;&#xA;" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>15</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>53</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:stackTrace" type="stringArray">
+		<values>com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Connection failed, &apos;Continuing&apos;</values>
+		<values>test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:119)</values>
+		<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)</values>
+		<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)</values>
+		<values>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)</values>
+		<values>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)</values>
+		<values>java.base/java.lang.Thread.run(Thread.java:853)</values>
+		<children name="Cause" type="stringArray">
+			<values>com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Connection failed</values>
+			<values>test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:119)</values>
+			<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)</values>
+			<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)</values>
+			<values>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)</values>
+			<values>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)</values>
+			<values>java.base/java.lang.Thread.run(Thread.java:853)</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.1.2" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2025-10-04T04:57:36.196Z" globalInstanceId="A1F0A0DEA51F4842C4E0B76337613731" msg="RPXE0039W User [DefaultUserGroup][000001] experienced exception com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Substitution failed, &apos;Continuing&apos;&#xA;in Test Action:&#xA;&#x9;viewProduct.shtml&#xA;&#x9;Serial 1&#xA;&#x9;&#xA;&#x9;JPetStore Demo {3}&#xA;&#x9;JPetStoreDemo1105&#xA;&#x9;DefaultScenario&#xA;&#x9;[DefaultUserGroup][000001]&#xA;&#x9;DefaultUserGroup&#xA;&#x9;DefaultSchedule&#xA;&#x9;Engine&#xA;com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Substitution failed, &apos;Continuing&apos;&#xD;&#xA;&#x9;at test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:124)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)&#xD;&#xA;&#x9;at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)&#xD;&#xA;&#x9;at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)&#xD;&#xA;&#x9;at java.base/java.lang.Thread.run(Thread.java:853)&#xD;&#xA;Caused by: com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Substitution failed&#xD;&#xA;&#x9;... 6 more&#xD;&#xA;" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>16</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>53</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:stackTrace" type="stringArray">
+		<values>com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Substitution failed, &apos;Continuing&apos;</values>
+		<values>test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:124)</values>
+		<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)</values>
+		<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)</values>
+		<values>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)</values>
+		<values>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)</values>
+		<values>java.base/java.lang.Thread.run(Thread.java:853)</values>
+		<children name="Cause" type="stringArray">
+			<values>com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Substitution failed</values>
+			<values>test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:124)</values>
+			<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)</values>
+			<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)</values>
+			<values>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)</values>
+			<values>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)</values>
+			<values>java.base/java.lang.Thread.run(Thread.java:853)</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.1.2" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2025-10-04T04:57:36.196Z" globalInstanceId="A1F0A0DEA51F4843C4E0B76337613731" msg="RPXE0039W User [DefaultUserGroup][000001] experienced exception com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Substitution failed, &apos;Continuing&apos;&#xA;in Test Action:&#xA;&#x9;viewProduct.shtml&#xA;&#x9;Serial 1&#xA;&#x9;&#xA;&#x9;JPetStore Demo {3}&#xA;&#x9;JPetStoreDemo1105&#xA;&#x9;DefaultScenario&#xA;&#x9;[DefaultUserGroup][000001]&#xA;&#x9;DefaultUserGroup&#xA;&#x9;DefaultSchedule&#xA;&#x9;Engine&#xA;com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Substitution failed, &apos;Continuing&apos;&#xD;&#xA;&#x9;at test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:124)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)&#xD;&#xA;&#x9;at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)&#xD;&#xA;&#x9;at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)&#xD;&#xA;&#x9;at java.base/java.lang.Thread.run(Thread.java:853)&#xD;&#xA;Caused by: com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Substitution failed&#xD;&#xA;&#x9;... 6 more&#xD;&#xA;" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>17</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>53</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:stackTrace" type="stringArray">
+		<values>com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Substitution failed, &apos;Continuing&apos;</values>
+		<values>test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:124)</values>
+		<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)</values>
+		<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)</values>
+		<values>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)</values>
+		<values>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)</values>
+		<values>java.base/java.lang.Thread.run(Thread.java:853)</values>
+		<children name="Cause" type="stringArray">
+			<values>com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Substitution failed</values>
+			<values>test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:124)</values>
+			<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)</values>
+			<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)</values>
+			<values>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)</values>
+			<values>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)</values>
+			<values>java.base/java.lang.Thread.run(Thread.java:853)</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.1.2" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2025-10-04T04:57:36.196Z" globalInstanceId="A1F0A0DEA51F4844C4E0B76337613731" msg="RPXE0039W User [DefaultUserGroup][000001] experienced exception com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Response code verification failed, &apos;Continuing&apos;&#xA;in Test Action:&#xA;&#x9;viewProduct.shtml&#xA;&#x9;Serial 1&#xA;&#x9;&#xA;&#x9;JPetStore Demo {3}&#xA;&#x9;JPetStoreDemo1105&#xA;&#x9;DefaultScenario&#xA;&#x9;[DefaultUserGroup][000001]&#xA;&#x9;DefaultUserGroup&#xA;&#x9;DefaultSchedule&#xA;&#x9;Engine&#xA;com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Response code verification failed, &apos;Continuing&apos;&#xD;&#xA;&#x9;at test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:116)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)&#xD;&#xA;&#x9;at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)&#xD;&#xA;&#x9;at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)&#xD;&#xA;&#x9;at java.base/java.lang.Thread.run(Thread.java:853)&#xD;&#xA;Caused by: com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Response code verification failed&#xD;&#xA;&#x9;... 6 more&#xD;&#xA;" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>18</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>53</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:stackTrace" type="stringArray">
+		<values>com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Response code verification failed, &apos;Continuing&apos;</values>
+		<values>test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:116)</values>
+		<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)</values>
+		<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)</values>
+		<values>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)</values>
+		<values>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)</values>
+		<values>java.base/java.lang.Thread.run(Thread.java:853)</values>
+		<children name="Cause" type="stringArray">
+			<values>com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Response code verification failed</values>
+			<values>test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:116)</values>
+			<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)</values>
+			<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)</values>
+			<values>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)</values>
+			<values>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)</values>
+			<values>java.base/java.lang.Thread.run(Thread.java:853)</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.1.2" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2025-10-04T04:57:57.220Z" globalInstanceId="A1F0A0DEB1A74A40C4E0B76337613731" msg="RPXE0031W Exception finishing connection for action viewItem.shtml (class com.ibm.rational.test.lt.execution.http.impl.HTTPAction) user [DefaultUserGroup][000001]&#xA;java.net.ConnectException: Connection timed out: getsockopt&#xD;&#xA;&#x9;at java.base/sun.nio.ch.Net.pollConnect(Native Method)&#xD;&#xA;&#x9;at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)&#xD;&#xA;&#x9;at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:953)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.io.impl.KernelChannel.finishConnect(KernelChannel.java:216)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.io.impl.KChannel.finishConnect(KChannel.java:286)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.io.impl.KChannel.executeAction(KChannel.java:254)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)&#xD;&#xA;&#x9;at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)&#xD;&#xA;&#x9;at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)&#xD;&#xA;&#x9;at java.base/java.lang.Thread.run(Thread.java:853)&#xD;&#xA;" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>19</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>53</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:stackTrace" type="stringArray">
+		<values>java.net.ConnectException: Connection timed out: getsockopt</values>
+		<values>java.base/sun.nio.ch.Net.pollConnect(Native Method)</values>
+		<values>java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)</values>
+		<values>java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:953)</values>
+		<values>com.ibm.rational.test.lt.kernel.io.impl.KernelChannel.finishConnect(KernelChannel.java:216)</values>
+		<values>com.ibm.rational.test.lt.kernel.io.impl.KChannel.finishConnect(KChannel.java:286)</values>
+		<values>com.ibm.rational.test.lt.kernel.io.impl.KChannel.executeAction(KChannel.java:254)</values>
+		<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)</values>
+		<values>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)</values>
+		<values>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)</values>
+		<values>java.base/java.lang.Thread.run(Thread.java:853)</values>
+	</extendedDataElements>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.1.2" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2025-10-04T04:57:57.220Z" globalInstanceId="A1F0A0DEB1A74A41C4E0B76337613731" msg="RPXE0039W User [DefaultUserGroup][000001] experienced exception com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Connection failed, &apos;Continuing&apos;&#xA;in Test Action:&#xA;&#x9;viewItem.shtml&#xA;&#x9;Serial 1&#xA;&#x9;&#xA;&#x9;JPetStore Demo {4}&#xA;&#x9;JPetStoreDemo1105&#xA;&#x9;DefaultScenario&#xA;&#x9;[DefaultUserGroup][000001]&#xA;&#x9;DefaultUserGroup&#xA;&#x9;DefaultSchedule&#xA;&#x9;Engine&#xA;com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Connection failed, &apos;Continuing&apos;&#xD;&#xA;&#x9;at test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:119)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)&#xD;&#xA;&#x9;at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)&#xD;&#xA;&#x9;at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)&#xD;&#xA;&#x9;at java.base/java.lang.Thread.run(Thread.java:853)&#xD;&#xA;Caused by: com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Connection failed&#xD;&#xA;&#x9;... 6 more&#xD;&#xA;" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>20</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>53</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:stackTrace" type="stringArray">
+		<values>com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Connection failed, &apos;Continuing&apos;</values>
+		<values>test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:119)</values>
+		<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)</values>
+		<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)</values>
+		<values>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)</values>
+		<values>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)</values>
+		<values>java.base/java.lang.Thread.run(Thread.java:853)</values>
+		<children name="Cause" type="stringArray">
+			<values>com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Connection failed</values>
+			<values>test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:119)</values>
+			<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)</values>
+			<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)</values>
+			<values>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)</values>
+			<values>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)</values>
+			<values>java.base/java.lang.Thread.run(Thread.java:853)</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.1.2" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2025-10-04T04:57:57.220Z" globalInstanceId="A1F0A0DEB1A74A42C4E0B76337613731" msg="RPXE0039W User [DefaultUserGroup][000001] experienced exception com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Substitution failed, &apos;Continuing&apos;&#xA;in Test Action:&#xA;&#x9;viewItem.shtml&#xA;&#x9;Serial 1&#xA;&#x9;&#xA;&#x9;JPetStore Demo {4}&#xA;&#x9;JPetStoreDemo1105&#xA;&#x9;DefaultScenario&#xA;&#x9;[DefaultUserGroup][000001]&#xA;&#x9;DefaultUserGroup&#xA;&#x9;DefaultSchedule&#xA;&#x9;Engine&#xA;com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Substitution failed, &apos;Continuing&apos;&#xD;&#xA;&#x9;at test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:124)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)&#xD;&#xA;&#x9;at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)&#xD;&#xA;&#x9;at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)&#xD;&#xA;&#x9;at java.base/java.lang.Thread.run(Thread.java:853)&#xD;&#xA;Caused by: com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Substitution failed&#xD;&#xA;&#x9;... 6 more&#xD;&#xA;" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>21</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>53</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:stackTrace" type="stringArray">
+		<values>com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Substitution failed, &apos;Continuing&apos;</values>
+		<values>test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:124)</values>
+		<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)</values>
+		<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)</values>
+		<values>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)</values>
+		<values>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)</values>
+		<values>java.base/java.lang.Thread.run(Thread.java:853)</values>
+		<children name="Cause" type="stringArray">
+			<values>com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Substitution failed</values>
+			<values>test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:124)</values>
+			<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)</values>
+			<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)</values>
+			<values>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)</values>
+			<values>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)</values>
+			<values>java.base/java.lang.Thread.run(Thread.java:853)</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.1.2" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2025-10-04T04:57:57.220Z" globalInstanceId="A1F0A0DEB1A74A43C4E0B76337613731" msg="RPXE0039W User [DefaultUserGroup][000001] experienced exception com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Substitution failed, &apos;Continuing&apos;&#xA;in Test Action:&#xA;&#x9;viewItem.shtml&#xA;&#x9;Serial 1&#xA;&#x9;&#xA;&#x9;JPetStore Demo {4}&#xA;&#x9;JPetStoreDemo1105&#xA;&#x9;DefaultScenario&#xA;&#x9;[DefaultUserGroup][000001]&#xA;&#x9;DefaultUserGroup&#xA;&#x9;DefaultSchedule&#xA;&#x9;Engine&#xA;com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Substitution failed, &apos;Continuing&apos;&#xD;&#xA;&#x9;at test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:124)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)&#xD;&#xA;&#x9;at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)&#xD;&#xA;&#x9;at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)&#xD;&#xA;&#x9;at java.base/java.lang.Thread.run(Thread.java:853)&#xD;&#xA;Caused by: com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Substitution failed&#xD;&#xA;&#x9;... 6 more&#xD;&#xA;" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>22</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>53</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:stackTrace" type="stringArray">
+		<values>com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Substitution failed, &apos;Continuing&apos;</values>
+		<values>test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:124)</values>
+		<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)</values>
+		<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)</values>
+		<values>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)</values>
+		<values>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)</values>
+		<values>java.base/java.lang.Thread.run(Thread.java:853)</values>
+		<children name="Cause" type="stringArray">
+			<values>com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Substitution failed</values>
+			<values>test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:124)</values>
+			<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)</values>
+			<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)</values>
+			<values>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)</values>
+			<values>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)</values>
+			<values>java.base/java.lang.Thread.run(Thread.java:853)</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.1.2" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2025-10-04T04:57:57.220Z" globalInstanceId="A1F0A0DEB1A74A44C4E0B76337613731" msg="RPXE0039W User [DefaultUserGroup][000001] experienced exception com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Response code verification failed, &apos;Continuing&apos;&#xA;in Test Action:&#xA;&#x9;viewItem.shtml&#xA;&#x9;Serial 1&#xA;&#x9;&#xA;&#x9;JPetStore Demo {4}&#xA;&#x9;JPetStoreDemo1105&#xA;&#x9;DefaultScenario&#xA;&#x9;[DefaultUserGroup][000001]&#xA;&#x9;DefaultUserGroup&#xA;&#x9;DefaultSchedule&#xA;&#x9;Engine&#xA;com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Response code verification failed, &apos;Continuing&apos;&#xD;&#xA;&#x9;at test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:116)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)&#xD;&#xA;&#x9;at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)&#xD;&#xA;&#x9;at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)&#xD;&#xA;&#x9;at java.base/java.lang.Thread.run(Thread.java:853)&#xD;&#xA;Caused by: com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Response code verification failed&#xD;&#xA;&#x9;... 6 more&#xD;&#xA;" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>23</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>53</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:stackTrace" type="stringArray">
+		<values>com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Response code verification failed, &apos;Continuing&apos;</values>
+		<values>test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:116)</values>
+		<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)</values>
+		<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)</values>
+		<values>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)</values>
+		<values>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)</values>
+		<values>java.base/java.lang.Thread.run(Thread.java:853)</values>
+		<children name="Cause" type="stringArray">
+			<values>com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Response code verification failed</values>
+			<values>test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:116)</values>
+			<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)</values>
+			<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)</values>
+			<values>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)</values>
+			<values>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)</values>
+			<values>java.base/java.lang.Thread.run(Thread.java:853)</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.1.2" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2025-10-04T04:58:18.259Z" globalInstanceId="A1F0A0DEBE319630C4E0B76337613731" msg="RPXE0031W Exception finishing connection for action addItemToCart.shtml (class com.ibm.rational.test.lt.execution.http.impl.HTTPAction) user [DefaultUserGroup][000001]&#xA;java.net.ConnectException: Connection timed out: getsockopt&#xD;&#xA;&#x9;at java.base/sun.nio.ch.Net.pollConnect(Native Method)&#xD;&#xA;&#x9;at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)&#xD;&#xA;&#x9;at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:953)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.io.impl.KernelChannel.finishConnect(KernelChannel.java:216)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.io.impl.KChannel.finishConnect(KChannel.java:286)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.io.impl.KChannel.executeAction(KChannel.java:254)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)&#xD;&#xA;&#x9;at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)&#xD;&#xA;&#x9;at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)&#xD;&#xA;&#x9;at java.base/java.lang.Thread.run(Thread.java:853)&#xD;&#xA;" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>24</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>53</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:stackTrace" type="stringArray">
+		<values>java.net.ConnectException: Connection timed out: getsockopt</values>
+		<values>java.base/sun.nio.ch.Net.pollConnect(Native Method)</values>
+		<values>java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)</values>
+		<values>java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:953)</values>
+		<values>com.ibm.rational.test.lt.kernel.io.impl.KernelChannel.finishConnect(KernelChannel.java:216)</values>
+		<values>com.ibm.rational.test.lt.kernel.io.impl.KChannel.finishConnect(KChannel.java:286)</values>
+		<values>com.ibm.rational.test.lt.kernel.io.impl.KChannel.executeAction(KChannel.java:254)</values>
+		<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)</values>
+		<values>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)</values>
+		<values>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)</values>
+		<values>java.base/java.lang.Thread.run(Thread.java:853)</values>
+	</extendedDataElements>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.1.2" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2025-10-04T04:58:18.259Z" globalInstanceId="A1F0A0DEBE319631C4E0B76337613731" msg="RPXE0039W User [DefaultUserGroup][000001] experienced exception com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Connection failed, &apos;Continuing&apos;&#xA;in Test Action:&#xA;&#x9;addItemToCart.shtml&#xA;&#x9;Serial 1&#xA;&#x9;&#xA;&#x9;JPetStore Demo {5}&#xA;&#x9;JPetStoreDemo1105&#xA;&#x9;DefaultScenario&#xA;&#x9;[DefaultUserGroup][000001]&#xA;&#x9;DefaultUserGroup&#xA;&#x9;DefaultSchedule&#xA;&#x9;Engine&#xA;com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Connection failed, &apos;Continuing&apos;&#xD;&#xA;&#x9;at test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:119)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)&#xD;&#xA;&#x9;at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)&#xD;&#xA;&#x9;at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)&#xD;&#xA;&#x9;at java.base/java.lang.Thread.run(Thread.java:853)&#xD;&#xA;Caused by: com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Connection failed&#xD;&#xA;&#x9;... 6 more&#xD;&#xA;" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>25</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>53</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:stackTrace" type="stringArray">
+		<values>com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Connection failed, &apos;Continuing&apos;</values>
+		<values>test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:119)</values>
+		<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)</values>
+		<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)</values>
+		<values>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)</values>
+		<values>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)</values>
+		<values>java.base/java.lang.Thread.run(Thread.java:853)</values>
+		<children name="Cause" type="stringArray">
+			<values>com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Connection failed</values>
+			<values>test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:119)</values>
+			<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)</values>
+			<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)</values>
+			<values>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)</values>
+			<values>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)</values>
+			<values>java.base/java.lang.Thread.run(Thread.java:853)</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.1.2" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2025-10-04T04:58:18.259Z" globalInstanceId="A1F0A0DEBE320B60C4E0B76337613731" msg="RPXE0039W User [DefaultUserGroup][000001] experienced exception com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Substitution failed, &apos;Continuing&apos;&#xA;in Test Action:&#xA;&#x9;addItemToCart.shtml&#xA;&#x9;Serial 1&#xA;&#x9;&#xA;&#x9;JPetStore Demo {5}&#xA;&#x9;JPetStoreDemo1105&#xA;&#x9;DefaultScenario&#xA;&#x9;[DefaultUserGroup][000001]&#xA;&#x9;DefaultUserGroup&#xA;&#x9;DefaultSchedule&#xA;&#x9;Engine&#xA;com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Substitution failed, &apos;Continuing&apos;&#xD;&#xA;&#x9;at test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:124)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)&#xD;&#xA;&#x9;at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)&#xD;&#xA;&#x9;at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)&#xD;&#xA;&#x9;at java.base/java.lang.Thread.run(Thread.java:853)&#xD;&#xA;Caused by: com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Substitution failed&#xD;&#xA;&#x9;... 6 more&#xD;&#xA;" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>26</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>53</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:stackTrace" type="stringArray">
+		<values>com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Substitution failed, &apos;Continuing&apos;</values>
+		<values>test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:124)</values>
+		<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)</values>
+		<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)</values>
+		<values>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)</values>
+		<values>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)</values>
+		<values>java.base/java.lang.Thread.run(Thread.java:853)</values>
+		<children name="Cause" type="stringArray">
+			<values>com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Substitution failed</values>
+			<values>test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:124)</values>
+			<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)</values>
+			<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)</values>
+			<values>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)</values>
+			<values>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)</values>
+			<values>java.base/java.lang.Thread.run(Thread.java:853)</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.1.2" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2025-10-04T04:58:18.259Z" globalInstanceId="A1F0A0DEBE320B61C4E0B76337613731" msg="RPXE0039W User [DefaultUserGroup][000001] experienced exception com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Substitution failed, &apos;Continuing&apos;&#xA;in Test Action:&#xA;&#x9;addItemToCart.shtml&#xA;&#x9;Serial 1&#xA;&#x9;&#xA;&#x9;JPetStore Demo {5}&#xA;&#x9;JPetStoreDemo1105&#xA;&#x9;DefaultScenario&#xA;&#x9;[DefaultUserGroup][000001]&#xA;&#x9;DefaultUserGroup&#xA;&#x9;DefaultSchedule&#xA;&#x9;Engine&#xA;com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Substitution failed, &apos;Continuing&apos;&#xD;&#xA;&#x9;at test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:124)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)&#xD;&#xA;&#x9;at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)&#xD;&#xA;&#x9;at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)&#xD;&#xA;&#x9;at java.base/java.lang.Thread.run(Thread.java:853)&#xD;&#xA;Caused by: com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Substitution failed&#xD;&#xA;&#x9;... 6 more&#xD;&#xA;" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>27</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>53</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:stackTrace" type="stringArray">
+		<values>com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Substitution failed, &apos;Continuing&apos;</values>
+		<values>test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:124)</values>
+		<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)</values>
+		<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)</values>
+		<values>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)</values>
+		<values>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)</values>
+		<values>java.base/java.lang.Thread.run(Thread.java:853)</values>
+		<children name="Cause" type="stringArray">
+			<values>com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Substitution failed</values>
+			<values>test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:124)</values>
+			<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)</values>
+			<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)</values>
+			<values>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)</values>
+			<values>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)</values>
+			<values>java.base/java.lang.Thread.run(Thread.java:853)</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.1.2" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2025-10-04T04:58:18.259Z" globalInstanceId="A1F0A0DEBE320B62C4E0B76337613731" msg="RPXE0039W User [DefaultUserGroup][000001] experienced exception com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Response code verification failed, &apos;Continuing&apos;&#xA;in Test Action:&#xA;&#x9;addItemToCart.shtml&#xA;&#x9;Serial 1&#xA;&#x9;&#xA;&#x9;JPetStore Demo {5}&#xA;&#x9;JPetStoreDemo1105&#xA;&#x9;DefaultScenario&#xA;&#x9;[DefaultUserGroup][000001]&#xA;&#x9;DefaultUserGroup&#xA;&#x9;DefaultSchedule&#xA;&#x9;Engine&#xA;com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Response code verification failed, &apos;Continuing&apos;&#xD;&#xA;&#x9;at test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:116)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)&#xD;&#xA;&#x9;at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)&#xD;&#xA;&#x9;at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)&#xD;&#xA;&#x9;at java.base/java.lang.Thread.run(Thread.java:853)&#xD;&#xA;Caused by: com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Response code verification failed&#xD;&#xA;&#x9;... 6 more&#xD;&#xA;" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>28</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>53</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:stackTrace" type="stringArray">
+		<values>com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Response code verification failed, &apos;Continuing&apos;</values>
+		<values>test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:116)</values>
+		<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)</values>
+		<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)</values>
+		<values>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)</values>
+		<values>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)</values>
+		<values>java.base/java.lang.Thread.run(Thread.java:853)</values>
+		<children name="Cause" type="stringArray">
+			<values>com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Response code verification failed</values>
+			<values>test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:116)</values>
+			<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)</values>
+			<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)</values>
+			<values>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)</values>
+			<values>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)</values>
+			<values>java.base/java.lang.Thread.run(Thread.java:853)</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.1.2" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2025-10-04T04:58:39.369Z" globalInstanceId="A1F0A0DECAC6B790C4E0B76337613731" msg="RPXE0031W Exception finishing connection for action updateCartQuantities.shtml (class com.ibm.rational.test.lt.execution.http.impl.HTTPAction) user [DefaultUserGroup][000001]&#xA;java.net.ConnectException: Connection timed out: getsockopt&#xD;&#xA;&#x9;at java.base/sun.nio.ch.Net.pollConnect(Native Method)&#xD;&#xA;&#x9;at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)&#xD;&#xA;&#x9;at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:953)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.io.impl.KernelChannel.finishConnect(KernelChannel.java:216)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.io.impl.KChannel.finishConnect(KChannel.java:286)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.io.impl.KChannel.executeAction(KChannel.java:254)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)&#xD;&#xA;&#x9;at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)&#xD;&#xA;&#x9;at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)&#xD;&#xA;&#x9;at java.base/java.lang.Thread.run(Thread.java:853)&#xD;&#xA;" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>29</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>53</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:stackTrace" type="stringArray">
+		<values>java.net.ConnectException: Connection timed out: getsockopt</values>
+		<values>java.base/sun.nio.ch.Net.pollConnect(Native Method)</values>
+		<values>java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)</values>
+		<values>java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:953)</values>
+		<values>com.ibm.rational.test.lt.kernel.io.impl.KernelChannel.finishConnect(KernelChannel.java:216)</values>
+		<values>com.ibm.rational.test.lt.kernel.io.impl.KChannel.finishConnect(KChannel.java:286)</values>
+		<values>com.ibm.rational.test.lt.kernel.io.impl.KChannel.executeAction(KChannel.java:254)</values>
+		<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)</values>
+		<values>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)</values>
+		<values>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)</values>
+		<values>java.base/java.lang.Thread.run(Thread.java:853)</values>
+	</extendedDataElements>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.1.2" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2025-10-04T04:58:39.369Z" globalInstanceId="A1F0A0DECAC6B791C4E0B76337613731" msg="RPXE0039W User [DefaultUserGroup][000001] experienced exception com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Connection failed, &apos;Continuing&apos;&#xA;in Test Action:&#xA;&#x9;updateCartQuantities.shtml&#xA;&#x9;Serial 1&#xA;&#x9;&#xA;&#x9;JPetStore Demo {6}&#xA;&#x9;JPetStoreDemo1105&#xA;&#x9;DefaultScenario&#xA;&#x9;[DefaultUserGroup][000001]&#xA;&#x9;DefaultUserGroup&#xA;&#x9;DefaultSchedule&#xA;&#x9;Engine&#xA;com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Connection failed, &apos;Continuing&apos;&#xD;&#xA;&#x9;at test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:119)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)&#xD;&#xA;&#x9;at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)&#xD;&#xA;&#x9;at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)&#xD;&#xA;&#x9;at java.base/java.lang.Thread.run(Thread.java:853)&#xD;&#xA;Caused by: com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Connection failed&#xD;&#xA;&#x9;... 6 more&#xD;&#xA;" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>30</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>53</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:stackTrace" type="stringArray">
+		<values>com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Connection failed, &apos;Continuing&apos;</values>
+		<values>test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:119)</values>
+		<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)</values>
+		<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)</values>
+		<values>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)</values>
+		<values>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)</values>
+		<values>java.base/java.lang.Thread.run(Thread.java:853)</values>
+		<children name="Cause" type="stringArray">
+			<values>com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Connection failed</values>
+			<values>test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:119)</values>
+			<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)</values>
+			<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)</values>
+			<values>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)</values>
+			<values>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)</values>
+			<values>java.base/java.lang.Thread.run(Thread.java:853)</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.1.2" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2025-10-04T04:58:39.369Z" globalInstanceId="A1F0A0DECAC705B0C4E0B76337613731" msg="RPXE0039W User [DefaultUserGroup][000001] experienced exception com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Substitution failed, &apos;Continuing&apos;&#xA;in Test Action:&#xA;&#x9;updateCartQuantities.shtml&#xA;&#x9;Serial 1&#xA;&#x9;&#xA;&#x9;JPetStore Demo {6}&#xA;&#x9;JPetStoreDemo1105&#xA;&#x9;DefaultScenario&#xA;&#x9;[DefaultUserGroup][000001]&#xA;&#x9;DefaultUserGroup&#xA;&#x9;DefaultSchedule&#xA;&#x9;Engine&#xA;com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Substitution failed, &apos;Continuing&apos;&#xD;&#xA;&#x9;at test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:124)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)&#xD;&#xA;&#x9;at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)&#xD;&#xA;&#x9;at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)&#xD;&#xA;&#x9;at java.base/java.lang.Thread.run(Thread.java:853)&#xD;&#xA;Caused by: com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Substitution failed&#xD;&#xA;&#x9;... 6 more&#xD;&#xA;" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>31</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>53</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:stackTrace" type="stringArray">
+		<values>com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Substitution failed, &apos;Continuing&apos;</values>
+		<values>test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:124)</values>
+		<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)</values>
+		<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)</values>
+		<values>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)</values>
+		<values>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)</values>
+		<values>java.base/java.lang.Thread.run(Thread.java:853)</values>
+		<children name="Cause" type="stringArray">
+			<values>com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Substitution failed</values>
+			<values>test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:124)</values>
+			<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)</values>
+			<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)</values>
+			<values>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)</values>
+			<values>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)</values>
+			<values>java.base/java.lang.Thread.run(Thread.java:853)</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.1.2" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2025-10-04T04:58:39.369Z" globalInstanceId="A1F0A0DECAC705B1C4E0B76337613731" msg="RPXE0039W User [DefaultUserGroup][000001] experienced exception com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Response code verification failed, &apos;Continuing&apos;&#xA;in Test Action:&#xA;&#x9;updateCartQuantities.shtml&#xA;&#x9;Serial 1&#xA;&#x9;&#xA;&#x9;JPetStore Demo {6}&#xA;&#x9;JPetStoreDemo1105&#xA;&#x9;DefaultScenario&#xA;&#x9;[DefaultUserGroup][000001]&#xA;&#x9;DefaultUserGroup&#xA;&#x9;DefaultSchedule&#xA;&#x9;Engine&#xA;com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Response code verification failed, &apos;Continuing&apos;&#xD;&#xA;&#x9;at test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:116)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)&#xD;&#xA;&#x9;at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)&#xD;&#xA;&#x9;at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)&#xD;&#xA;&#x9;at java.base/java.lang.Thread.run(Thread.java:853)&#xD;&#xA;Caused by: com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Response code verification failed&#xD;&#xA;&#x9;... 6 more&#xD;&#xA;" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>32</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>53</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:stackTrace" type="stringArray">
+		<values>com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Response code verification failed, &apos;Continuing&apos;</values>
+		<values>test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:116)</values>
+		<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)</values>
+		<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)</values>
+		<values>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)</values>
+		<values>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)</values>
+		<values>java.base/java.lang.Thread.run(Thread.java:853)</values>
+		<children name="Cause" type="stringArray">
+			<values>com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Response code verification failed</values>
+			<values>test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:116)</values>
+			<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)</values>
+			<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)</values>
+			<values>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)</values>
+			<values>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)</values>
+			<values>java.base/java.lang.Thread.run(Thread.java:853)</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.1.2" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2025-10-04T04:59:00.403Z" globalInstanceId="A1F0A0DED7504030C4E0B76337613731" msg="RPXE0031W Exception finishing connection for action checkout.shtml (class com.ibm.rational.test.lt.execution.http.impl.HTTPAction) user [DefaultUserGroup][000001]&#xA;java.net.ConnectException: Connection timed out: getsockopt&#xD;&#xA;&#x9;at java.base/sun.nio.ch.Net.pollConnect(Native Method)&#xD;&#xA;&#x9;at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)&#xD;&#xA;&#x9;at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:953)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.io.impl.KernelChannel.finishConnect(KernelChannel.java:216)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.io.impl.KChannel.finishConnect(KChannel.java:286)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.io.impl.KChannel.executeAction(KChannel.java:254)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)&#xD;&#xA;&#x9;at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)&#xD;&#xA;&#x9;at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)&#xD;&#xA;&#x9;at java.base/java.lang.Thread.run(Thread.java:853)&#xD;&#xA;" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>33</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>53</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:stackTrace" type="stringArray">
+		<values>java.net.ConnectException: Connection timed out: getsockopt</values>
+		<values>java.base/sun.nio.ch.Net.pollConnect(Native Method)</values>
+		<values>java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)</values>
+		<values>java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:953)</values>
+		<values>com.ibm.rational.test.lt.kernel.io.impl.KernelChannel.finishConnect(KernelChannel.java:216)</values>
+		<values>com.ibm.rational.test.lt.kernel.io.impl.KChannel.finishConnect(KChannel.java:286)</values>
+		<values>com.ibm.rational.test.lt.kernel.io.impl.KChannel.executeAction(KChannel.java:254)</values>
+		<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)</values>
+		<values>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)</values>
+		<values>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)</values>
+		<values>java.base/java.lang.Thread.run(Thread.java:853)</values>
+	</extendedDataElements>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.1.2" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2025-10-04T04:59:00.403Z" globalInstanceId="A1F0A0DED7504031C4E0B76337613731" msg="RPXE0039W User [DefaultUserGroup][000001] experienced exception com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Connection failed, &apos;Continuing&apos;&#xA;in Test Action:&#xA;&#x9;checkout.shtml&#xA;&#x9;Serial 1&#xA;&#x9;&#xA;&#x9;JPetStore Demo {7}&#xA;&#x9;JPetStoreDemo1105&#xA;&#x9;DefaultScenario&#xA;&#x9;[DefaultUserGroup][000001]&#xA;&#x9;DefaultUserGroup&#xA;&#x9;DefaultSchedule&#xA;&#x9;Engine&#xA;com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Connection failed, &apos;Continuing&apos;&#xD;&#xA;&#x9;at test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:119)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)&#xD;&#xA;&#x9;at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)&#xD;&#xA;&#x9;at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)&#xD;&#xA;&#x9;at java.base/java.lang.Thread.run(Thread.java:853)&#xD;&#xA;Caused by: com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Connection failed&#xD;&#xA;&#x9;... 6 more&#xD;&#xA;" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>34</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>53</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:stackTrace" type="stringArray">
+		<values>com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Connection failed, &apos;Continuing&apos;</values>
+		<values>test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:119)</values>
+		<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)</values>
+		<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)</values>
+		<values>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)</values>
+		<values>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)</values>
+		<values>java.base/java.lang.Thread.run(Thread.java:853)</values>
+		<children name="Cause" type="stringArray">
+			<values>com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Connection failed</values>
+			<values>test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:119)</values>
+			<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)</values>
+			<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)</values>
+			<values>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)</values>
+			<values>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)</values>
+			<values>java.base/java.lang.Thread.run(Thread.java:853)</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.1.2" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2025-10-04T04:59:00.403Z" globalInstanceId="A1F0A0DED7504032C4E0B76337613731" msg="RPXE0039W User [DefaultUserGroup][000001] experienced exception com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Substitution failed, &apos;Continuing&apos;&#xA;in Test Action:&#xA;&#x9;checkout.shtml&#xA;&#x9;Serial 1&#xA;&#x9;&#xA;&#x9;JPetStore Demo {7}&#xA;&#x9;JPetStoreDemo1105&#xA;&#x9;DefaultScenario&#xA;&#x9;[DefaultUserGroup][000001]&#xA;&#x9;DefaultUserGroup&#xA;&#x9;DefaultSchedule&#xA;&#x9;Engine&#xA;com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Substitution failed, &apos;Continuing&apos;&#xD;&#xA;&#x9;at test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:124)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)&#xD;&#xA;&#x9;at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)&#xD;&#xA;&#x9;at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)&#xD;&#xA;&#x9;at java.base/java.lang.Thread.run(Thread.java:853)&#xD;&#xA;Caused by: com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Substitution failed&#xD;&#xA;&#x9;... 6 more&#xD;&#xA;" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>35</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>53</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:stackTrace" type="stringArray">
+		<values>com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Substitution failed, &apos;Continuing&apos;</values>
+		<values>test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:124)</values>
+		<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)</values>
+		<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)</values>
+		<values>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)</values>
+		<values>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)</values>
+		<values>java.base/java.lang.Thread.run(Thread.java:853)</values>
+		<children name="Cause" type="stringArray">
+			<values>com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Substitution failed</values>
+			<values>test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:124)</values>
+			<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)</values>
+			<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)</values>
+			<values>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)</values>
+			<values>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)</values>
+			<values>java.base/java.lang.Thread.run(Thread.java:853)</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.1.2" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2025-10-04T04:59:00.403Z" globalInstanceId="A1F0A0DED7504033C4E0B76337613731" msg="RPXE0039W User [DefaultUserGroup][000001] experienced exception com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Response code verification failed, &apos;Continuing&apos;&#xA;in Test Action:&#xA;&#x9;checkout.shtml&#xA;&#x9;Serial 1&#xA;&#x9;&#xA;&#x9;JPetStore Demo {7}&#xA;&#x9;JPetStoreDemo1105&#xA;&#x9;DefaultScenario&#xA;&#x9;[DefaultUserGroup][000001]&#xA;&#x9;DefaultUserGroup&#xA;&#x9;DefaultSchedule&#xA;&#x9;Engine&#xA;com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Response code verification failed, &apos;Continuing&apos;&#xD;&#xA;&#x9;at test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:116)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)&#xD;&#xA;&#x9;at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)&#xD;&#xA;&#x9;at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)&#xD;&#xA;&#x9;at java.base/java.lang.Thread.run(Thread.java:853)&#xD;&#xA;Caused by: com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Response code verification failed&#xD;&#xA;&#x9;... 6 more&#xD;&#xA;" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>36</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>53</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:stackTrace" type="stringArray">
+		<values>com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Response code verification failed, &apos;Continuing&apos;</values>
+		<values>test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:116)</values>
+		<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)</values>
+		<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)</values>
+		<values>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)</values>
+		<values>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)</values>
+		<values>java.base/java.lang.Thread.run(Thread.java:853)</values>
+		<children name="Cause" type="stringArray">
+			<values>com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Response code verification failed</values>
+			<values>test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:116)</values>
+			<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)</values>
+			<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)</values>
+			<values>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)</values>
+			<values>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)</values>
+			<values>java.base/java.lang.Thread.run(Thread.java:853)</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.1.2" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2025-10-04T04:59:21.472Z" globalInstanceId="A1F0A0DEE3DF2000C4E0B76337613731" msg="RPXE0031W Exception finishing connection for action newOrderForm.shtml (class com.ibm.rational.test.lt.execution.http.impl.HTTPAction) user [DefaultUserGroup][000001]&#xA;java.net.ConnectException: Connection timed out: getsockopt&#xD;&#xA;&#x9;at java.base/sun.nio.ch.Net.pollConnect(Native Method)&#xD;&#xA;&#x9;at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)&#xD;&#xA;&#x9;at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:953)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.io.impl.KernelChannel.finishConnect(KernelChannel.java:216)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.io.impl.KChannel.finishConnect(KChannel.java:286)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.io.impl.KChannel.executeAction(KChannel.java:254)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)&#xD;&#xA;&#x9;at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)&#xD;&#xA;&#x9;at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)&#xD;&#xA;&#x9;at java.base/java.lang.Thread.run(Thread.java:853)&#xD;&#xA;" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>37</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>53</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:stackTrace" type="stringArray">
+		<values>java.net.ConnectException: Connection timed out: getsockopt</values>
+		<values>java.base/sun.nio.ch.Net.pollConnect(Native Method)</values>
+		<values>java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)</values>
+		<values>java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:953)</values>
+		<values>com.ibm.rational.test.lt.kernel.io.impl.KernelChannel.finishConnect(KernelChannel.java:216)</values>
+		<values>com.ibm.rational.test.lt.kernel.io.impl.KChannel.finishConnect(KChannel.java:286)</values>
+		<values>com.ibm.rational.test.lt.kernel.io.impl.KChannel.executeAction(KChannel.java:254)</values>
+		<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)</values>
+		<values>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)</values>
+		<values>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)</values>
+		<values>java.base/java.lang.Thread.run(Thread.java:853)</values>
+	</extendedDataElements>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.1.2" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2025-10-04T04:59:21.472Z" globalInstanceId="A1F0A0DEE3DF2001C4E0B76337613731" msg="RPXE0039W User [DefaultUserGroup][000001] experienced exception com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Connection failed, &apos;Continuing&apos;&#xA;in Test Action:&#xA;&#x9;newOrderForm.shtml&#xA;&#x9;Serial 1&#xA;&#x9;&#xA;&#x9;JPetStore Demo {8}&#xA;&#x9;JPetStoreDemo1105&#xA;&#x9;DefaultScenario&#xA;&#x9;[DefaultUserGroup][000001]&#xA;&#x9;DefaultUserGroup&#xA;&#x9;DefaultSchedule&#xA;&#x9;Engine&#xA;com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Connection failed, &apos;Continuing&apos;&#xD;&#xA;&#x9;at test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:119)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)&#xD;&#xA;&#x9;at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)&#xD;&#xA;&#x9;at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)&#xD;&#xA;&#x9;at java.base/java.lang.Thread.run(Thread.java:853)&#xD;&#xA;Caused by: com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Connection failed&#xD;&#xA;&#x9;... 6 more&#xD;&#xA;" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>38</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>53</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:stackTrace" type="stringArray">
+		<values>com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Connection failed, &apos;Continuing&apos;</values>
+		<values>test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:119)</values>
+		<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)</values>
+		<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)</values>
+		<values>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)</values>
+		<values>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)</values>
+		<values>java.base/java.lang.Thread.run(Thread.java:853)</values>
+		<children name="Cause" type="stringArray">
+			<values>com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Connection failed</values>
+			<values>test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:119)</values>
+			<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)</values>
+			<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)</values>
+			<values>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)</values>
+			<values>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)</values>
+			<values>java.base/java.lang.Thread.run(Thread.java:853)</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.1.2" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2025-10-04T04:59:21.472Z" globalInstanceId="A1F0A0DEE3DF2002C4E0B76337613731" msg="RPXE0039W User [DefaultUserGroup][000001] experienced exception com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Substitution failed, &apos;Continuing&apos;&#xA;in Test Action:&#xA;&#x9;newOrderForm.shtml&#xA;&#x9;Serial 1&#xA;&#x9;&#xA;&#x9;JPetStore Demo {8}&#xA;&#x9;JPetStoreDemo1105&#xA;&#x9;DefaultScenario&#xA;&#x9;[DefaultUserGroup][000001]&#xA;&#x9;DefaultUserGroup&#xA;&#x9;DefaultSchedule&#xA;&#x9;Engine&#xA;com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Substitution failed, &apos;Continuing&apos;&#xD;&#xA;&#x9;at test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:124)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)&#xD;&#xA;&#x9;at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)&#xD;&#xA;&#x9;at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)&#xD;&#xA;&#x9;at java.base/java.lang.Thread.run(Thread.java:853)&#xD;&#xA;Caused by: com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Substitution failed&#xD;&#xA;&#x9;... 6 more&#xD;&#xA;" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>39</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>53</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:stackTrace" type="stringArray">
+		<values>com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Substitution failed, &apos;Continuing&apos;</values>
+		<values>test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:124)</values>
+		<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)</values>
+		<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)</values>
+		<values>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)</values>
+		<values>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)</values>
+		<values>java.base/java.lang.Thread.run(Thread.java:853)</values>
+		<children name="Cause" type="stringArray">
+			<values>com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Substitution failed</values>
+			<values>test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:124)</values>
+			<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)</values>
+			<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)</values>
+			<values>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)</values>
+			<values>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)</values>
+			<values>java.base/java.lang.Thread.run(Thread.java:853)</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.1.2" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2025-10-04T04:59:21.472Z" globalInstanceId="A1F0A0DEE3DF2003C4E0B76337613731" msg="RPXE0039W User [DefaultUserGroup][000001] experienced exception com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Response code verification failed, &apos;Continuing&apos;&#xA;in Test Action:&#xA;&#x9;newOrderForm.shtml&#xA;&#x9;Serial 1&#xA;&#x9;&#xA;&#x9;JPetStore Demo {8}&#xA;&#x9;JPetStoreDemo1105&#xA;&#x9;DefaultScenario&#xA;&#x9;[DefaultUserGroup][000001]&#xA;&#x9;DefaultUserGroup&#xA;&#x9;DefaultSchedule&#xA;&#x9;Engine&#xA;com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Response code verification failed, &apos;Continuing&apos;&#xD;&#xA;&#x9;at test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:116)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)&#xD;&#xA;&#x9;at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)&#xD;&#xA;&#x9;at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)&#xD;&#xA;&#x9;at java.base/java.lang.Thread.run(Thread.java:853)&#xD;&#xA;Caused by: com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Response code verification failed&#xD;&#xA;&#x9;... 6 more&#xD;&#xA;" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>40</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>53</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:stackTrace" type="stringArray">
+		<values>com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Response code verification failed, &apos;Continuing&apos;</values>
+		<values>test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:116)</values>
+		<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)</values>
+		<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)</values>
+		<values>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)</values>
+		<values>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)</values>
+		<values>java.base/java.lang.Thread.run(Thread.java:853)</values>
+		<children name="Cause" type="stringArray">
+			<values>com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Response code verification failed</values>
+			<values>test.JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.execute(JPetStoreDemo1105_Test_A1F0A0C352F3C660DAA7E56361373033.java:116)</values>
+			<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:595)</values>
+			<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2130)</values>
+			<values>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)</values>
+			<values>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)</values>
+			<values>java.base/java.lang.Thread.run(Thread.java:853)</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.1.2" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2025-10-04T04:59:22.390Z" globalInstanceId="A1F0A0DEE46B3360C4E0B76337613731" msg="RPXE0001W 7.7.300 Engine STOP reason Unknown" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>41</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>53</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.1.2" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2025-10-04T04:59:22.390Z" globalInstanceId="A1F0A0DEE46B3361C4E0B76337613731" msg="RPXE0001W Problem Determination Log Statistics" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>42</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>53</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.1.2" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2025-10-04T04:59:22.390Z" globalInstanceId="A1F0A0DEE46B3362C4E0B76337613731" msg="RPXE0001W PDLog rejected=0" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>43</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>53</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.1.2" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2025-10-04T04:59:22.390Z" globalInstanceId="A1F0A0DEE46B3363C4E0B76337613731" msg="RPXE0001W BREW actions completed = 153" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>44</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>53</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.1.2" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2025-10-04T04:59:22.390Z" globalInstanceId="A1F0A0DEE46B3364C4E0B76337613731" msg="RPXE0001W BREW largest pool size = 10" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>45</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>53</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.1.2" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2025-10-04T04:59:22.390Z" globalInstanceId="A1F0A0DEE46B3365C4E0B76337613731" msg="RPXE0001W Engine STOP commencing worker finalizers" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>46</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>53</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.1.2" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2025-10-04T04:59:22.502Z" globalInstanceId="A1F0A0DEE47C4A60C4E0B76337613731" msg="RPXE0001W Engine STOP wait for finalizers done  completed=10 poolsize=10" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>47</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>53</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.1.2" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2025-10-04T04:59:24.281Z" globalInstanceId="A1F0A0DEE58BBE90C4E0B76337613731" msg="RPXE0001W Virtual User Stop Statistics" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>48</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>53</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.1.2" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2025-10-04T04:59:24.281Z" globalInstanceId="A1F0A0DEE58BBE91C4E0B76337613731" msg="RPXE0001W Stop reason Unknown:  1 users" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>49</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>53</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.1.2" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2025-10-04T04:59:24.281Z" globalInstanceId="A1F0A0DEE58BBE92C4E0B76337613731" msg="RPXE0001W    [DefaultUserGroup][000001] stopped at 190922" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>50</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>53</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.1.2" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2025-10-04T04:59:30.006Z" globalInstanceId="A1F0A0DEE8F54F60C4E0B76337613731" msg="RPXE0001W *** Runner process finished normally ***   &lt;main&gt;" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>51</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>53</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.1.2" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>

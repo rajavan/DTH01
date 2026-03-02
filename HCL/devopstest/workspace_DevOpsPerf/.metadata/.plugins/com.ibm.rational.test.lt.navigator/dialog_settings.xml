@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="LtDeleteWizard">
+		<item key="removeReferences" value="true"/>
+		<section name="RefactoringWizard.preview">
+			<item key="width" value="666"/>
+			<item key="height" value="400"/>
+		</section>
+		<section name="org.eclipse.ltk.ui.refactoring.settings">
+		</section>
+	</section>
+	<section name="SelDialog">
+		<item key="selectTests.state" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;state&gt;&#x0D;&#x0A;&lt;expanded factory=&quot;org.eclipse.ui.internal.model.ResourceFactory&quot; path=&quot;/Demo_JPetStore&quot; type=&quot;4&quot;/&gt;&#x0D;&#x0A;&lt;expanded factory=&quot;org.eclipse.ui.internal.model.ResourceFactory&quot; path=&quot;/JpetStoreDemo_1105&quot; type=&quot;4&quot;/&gt;&#x0D;&#x0A;&lt;selected factory=&quot;org.eclipse.ui.internal.model.ResourceFactory&quot; path=&quot;/Demo_JPetStore/Demo2.testsuite&quot; type=&quot;1&quot;/&gt;&#x0D;&#x0A;&lt;/state&gt;"/>
+	</section>
+</section>

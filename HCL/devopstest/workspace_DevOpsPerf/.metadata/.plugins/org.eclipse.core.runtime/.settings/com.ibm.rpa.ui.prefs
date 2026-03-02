@@ -1,0 +1,11 @@
+com.ibm.rpa.internal.preference.performance.hostName=localhost
+com.ibm.rpa.internal.preference.performance.hostNameList=localhost,
+com.ibm.rpa.internal.preference.performance.userNameList=,
+com.ibm.rpa.internal.preference.statistical.jboss.counter.reset=true
+com.ibm.rpa.internal.preference.statistical.jboss.userNameList=,
+com.ibm.rpa.internal.preference.statistical.wmi.domainNameList=,
+com.ibm.rpa.internal.preference.statistical.wmi.userNameList=,
+com.ibm.rpa.preference.statistical.jboss.pollingInterval=5
+com.ibm.rpa.preference.statistical.jboss.timeoutInterval=60
+com.ibm.rpa.ui.navigator.layout=true
+eclipse.preferences.version=1

@@ -69,6 +69,60 @@ User Group 1: Group Size 100.0 percent
   - name: Blaze_Sch_1772371505357_perf!localhost.rstats
     type: com.ibm.rational.test.lt.stats.raw
   - name: Blaze_Sch_1772371507220.executiondlr
+  - name: Blaze_Sch_1772423469050.stats
+    type: com.ibm.rational.test.lt.stats.session
+    properties: 
+      startTime: 1772423469050
+      tags: 
+      testId: A1F1157203046230FAEDE43133316164
+      testName: Blaze_Sch
+    dependencies: 
+      - path: /BlazeDemo_Perf/Blaze_Sch.testsuite
+        type: statsSessionTest
+      - path: /BlazeDemo_Perf/Blaze_Sch_1772423469050_orch!system.mstats
+        type: statsSessionStore
+      - path: /BlazeDemo_Perf/Blaze_Sch_1772423469050_orch!system.rstats
+        type: statsSessionStore
+      - path: /BlazeDemo_Perf/Blaze_Sch_1772423469050_perf!localhost.mstats
+        type: statsSessionStore
+      - path: /BlazeDemo_Perf/Blaze_Sch_1772423469050_perf!localhost.rstats
+        type: statsSessionStore
+      - path: /BlazeDemo_Perf/Blaze_Sch_1772423471085.executiondlr
+        type: statsSessionAsset
+  - name: Blaze_Sch_1772423469050_orch!system.mstats
+  - name: Blaze_Sch_1772423469050_orch!system.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: Blaze_Sch_1772423469050_perf!localhost.mstats
+  - name: Blaze_Sch_1772423469050_perf!localhost.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: Blaze_Sch_1772423471085.executiondlr
+  - name: Blaze_Sch_1772427621874.stats
+    type: com.ibm.rational.test.lt.stats.session
+    properties: 
+      startTime: 1772427621874
+      tags: 
+      testId: A1F1157203046230FAEDE43133316164
+      testName: Blaze_Sch
+    dependencies: 
+      - path: /BlazeDemo_Perf/Blaze_Sch.testsuite
+        type: statsSessionTest
+      - path: /BlazeDemo_Perf/Blaze_Sch_1772427621874_orch!system.mstats
+        type: statsSessionStore
+      - path: /BlazeDemo_Perf/Blaze_Sch_1772427621874_orch!system.rstats
+        type: statsSessionStore
+      - path: /BlazeDemo_Perf/Blaze_Sch_1772427621874_perf!localhost.mstats
+        type: statsSessionStore
+      - path: /BlazeDemo_Perf/Blaze_Sch_1772427621874_perf!localhost.rstats
+        type: statsSessionStore
+      - path: /BlazeDemo_Perf/Blaze_Sch_1772427623869.executiondlr
+        type: statsSessionAsset
+  - name: Blaze_Sch_1772427621874_orch!system.mstats
+  - name: Blaze_Sch_1772427621874_orch!system.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: Blaze_Sch_1772427621874_perf!localhost.mstats
+  - name: Blaze_Sch_1772427621874_perf!localhost.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: Blaze_Sch_1772427623869.executiondlr
   - name: src
     resources: 
       - name: test
